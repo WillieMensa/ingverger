@@ -1,0 +1,20 @@
+<!-- genericheading.shtml -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<!-- Etiqueta para que google verifique propiedad del sitio -->
+<meta name="google-site-verification" content="r3cCA4myBLQLXlQIYf_nW8ezBopbBrOM8nvgXL56UKM" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="./css/_ingverger.css" >
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+<!-- fin de genericheading.shtml -->

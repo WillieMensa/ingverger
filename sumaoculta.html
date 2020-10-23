@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<!-- problemas de ingenio -->
+	<meta charset="UTF-8">
+	<title>Suma oculta</title>
+
+	<meta name="description" content="Suma oculta: encontrar el dígito que representa cada letra. problemas de ingenio.">
+	<meta name="keywords" content="Suma oculta, problemas de ingenio, CAD, lógica, Rompecabezas">
+
+	<!-- aqui va el include file="genericheading.shtml" -->
+	<?php include 'genericheading.shtml';?>
+	<!-- genericheading.shtml -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Etiqueta para que google verifique propiedad del sitio -->
+	<meta name="google-site-verification" content="r3cCA4myBLQLXlQIYf_nW8ezBopbBrOM8nvgXL56UKM" />
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" href="../css/_ingverger.css">
+	<link rel="shortcut icon" type="image/x-icon" href="../favicon.ico">
+
+	<!-- fin de genericheading.shtml -->
+
+	<style>
+		body {
+		/*
+			max-width: 700px;
+			*/
+			margin: auto;
+		}
+
+		.container {
+			background-color: #dfd;
+		}
+
+		.pointer {cursor: pointer;}
+
+	</style>
+
+</head>
+
+<body>
+	<div class="container">
+		<!-- aqui va el include file="menu2015.shtml" -->
+		<?php include "menu2015.shtml";?>
+		<!-- archivo con los menues comunes # / include ) file="menu2015.shtml" -->
+
+		<nav class="navbar navbar-inverse">
+				<div class="container-fluid">
+						<div class="navbar-header">
+								<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+								<!-- <a class="navbar-brand"  class="active" href="index.php">&nbsp;&nbsp;Ing. Verger </a> -->
+								<a class="navbar-brand active" href="index.html">&nbsp;&nbsp;Ing. Verger </a>
+						</div>
+
+						<div class="collapse navbar-collapse" id="myNavbar">
+								<ul class="nav navbar-nav">
+
+										<li class="dropdown">
+												<!-- <a class="dropdown-toggle" data-toggle="dropdown" href="novedades.html">Novedades></span></a> -->
+												<a class="dropdown-toggle" href="novedades.php">Novedades</span></a>
+										</li>
+
+										<li class="dropdown">
+												<a class="dropdown-toggle" data-toggle="dropdown" href="#">Ingenio<span class="caret"></span></a>
+												<ul class="dropdown-menu">
+														<li><a href="problemas_ingenio_2020.html">Problemas de ingenio</a></li>
+														<li><a href="sudoku.php">SUDOKU</a></li>
+														<!-- <li><a href="lareglasecreta.php">La regla secreta.</a></li> -->
+														<li><a href="cuadrominos.php">Cuadr&oacute;minos</a></li>
+														<li><a href="49rompecocos.php">49 rompe cocos</a></li>
+														<li><a href="rompecabezas.php">Rompecabezas</a></li>
+														<li><a href="solucioncubosteinhaus.php">Soluci&#243;n cubo de Steinhaus</a></li>
+														<li><a href="rubik.php">Cubo de Rubik</a></li>
+												</ul>
+										</li>
+
+										<li class="dropdown">
+												<a class="dropdown-toggle" href="aplicaciones.php">Aplicaciones</a>
+										</li>
+
+
+										<li class="dropdown">
+												<a class="dropdown-toggle" data-toggle="dropdown" href="#">Representac. Gr&#225;fica<span
+							class="caret"></span></a>
+												<ul class="dropdown-menu">
+														<li><a href="temas-rep-graf.php">Material de estudio</a></li>
+														<li><a href="repgrafsincorbata.php">Libro: representaci&oacute;n gr&aacute;fica sin corbata</a></li>
+												</ul>
+										</li>
+
+										<li class="dropdown">
+												<a class="dropdown-toggle" data-toggle="dropdown" href="publicaciones.php">Publicaciones<span
+							class="caret"></span></a>
+												<ul class="dropdown-menu">
+														<li><a href="repgrafsincorbata.php">Representaci&#243;n gr&#225;fica sin corbata</a></li>
+														<li><a href="publicaciones.php">Publicaciones varias</a></li>
+														<li><a href="calendarios.php">Impresion calendarios y otros</a></li>
+												</ul>
+										</li>
+
+										<li class="dropdown">
+												<a class="dropdown-toggle" data-toggle="dropdown" href="#">Todo lo dem&aacute;s<span
+							class="caret"></span></a>
+												<ul class="dropdown-menu">
+														<li><a href="enlaces.php">Enlaces</a></li>
+														<li><a href="mapas/mapa-rosario.php">Mapas</a></li>
+														<!-- <li><a href="dibujante.html">Colores</a></li> -->
+														<li><a href="politicaprivacidad.php">Pol&iacute;tica de privacidad</a></li>
+												</ul>
+										</li>
+								</ul>
+
+						</div>
+				</div>
+		</nav>
+
+		<!-- fin de menu2015.shtml -->
+
+		<!-- Contenido de la pagina -->
+		<a name="TopOfPage"></a>
+		<div class="row">
+			<div class="col-sm-5">
+				<h1>Suma oculta</h1>
+					<p>Encontrar el valor de cada letra para que la suma sea correcta.<br>
+						Cada letra es un dígito diferente; a letras iguales corresponden d&#237;gitos iguales.<br> 
+						<strong>Pista para resolver:</strong> se da el valor asignado a una letra.</p>
+
+					<!--  class="img-responsive" -->
+				<h4 class="pointer text-primary" onclick="muestraImg('./ingenio/sumaoculta54.png')">Juego 54</h4>
+				<h4 class="pointer text-primary" onclick="muestraImg('./ingenio/sumaoculta55.png')">Juego 55</h4>
+				<h4 class="pointer text-primary" onclick="muestraImg('./ingenio/sumaoculta56.png')">Juego 56</h4>
+				<h4 class="pointer text-primary" onclick="muestraImg('./ingenio/sumaoculta57.png')">Juego 57</h4>
+				<h4 class="pointer text-primary" onclick="muestraImg('./ingenio/sumaoculta58.png')">Juego 58</h4>
+			</div>
+
+			<div class="col-sm-7">
+				<p align="center">&nbsp;</p>
+				<div id="imagen">
+					<img src="ingenio/sumaoculta58.png" width="580" height="286" class="img-responsive"/>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-sm-5">
+				<!-- <h2>Soluciones</h2> -->
+				<h4 class="pointer text-primary" onclick="muestraImg('./ingenio/sumaoculta54sol.png')">Solución juego 54</h4>
+				<h4 class="pointer text-primary" onclick="muestraImg('./ingenio/sumaoculta55sol.png')">Solución juego 55</h4>
+				<h4 class="pointer text-primary" onclick="muestraImg('./ingenio/sumaoculta56sol.png')">Solución juego 56</h4>
+				<h4 class="pointer text-primary" onclick="muestraImg('./ingenio/sumaoculta57sol.png')">Solución juego 57</h4>
+				<h4 class="pointer text-primary" onclick="muestraImg('./ingenio/sumaoculta58sol.png')">Solución juego 58</h4>
+			</div>
+
+			<div class="col-sm-7">
+					<!-- Codigo Adsense adaptable 2019 -->
+					<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+					<ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-4076082038101002" data-ad-slot="3860180150"></ins>
+					<script>
+							(adsbygoogle = window.adsbygoogle || []).push({});
+					</script>
+			</div>
+
+		</div>
+
+		<hr>
+
+		<div class="row" style="background-color: #222;	padding: 8px; margin:10px 0; border-radius: 10px;">
+				<div class="col-md-12" style="text-align: left; padding: 12px;">
+						<a href="http://www.ingverger.com.ar/curriculum-resumido.php">
+								<h4 style="color: #cccccc;">Acerca de mi</h4>
+						</a>
+						<a href="http://www.ingverger.com.ar/consultas.php">
+								<h4 style="color: #cccccc;">Consultas</h4>
+						</a>
+				</div>
+		</div>
+
+	</div>
+
+<script>
+
+function muestraImg(param) {
+	console.log('param: ', param);
+  document.getElementById("imagen").innerHTML = '<img src=' + param + ' width="580" height="286" class="img-responsive"/>';
+}
+</script>
+
+</body>
+
+</html>

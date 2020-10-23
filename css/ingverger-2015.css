@@ -1,0 +1,172 @@
+/* Title: "Estilos para sitio verger" */
+/* @colores ( aqua, black, blue, fuchsia, gray, green, lime, maroon, navy, olive, purple, red, silver, teal, white, and yellow. ) */
+
+/* archivo contiene las cuestiones especificas del sitio o pagina */
+
+body {
+  <!-- background: #123; -->
+  color: #111;
+  font-family: verdana,arial,helvetica, sans-serif; 
+  font-size: 0.875em;
+  height: auto;
+  padding-bottom: 20px;
+}
+
+a {
+  color: #brown;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  font-weight: bold;
+  color: maroon; 
+}
+
+dt {
+	font-weight: bold; 
+	color: #333300; 
+}
+dd {
+	font-weight: normal; 
+	color: #000000; 
+	font-style: normal; 
+}
+
+h1 {
+  background-color: darkgreen; 
+  color: #fff; font-style: normal; 
+  font-weight: bold; font-size: 2em; 
+  height: auto; 
+  padding-top: 10px; padding-bottom: 10px; padding-right: 10px; padding-left: 10px; 
+  text-align: center;
+  text-decoration: none;
+  width: 100%; 
+}
+
+h2 {
+  padding-top: 20px;
+  text-align: center;
+  background-color: #cfc; 
+  color: #000000; 
+  font-size: 1.75em; 
+  font-style: normal; 
+  font-weight: bold; 
+  height: auto; 
+  padding-bottom: 06px; 
+  padding-left: 08px; 
+  padding-right: 08px; 
+  padding-top: 06px; 
+  text-decoration: none;
+  width: 100%; 
+}
+
+H3 { 
+  background-color: #cfc; 
+  border-bottom: #080 1pt solid; 
+  border-left: #8f8 1pt solid;
+  border-right: #080 1pt solid;
+  border-top: #8f8 1pt solid; 
+  color: #000000; 
+  font-size: 1.5em; 
+  font-style: normal; 
+  font-weight: bold; 
+  height: auto; 
+  padding-bottom: 04px; 
+  padding-left: 06px; 
+  padding-right: 06px; 
+  padding-top: 04px; 
+  text-decoration: none;
+  width: 98%; 
+
+}
+h4 { 
+  font-weight: bold; font-size: 1.25em; 
+  color: #000000; 
+  font-style: normal; 
+  background-color: #cfc; 
+  padding: 02px; 
+}
+
+h5 {
+	color: #fff; font-style: normal; 
+	font-weight: bold; font-size: 1em; 
+	height: auto; 
+	background-color: darkgreen; 
+	padding-top: 10px; padding-bottom: 10px; padding-right: 10px; padding-left: 10px; 
+	padding:0px 0px 0px 5px;
+	text-align: center;
+	text-decoration: none;
+	width: 100%; 
+}
+
+h6 {
+  background-color: darkgreen; 
+  color: #fff; font-style: normal; 
+  font-weight: bold; font-size: 1em; 
+  height: auto; 
+  padding-top: 10px; padding-bottom: 10px; padding-right: 10px; padding-left: 10px; 
+  text-align: center;
+  text-decoration: none;
+  width: 100%; 
+}
+
+p {
+  padding: 0px 0px 0px 0px;
+  text-align: left;
+}
+
+.container {
+  background-color: #efe;
+  background-repeat: repeat-y;
+  margin-bottom: 20px;
+}
+
+.container {
+  background-image: url('../demo-files/12_col.png');
+}
+
+.footer {
+	color: #888; font-style: normal; 
+	font-size: 0.5em;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 995px) {
+	.container {
+		background-image: url('../demo-files/12_col_768.png');
+		background: #dfe;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.container {
+		background: #dfe;
+	}
+}
+
+@media only screen and (max-width: 479px) {
+	.container.demo {
+		background: #9fc;
+	}
+}
+
+table {
+	padding:0px 0px 0px 0px;
+}
+
+
+table th {
+	padding:0px 0px 0px 0px;
+	font-weight:black;
+}
+table tr {
+	text-align: left;
+	padding:0px 0px 0px 0px;
+	<!-- border: 1px solid #aaa;  -->
+}
+table td {
+	background:#fff;
+	<!-- border: 1px solid #aa0;  -->
+	padding: 0px;
+}
+

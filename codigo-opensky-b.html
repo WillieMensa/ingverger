@@ -1,0 +1,143 @@
+<html xmlns:dbxml="http://www.sleepycat.com/2002/dbxml" xmlns:date="http://exslt.org/dates-and-times">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="http://www.opensky.ca/~jdhildeb//syncato.css">
+<link rel="alternate" type="application/rss+xml" title="RSS" href="http://www.opensky.ca/~jdhildeb/blog?t=rss20">
+<script type="text/javascript" src="/~jdhildeb/md5.js"></script><title>OpenSky Sudoku Generator</title>
+</head>
+<body bgcolor="#ffffff">
+<div id="banner"><h1>
+<a href="http://www.opensky.ca/~jdhildeb/blog/"><div id="bannerimg"><img style="border: none; padding: 0px; margin: 0px" src="http://www.opensky.ca/~jdhildeb//foot.gif"></div></a><a href="http://www.opensky.ca/~jdhildeb/blog/"><span class="description">Jason @ OpenSky: Python, Webware, Debian, Gnome</span></a>
+</h1></div>
+<div id="content">
+<div style="margin-left: auto; margin-right: auto" id="adsense">
+<script type="text/javascript">
+            google_ad_client = "pub-3245516035753817";
+            google_ad_width = 468;
+            google_ad_height = 60;
+            google_ad_format = "468x60_as";
+            google_ad_type = "text_image";
+            google_ad_channel ="";
+            google_color_border = "336699";
+            google_color_bg = "FFFFFF";
+            google_color_link = "0000FF";
+            google_color_url = "008000";
+            google_color_text = "000000";
+            </script><script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+</div>
+<div xmlns:dbxsl="http://www.xmldatabases.org/dbxsl" class="content"><div class="contentbody">
+<h1>OpenSky Sudoku Generator</h1>
+<p>This service lets you generate printable <a href="http://en.wikipedia.org/wiki/Sudoku">sudoku</a> puzzles which you can download (as Acrobat PDF files), print, and then work out with pencil and paper.</p>
+<p>The generator produces classic symmetrical puzzles of varying
+difficulty levels.  The difficulty level ("Easy", "Medium", "Hard", "Very hard") appears on the printed page 
+along with a difficulty factor ranging between 0.01 and 1.00 (the higher the value, the more difficult the puzzle).</p>
+<p>I did not write the generator itself; it is part of the <a href="http://sourceforge.net/projects/gnome-sudoku/">gnome-sudoku</a> software, written by Thomas Mills Hinkle.  I have simply made it possible to generate PDFs from the puzzles,
+and have hooked it up to the web.  Source code <a href="source">here</a>.</p>
+<form method="GET" action="generate">
+<table>
+    <tr>
+<td>Number of puzzles:</td>
+<td colspan="2">
+<input type="text" name="number" size="2" maxlength="2" value="4"> (maximum 50)</td>
+<td style="padding-left: 8em" rowspan="4"></td>
+</tr>
+    <tr>
+<td>Puzzles per page:</td>
+<td colspan="2">
+        <select name="perPage">
+            <option value="1">1</option>
+            <option value="4">4</option>
+        </select>
+        </td>
+</tr>
+    <tr>
+<td>Difficulty:</td>
+<td colspan="2"><select name="difficulty">
+                    <option value="Any">Random</option>
+                    <option value="Easy">Easy</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Hard">Hard</option>
+                    <option value="Very hard">Very hard</option>
+                </select></td>
+</tr>
+    <tr>
+<td>Include solutions:</td>
+<td><input type="checkbox" name="solutions"></td>
+    <td><input type="submit" name="_action_generate" value="Go"></td>
+</tr>
+</table>
+</form>
+<div>
+    <script type="text/javascript">
+    google_ad_client = "pub-3245516035753817";
+    google_ad_width = 468;
+    google_ad_height = 60;
+    google_ad_format = "468x60_as";
+    google_ad_type = "text_image";
+    google_ad_channel ="";
+    google_color_border = "336699";
+    google_color_bg = "FFFFFF";
+    google_color_link = "0000FF";
+    google_color_url = "008000";
+    google_color_text = "000000";
+    </script>
+    <script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+    </script>
+</div>
+</div></div>
+<div id="copyright" align="center">
+             Copyright 2004 Jason Hildebrand &lt;jason@opensky.ca&gt; <span style="font-size: xx-small;"><a href="http://www.opensky.ca/~jdhildeb/blog/">XML</a></span>
+</div>
+</div>
+<div id="links">
+<div id="about-list">
+<div class="sidetitle">
+            About me
+            </div>
+<div class="side">
+<a href="/~jdhildeb/about">About me</a><br><a href="/~jdhildeb/blog">My Blog</a><br><a href="/~jdhildeb/resume">My Resume</a><br>
+</div>
+</div>
+<div id="software-list">
+<div class="sidetitle">
+            Software
+            </div>
+<div class="side">
+<a href="/~jdhildeb/software/gnome-vim">Gnome-vim</a><br><a href="/~jdhildeb/software/gsysinfo">GSysInfo</a><br><a href="/~jdhildeb/software/kodakloader">KodakLoader</a><br><a href="http://www.peaceworks.ca/phormation.php">Phormation</a><br><a href="/~jdhildeb/software/sudokugen/">Online Sudoku Generator</a><br><a href="/~jdhildeb/software/scripts">Miscellaneous scripts</a><br>
+</div>
+</div>
+<div id="other-stuff-list">
+<div class="sidetitle">
+            Writings
+            </div>
+<div class="side">
+<a href="/~jdhildeb/writings/intermenno">Intermenno FAQ</a><br><a href="/~jdhildeb/arctan/">Arctan Home Page</a><br><a href="/~jdhildeb/writings/sony">Linux on sony vaio f304</a><br><a href="/~jdhildeb/webware/">Webware Paper</a><br>
+</div>
+</div>
+<div id="syndicate">
+<div class="sidetitle">
+                Syndicate
+            </div>
+<div class="syndicate"><a href="http://www.opensky.ca/~jdhildeb/blog?t=rss20">
+                Syndicate this site (XML - RSS)</a></div>
+</div>
+<div class="sidetitle">
+        Powered By
+        </div>
+<div class="side">
+<a href="http://www.syncato.org/">Syncato 0.7</a><br><a href="http://www.webwareforpython.org/">Webware</a><br><a href="http://www.python.org/">Python</a><br>
+</div>
+<div style="display: none"><a href="mailto:robert@opensky.ca">Send some guy an email</a></div>
+<script type="text/javascript">
+        var pkBaseURL = (("https:" == document.location.protocol) ? "https://www.opensky.ca/piwik/" : "http://www.opensky.ca/piwik/");
+        document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+        </script><script type="text/javascript">
+        try {
+        var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 1);
+        piwikTracker.trackPageView();
+        piwikTracker.enableLinkTracking();
+        } catch( err ) {}
+        </script><noscript><p><img src="http://www.opensky.ca/piwik/piwik.php?idsite=1" style="border:0" alt=""></p></noscript>
+</div>
+</body>
+</html>

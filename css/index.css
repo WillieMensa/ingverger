@@ -1,0 +1,18 @@
+/* Title: "Estilos para sitio verger" */
+/* @colores ( aqua, black, blue, fuchsia, gray, green, lime, maroon, navy, olive, purple, red, silver, teal, white, and yellow. ) */
+
+/* archivo contiene las cuestiones especificas del sitio o pagina */
+
+
+hr{margin:10px 0; border:0; border-top:1px solid darkgreen; border-bottom:1px solid #fff; }
+hr.grosa{
+	margin:10px 0; border:0; border-top:15px solid #030; border-bottom:15px solid #fff; }
+
+dd{line-height:20px; margin-left:20px}
+
+.footer {
+	color: #888; font-style: normal; 
+	font-size: 0.7em;
+}
+
+img { border: 0; }

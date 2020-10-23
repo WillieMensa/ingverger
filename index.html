@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+	<!-- tutorial de https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Grids	-->
+	<title>Ing. Guillermo Verger</title> 
+
+	<meta charset="utf-8">
+	<meta name="description" content="Ingenio, aplicaciones Android y representación gráfica">
+	<meta name="keywords" content="Ingenio, Lógica, Rompecabezas, representación gráfica, Sistemas de Representación,CAD 3D, axonometría,
+		CAD tridimensional, caligrafía técnica, cortes y secciones,dibujo tecnico,elipses,empalmes,geometria descriptiva, ingeniería, vistas">
+
+<style>
+
+	body {
+	  width: 90%;
+	  max-width: 1200px;
+	  margin: 0.6em auto;
+	  font: 1.2em/1.2 Roboto, Helvetica, sans-serif;
+		padding: 2px;
+		background-image:linear-gradient( to bottom, #2288ff, #114444 );
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: center; 
+
+	}
+			
+	.bg {
+		animation:slide 10s ease-in-out infinite alternate;
+		background-image: linear-gradient(-75deg, #002 50%, #048 50%);
+		bottom:0;
+		left:-50%;
+		opacity:.1;		/*.5;*/
+		position:fixed;
+		right:-50%;
+		top:0;
+		z-index:-1;
+	}
+
+
+	.container > div {
+	  border-radius: 15px;
+	  padding: 20px;
+	  background-color: rgb(207,232,220);
+	  /*	border: 4px solid rgb(79,185,227);	*/
+		text-align: center;
+	}          
+ 
+	.container {
+		display: grid;
+	    grid-template-columns: repeat( 3, 1fr );
+	    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+			grid-auto-rows: 180px;
+			grid-auto-rows: minmax(180px, auto);
+	    grid-gap: 40px;
+	  padding: 20px;
+	}
+
+	@keyframes slide {
+		0% {
+			transform:translateX(-25%);
+		}
+		100% {
+			transform:translateX(25%);
+		}
+	}
+
+
+</style>
+
+
+</head>
+
+<body>
+
+<!-- Learn about this code on MDN: https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Grids -->
+
+<!-- <a id="TopOfPage"></a> -->
+<div class="row" style="background-color: #222;	padding: 8px; margin:8px 0; border-radius: 10px;">
+	<div class="col-md-" style="text-align: left; padding: 8px;">
+		<h3 style="color: #cccccc;">Ing. Guillermo Verger</h3>
+	</div>
+</div>
+<div class="container">
+
+	<div>
+		<a href="./novedades.php">
+		<img src="images/novedades.png" width="96" height="96" border="0" alt="">
+    <h3>novedades</h3>
+		<p>&nbsp;</p>
+		</a>
+	</div>
+
+	<div>
+		<a href="ingenio.html">
+		<img src="images/cerebro.png" width="96" height="96" border="0"	alt="">
+		<h3>ingenio</h3>
+		<p>&nbsp;</p>
+		</a>
+	</div>
+
+	<div>
+		<a href="./aplicaciones.php">
+		<img src="images/android_300x400.jpg" width="96" height="96" border="0"	alt="">
+		<h3>aplicaciones</h3>
+		<!-- <p>Aplicaciones gratuitas para navegadores y Android.</p> -->
+		</a>
+	</div>
+
+	<div>
+		<a href="./temas-rep-graf.php">
+		<img src="images/compas.png" width="96" height="96" border="0" alt="">
+		<h3>Representaci&oacute;n Gr&aacute;fica</h3>
+		<p>&nbsp;</p>
+		</a>
+	</div>
+
+	<!-- 
+	<div>
+		<a href="./publicaciones.php">
+		<img src="images/libro.png" width="96" height="96" border="0" alt="">
+		<h3>publicaciones</h3>
+		<p>&nbsp;</p>
+		</a>
+	</div>
+
+		<div><a href="window.history.back()">
+			<img src="images/salida.png" width="96" height="96" border="0" alt="">
+			<br>Volver</a>
+		</div>
+	 -->
+
+</div> 
+
+	<div style="background-color: #222;	padding: 8px; margin:10px 0; border-radius: 10px;">
+		<div class="col-md-12" style="text-align: left; padding: 12px;">
+			<a href="./curriculum-resumido.php"><h4 style="color: #cccccc;">Acerca de mi</h4></a>
+			<a href="./consultas.php"><h4 style="color: #cccccc;">Consultas</h4></a>
+		</div>
+	</div>
+	<!-- fin contenido -->
+
+</body>
+
+</html>

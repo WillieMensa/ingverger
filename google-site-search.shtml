@@ -1,0 +1,38 @@
+<!-- codigo para busqueda de google -->
+<!-- SiteSearch Google -->
+<form method="get" action="http://www.google.com.ar/custom" target="google_window">
+<table border="0" bgcolor="#c2ffa3">
+<tr><td nowrap valign="top" align="left" height="32">
+<a href="http://www.google.com/">
+<img src="http://www.google.com/logos/Logo_25wht.gif" border="0" alt="Google" align="middle"></img></a>
+</td>
+<td nowrap>
+<input type="hidden" name="domains" value="www.ingverger.com.ar"></input>
+<label for="sbi" style="DISPLAY: none">Introduzca los términos de búsqueda.</label>
+<input name="q" size="40" maxlength="255" id="sbi" ></input>
+<label for="sbb" style="DISPLAY: none">Envíe el formulario de búsqueda</label>
+<input type="submit" name="sa" value="Búsqueda" id="sbb"></input>
+</td></tr>
+<tr>
+<td>&nbsp;</td>
+<td nowrap>
+<table>
+<tr>
+<td>
+<input type="radio" name="sitesearch" value="" checked id="ss0"></input>
+<label for="ss0" title="Buscar en la web"><font size="-1" color="#000000">Web</font></label></td>
+<td>
+<input type="radio" name="sitesearch" value="www.ingverger.com.ar" id="ss1"></input>
+<label for="ss1" title="Búsqueda www.ingverger.com.ar"><font size="-1" color="#000000">www.ingverger.com.ar</font></label></td>
+</tr>
+</table>
+<input type="hidden" name="client" value="pub-4076082038101002"></input>
+<input type="hidden" name="forid" value="1"></input>
+<input type="hidden" name="ie" value="ISO-8859-1"></input>
+<input type="hidden" name="oe" value="ISO-8859-1"></input>
+<input type="hidden" name="cof" value="GALT:#003324;GL:1;DIV:#66CC99;VLC:FF6600;AH:center;BGC:C5DBCF;LBGC:73B59C;ALC:000000;LC:000000;T:330033;GFNT:333300;GIMP:333300;FORID:1"></input>
+<input type="hidden" name="hl" value="es"></input>
+</td></tr></table>
+</form>
+<!-- SiteSearch Google -->
+

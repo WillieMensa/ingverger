@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="ISO-8859-1">
+	<title> Problemas de ingenio </title>
+	<meta name="description" content="Problemas de ingenio.">
+	<meta name="keywords" content="Ingenio, Lógica,Representación gráfica, CAD 3D,acertijos,axonometría,CAD tridimensional,caligrafía técnica, dibujo tecnico,elipses,empalmes,geometria descriptiva, ingeniería, planos,proyecciones,resolucion problemas,sistemas representación, sudoku gratis para imprimir,SUMADO,tangente,vistas,resolución geometría desciptiva con autocad">
+
+	<!-- genericheading.shtml -->
+	<?php include 'genericheading.shtml';?>
+
+	<!-- Añade esta etiqueta en la cabecera o delante de la etiqueta body. -->
+	<script src="https://apis.google.com/js/platform.js" async defer></script>
+
+</head>
+
+<body onload="init()">
+<?php include 'control_intrusos.php'; ?>
+
+<div class="container">
+	<?php include "menu2015.shtml";?>
+
+	<!-- Contenido de la pagina -->
+	<a name="TopOfPage"></a>
+
+
+	<h1>Desafíos para poner a prueba tu ingenio y ejercitar la resolución de problemas</h1>
+	<a name="TopOfPage"></a>
+
+	<div class="row">
+		<div class="col-sm-2" style="background-color: #ffc;">
+		</div>
+		<div class="col-sm-8">
+
+		<dl>
+
+			<dt>La venganza de Danielito
+			<dd>Todo estaba bien con Andresito, Bartolito y Cachito hasta que apareció Danielito. ...correcto,  otro enigma de cumpleaños.
+			<dd>Andresito, Bartolito y Cachito se hicieron amigos con Danielito, y querían saber cuándo es su cumpleaños. Danielito dió una lista de 20 posibles fechas de nacimiento.
+
+			<table class="table table-striped">
+			<tr class="success">
+				<td>17 febrero 2001</td>
+				<td>16 marzo 2002  </td>
+				<td>13 enero 2003  </td>
+				<td>19 enero 2004  </td>
+			</tr>
+			<tr class="danger">
+				<td>13 marzo 2001  </td>
+				<td>15 abril 2002  </td>
+				<td>16 febrero 2003</td>
+				<td>18 febrero 2004</td>
+			</tr>
+			<tr class="info">
+				<td>13 abril 2001</td>
+				<td>14 mayo 2002 </td>
+				<td>14 marzo 2003</td>
+				<td>19 mayo 2004 </td>
+			</tr>
+			<tr class="warning">
+				<td>15 mayo 2001 </td>
+				<td>12 junio 2002</td>
+				<td>11 abril 2003</td>
+				<td>14 julio 2004</td>
+			</tr>
+			<tr class="active">
+				<td>17 junio 2001 </td>
+				<td>16 agosto 2002</td>
+				<td>16 julio 2003 </td>
+				<td>18 agosto 2004</td>
+			</tr>
+			</table>
+
+			<dd>Danielito le dijo por separado a Andresito, Bartolito y Cachito el mes, el día y el año de su cumpleaños, respectivamente.
+			<dd>Enseguida escuchamos la siguiente conversación:
+			<ul>
+				<li>Andresito: No sé cuándo es el cumpleaños de Danielito, pero sé que Bartolito no lo sabe.</li>
+				<li>Bartolito: Todavía no sé cuándo es el cumpleaños de Danielito, pero sé que Cachito aún no lo sabe.	</li>
+				<li>Cachito: Todavía no sé cuándo es el cumpleaños de Danielito, pero sé que Andresito aún no lo sabe.	</li>
+				<li>Andresito: Ahora sé cuando es el cumpleaños de Danielito.	</li>
+				<li>Bartolito: Ahora lo sé yo también.	</li>
+				<li>Cachito: Yo también.</li>
+			</ul>En definitiva, cuando es el cumpleaños de Danielito?
+			<dd>Aclaración: ni Andresito, ni Bartolito, ni Cachito saben nada al principio, aparte del hecho de que a Andresito le han dicho el mes, a Bartolito el día (es decir, el número del día), y a Cachito el año.
+
+			<!--
+			la solución en
+				<iframe src="https://docs.google.com/document/d/1m2vwHLkFxrMRIjYe2zatZW22On8cnvyRaUImxuM7M90/pub?embedded=true"></iframe>
+				https://drive.google.com/file/d/0B0Hwzl2y3jiJVThUNWp2bzhzTTQ/view?usp=sharing
+			-->
+			<dd>&nbsp;
+			<dd>Si tenés soluciones, pedidos de aclaración o consultas llena el formulario de <A HREF="consultas.php">consultas</A>
+			<dd>&nbsp;
+
+			<dt>¿Cuál es el número de Tanya?
+			<dd>Tanya cuenta que pensó en un entero positivo menor que 100 y divisible por 7.  Luego anuncia que en privado le dirá dígito unidad a Andresito y el dígito de las decenas a Bartolito.  Andresito y Bartolito son dos chicos de pensamiento lógico. , aunque la conversación entre ellos pueda sonar extraña:
+			<ul>
+				<li>Andresito: Bartolito no sabe cual es el número de Tanya.</li>
+				<li>Bartolito: Ahora si lo sé.</li>
+			</ul>
+			<dd>Conociendo lo que dijo uno y otro ¿Puedes decir cuál es ese número?
+			<dd>&nbsp;
+			<dd><a href="https://docs.google.com/document/d/1ksL5Cm_5R7XG6zZzfT129qAHADjrKR6qHywyT2GYJvo/edit?usp=sharing" target="_blank">Ver la solución</a>
+			<dd>&nbsp;
+
+			<!-- linea de separación -->
+			<hr>
+
+
+			<dt>La vuelta al mundo en un día
+			<dd>Estamos planificando una carretera a construir sobre un paralelo situado en una latitud tal que circulando a 100 km/hora en forma constante se de la vuelta al mundo en un día exacto.
+			<dd>Nos preguntamos ¿cuál es el paralelo?
+			<dd>&nbsp;
+
+			<dt>Las edades del matrimonio
+			<dd>La suma de edades de un matrimonio es 91.
+			<dd>El marido tiene ahora el doble de lo que tenía su esposa cuando el tenía la misma edad que ella tiene ahora.
+			<dd>Qué edad tienen?
+			<dd>&nbsp;
+
+			<dt>El cumpleaños de Carlitos
+			<dd>Albertito y Bernardito se acaban de hacer amigos de Carlitos y quieren saber cuándo es su cumpleaños. Carlitos les da una lista con 10 posibles fechas:
+			<ul>
+				<li>Mayo 15, Mayo 16, Mayo 19      </li>
+				<li>Junio 17, Junio 18             </li>
+				<li>Julio 14, Julio 16             </li>
+				<li>Agosto 14, Agosto 15, Agosto 17</li>
+			</ul>
+			<dd>Luego Carlitos les dice por separado a Albertito y a Bernardito, el mes y el día respectivamente, diciendose lo siguiente:
+			<dd>-Albertito: "No sé cuándo es el cumpleaños de Carlitos, pero sé que Bernard tampoco lo sabe".
+			<dd>-Bernardito: "Al principio no sabía cuándo era el cumpleaños de Carlitos, pero ahora ya lo sé".
+			<dd>-Albertito: "Entonces yo también sé cuándo es su cumpleaños".
+			<dd>¿Cuándo es el cumpleaños de Carlitos?
+			<dd>&nbsp;
+
+			<dd><HR>
+
+			<dt>Días consecutivos
+			<dd>Nombrar cinco días consecutivos sin utilizar las palabras lunes, martes, miércoles, jueves o viernes.
+			<dd>&nbsp;
+
+			<dt>10 Presos
+			<dd>10 presos son encerrados en celdas individuales, incapaces de ver, hablar o comunicar de cualquier manera entre sí. Hay una sala de ejercicios con una sola luz, que es inicialmente apagada y la los presos no pueden ver la luz de su propia celda.
+			<dd>Todos los días, el director elige un prisionero al azar que va a la sala de ejercicios.
+			<dd>Una vez allí, el preso puede optar por encender la luz o apagado, y no se les permite dejar un mensaje.
+			<dd>En cualquier momento, un preso puede afirmar que los 10 presos han estado en el gimnasio. Si está en un error, entonces los 10 prisioneros quedaran encerrados para siempre! Sin embargo, si son correctas todos los prisioneros son puestos en libertad.
+			<dd>Antes de comenzar la selección al azar, a los presos se les permite discutir un plan. ¿Cuál es su mejor plan para determinar si todos los 10 prisioneros han visitado la sala de ejercicios?
+			<p>&nbsp;</p>
+
+
+			<!-- Codigo Adsense adaptable 2019 -->
+			<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+			<ins class="adsbygoogle"
+				 style="display:block; text-align:center;"
+				 data-ad-layout="in-article"
+				 data-ad-format="fluid"
+				 data-ad-client="ca-pub-4076082038101002"
+				 data-ad-slot="3860180150"></ins>
+			<script>
+				 (adsbygoogle = window.adsbygoogle || []).push({});
+			</script>
+
+
+			<p>&nbsp;</p>
+			<dt>Acertijo
+			<dd>Qué es lo que está hecho de nada y sin embargo se puede ver?
+			<dd>&nbsp;
+
+			<dt>Dividir en triángulos
+			<dd>Se tiene un triángulo isósceles, con lados 3, 2 y 2. El ángulo entre los dos lados iguales es aproximadamente 97 grados. Obtusángulo.
+			<dd>¿Cómo se podrá cortar en una serie de pequeños triángulos que sean todos isósceles agudos (todos los ángulos menores de 90 grados)?
+			<dd>Propuesto por Elliott Line en Puzzle SIG
+			<dd>&nbsp;
+
+		</div>
+		<div class="col-sm-2" style="background-color: #ffc;">
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-sm-2" style="background-color: #ffc;">
+		</div>
+		<div class="col-sm-6">
+			<dt>Medir en el cuadrado
+			<dd>El lado del cuadrado celeste es L. ¿Cuánto miden los radios de las circunferencias roja y verde y el lado del cuadrado amarillo?.
+			<dd>&nbsp;
+		</div>
+		<div class="col-sm-4">
+			<dd><IMG SRC="images/Sangaku-02.jpg" WIDTH="249" HEIGHT="251" BORDER="0" ALT="Problema de medición en un cuadrado"></dd>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-sm-2">&nbsp;
+		</div>
+		<div class="col-sm-8">
+			<dt>Dividir un cuadrado
+			<dd>Partir un cuadrado mediante cortes rectos de forma tal que con los trozos resultantes se puedan componer diez cuadrados iguales.
+			<dd>&nbsp;
+			<dt><A HREF="ver-prob-dividir-cuadrado-soluc.php">Solución</A>
+			<dd>&nbsp;
+
+			<dt>El mejor triángulo
+			<dd>Partiendo de un trozo de papel cuadrado, plegarlo de manera tal que se obtenga el mayor triángulo equilátero posible.
+			<dd>&nbsp;
+			<dd>&nbsp;
+
+			<dt>Pijama party
+			<dd>Después de mucha insistencia Marta consiguió que su marido José organice un 'pijama party'.
+			<dd>Acordaron reunirse con otras cuatro parejas. Por lo tanto, iban a ser cinco parejas, o sea diez personas, en total.
+			<dd>A medida que llegaban al lugar de reunión, y, debido a que no todos se conocían entre si, hubo algunos apretones de manos y presentaciones que siguieron las siguientes reglas:
+			<dd>1.      Cuando una persona no conoce a otra le da la mano.
+			<dd>2.      La gente no se da la mano con alguien que ya conoce.
+			<dd>Una vez que estuvieron todos reunidos, José, afecto a las observaciones numéricas, pregunta a los demás, incluyendo a su propia esposa, cuántas manos estrechó cada uno. Recibe las siguientes respuestas: 0,1,2,3,4,5,6,7, y 8.
+			<dd>Y ahora la pregunta: ¿Cuántas manos estrechó Marta?
+			<dd>&nbsp;
+
+			<dt>Numerando un cubo
+			<dd>Queremos identificar los vértices de un cubo con enteros no negativos y diferentes entre si.
+			<dd>Luego se asignará a cada arista la diferencia entre sus extremos según la numeración anterior; los números asignados a las aristas tambien deben ser diferentes entre sí.
+			<dd>¿Como se deben numerar los vértices para que la suma de los números correspondientes a las aristas resulte ser la menor posible?
+			<dd>&nbsp;
+
+			<p>&nbsp;</p>
+
+
+			<!-- Codigo Adsense adaptable 2019 -->
+			<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+			<ins class="adsbygoogle"
+				 style="display:block; text-align:center;"
+				 data-ad-layout="in-article"
+				 data-ad-format="fluid"
+				 data-ad-client="ca-pub-4076082038101002"
+				 data-ad-slot="3860180150"></ins>
+			<script>
+				 (adsbygoogle = window.adsbygoogle || []).push({});
+			</script>
+
+			<p>&nbsp;</p>
+
+			<dt>Tuercas y Tornillos
+			<dd>Hay tres cajoneras de pescadores, de esas que pueden almacenar pequeños objetos. Cada cajonera tiene dos cajoncitos.
+			<dd>En una de las cajoneras cada cajón contiene un tornillo.  En otra de las cajoneras cada cajón contiene una tuerca. En la tercer cajonera un cajón contiene una tuerca; el otro cajón contiene un tornillo.
+			<dd>Supongamos que abres uno cualquiera de los cajones de una de las cajoneras elegida al azar y encuentras un tornillo. ¿Que probabilidad hay de que en el otro cajón de la misma cajonera también halla un tornillo?
+			<dd>&nbsp;
+
+			<dt>¿Local, empate o visitante?
+			<dd>Terminó el partido de futbol. Solamente Alejandro conocía el resultado.
+			<dd>Nos preguntó: ¿Como suponen que resultó para el prode: local, empate o visitante?
+			<dd>Un miembro del grupo aventuró: 'Para mi que no es visitante'
+			<dd>Otro lo siguió con: 'debe ser local o empate'
+			<dd>Un tercero sugirió: '...empate'
+			<dd>'Basta de suposiciones' dijo Alejandro. 'Estan en condiciones de deducirlo si les cuento que al menos uno está en lo cierto y al menos uno está equivocado.'
+			<dd>¿Como terminó el partido; local empate o visitante?
+			<dd>&nbsp;
+
+			<dt>Una cuerda en la plaza
+			<dd>En la plaza hay dos estacas perfectamente verticales, separadas 1,70 metro entre si.
+				Una de las estacas tiene 2,00 metros de altura; la otra 1,30 metro.
+			<dd>Colgamos una cuerda de 2,40 metros entre los puntos más altos de cada estaca. De la cuerda vamos a colgar una pesa y pretendemos ubicarla en el lugar más bajo posible.
+			<dd>Queremos saber donde va a estar el punto buscado en relación con las estacas y a que altura va a quedar.
+			<dd>&nbsp;
+
+		</div>
+		<div class="col-sm-2">&nbsp;
+		</div>
+	</div>
+
+	<p><a href="#TopOfPage"> <img id="picture33" height=9 width=17 src="./images/botnarrb.gif" vspace=0 hspace=0 align="top" border=0 alt="arriba">arriba</a>
+
+	<div class="row">
+		<div class="col-sm-2" style="background-color: #ffc;">
+		</div>
+		<div class="col-sm-4">
+			<dt>El rombo mas grande
+			<dd>&nbsp;
+			<dd>Se tiene un trozo de madera como el de la figura 1.
+			<dd>No hay forma de conocer sus medidas. No tenemos instrumentos de medición; solamente una hoja de papel que lo puede envolver por completo y unas tijeras.
+			<dd>Se lo quiere cortar de modo que la sección plana producida (la figura plana resultante del corte) sea un rombo de las mayores dimensiones posibles.
+			<dd>&nbsp;
+			<dd>La figura 2 muestra un intento, pero no es la solución buscada.
+			<dd>¿Como se puede definir por donde debe pasar el serrucho?
+			<dd>&nbsp;
+
+		</div>
+		<div class="col-sm-3">
+			<dd><a href="http://www.flickr.com/photos/ingverger/5396751086/" title="Prisma rectangular recto"><img src="http://farm5.static.flickr.com/4140/5396751086_ea7d332ec1.jpg" width="187" height="226" alt="Prisma rectangular recto" /></a>
+			<dd>Figura 1
+		</div>
+		<div class="col-sm-3">
+			<dd><a href="http://www.flickr.com/photos/ingverger/5396751100/" title="Solucion aproximada rombo mayor">
+			<dd><img src="http://farm5.static.flickr.com/4148/5396751100_09d87e1362.jpg" width="159" height="250" alt="Solucion aproximada rombo mayor" /></a>
+			<dd>Figura 2
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-sm-2" style="background-color: #ffc;">
+		</div>
+		<div class="col-sm-6">
+			<dt>El terreno en forma de L
+			<dd>Tengo una parcela de tierra en forma de L.  Las seis esquinas son ángulos rectos perfectos, pero las longitudes son diferentes y, en ningún caso tengo forma de medirlos.
+			<dd>Todo lo que tengo son algunos palos que puedo clavar al suelo, y una cuerda común.
+			<dd>Deseo determinar la posición de una nueva cerca. La cerca debe ser una sola línea recta, y debe dividir el área de mi tierra exactamente en dos.
+			<dd>¿Cómo puedo lograr esto?
+			<dd>&nbsp;
+		</div>
+		<div class="col-sm-4">
+			<dd><img class="img-responsive" src="images/terreno-l-enunciado.jpg" width="363" height="203" border="0" alt="Problema del terreno en L">
+			<dd>&nbsp;
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-sm-2" style="background-color: #ffc;">
+		</div>
+		<div class="col-sm-8">
+			<dt>Parábola
+			<dd>Por la base de un cono recto circular de 80 cm de diámetro y 40 cm de altura pasa una recta 'r' a 20 cm de su centro.  Por la recta 'r', a su vez, pasa un plano ubicado de forma tal que la sección plana producida en el cono resulta ser una parábola.
+			<dd>Se pregunta: ¿A que altura está el vértice de la parábola?
+
+			<dd>Observaciones: Existen dos soluciones.
+			<dd>&nbsp;
+
+			<dt>Cuestión de seguridad
+			<dd>Me dedico a la seguridad y me identifican con 7 letras
+			<dd>Mi 123 es la forma generica de un buen amigo
+			<dd>Mi 45 es propio del desprendido
+			<dd>Mi 67 es una nota musical
+			<dd>Mi 3245 es nada
+			<dd>Si 2345 decimos que funciona
+			<dd>Como me llamo?
+			<dd>&nbsp;
+
+
+			<dt>Amaneceres
+			<dd>¿Donde amanecerá antes el día 21 de diciembre, considerando estas dos ciudades: Rosario y Usuhaia?
+			<dd>Se que Ushuaia está a 54° 48' de latitud Sur y 68° 17' Longitud Oeste mientras que Rosario esta a 60º longitud oeste y 32º latitud sur.
+			<dd>&nbsp;
+
+			<dt>El billete oculto
+			<dd>Un conocido me dice que ha ocultado un billete de $100 entre las páginas 75 y 76 del Manual del Constructor de Máquinas (Dubbel).
+			<dd>Al instante sé que es mentira - ¿Por qué?
+			<dd>&nbsp;
+
+			<p>&nbsp;</p>
+
+
+			<!-- Codigo Adsense adaptable 2019 -->
+			<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+			<ins class="adsbygoogle"
+				 style="display:block; text-align:center;"
+				 data-ad-layout="in-article"
+				 data-ad-format="fluid"
+				 data-ad-client="ca-pub-4076082038101002"
+				 data-ad-slot="3860180150"></ins>
+			<script>
+				 (adsbygoogle = window.adsbygoogle || []).push({});
+			</script>
+
+			<p>&nbsp;</p>
+
+
+			<dt>El mástil del monumento
+			<dd>¿Como determinar la altura que tiene el mástil del monumento a la bandera disponiendo simplemente de una cinta métrica y útiles de dibujo?
+			<dd>&nbsp;
+
+			<dt>Máquina lógica
+			<dd>¿Cual seria la pregunta que se debe formular a una maquina que siempre responde con la verdad para que aquella no pueda responder, teniendo en cuenta que la maquina solamente responde con 'Si' o con 'No', con luz verde para si, luz roja para no y sabiendo que la pregunta debe formularse de manera que se pueda responder solo con si o no.
+			<dd>Fuente: ®© pamm
+			<dd>&nbsp;
+
+			<dt>Números de habitaciones
+			<dd>Cuando Zoilo Kefalta se hizo cargo del mantenimiento del viejo hotel tuvo que reponer los números identificatorios de todas las habitaciones, numeradas desde el 1 al 999.  Al ordenar los materiales advirtió que faltaban todos los números "nueve".
+			<dd>¿Como les parece que razonó para deducir cuantos "nueve" debería comprar para identificar las habitaciones?
+			<dd>&nbsp;
+
+			<dt>El Arbol Mágico
+			<dd>Había un árbol mágico, que durante el primer día aumentaba la mitad de su altura, el segundo día aumentaba en un tercio,el tercer día en un cuarto y así sucesivamente.
+			<dd>¿Cuántos días tardó en crecer hasta aumentar cién veces su altura original?
+			<dd>&nbsp;
+
+			<dt>Naufrago en una isla
+			<dd>Te ha capturado un príncipe malvado, quien decide jugar contigo (con sus reglas, por supuesto).
+			<dd>Te ofrece liberarte elegiendo entre dos puertas: detrás de una de ellas te espera un león hambriento y detrás de la otra un tesoro que supera tus sueños más alocados.  Cuidando una de las puertas hay un nativo que siempre miente y cuidando la otra puerta otro nativo que siempre dice la verdad.  Desafortunadamente no se los puede distinguir. Se te permite pedir ayuda con una sola pregunta a uno de los guardias.  Ambos saben cual es la puerta que cuidan.
+			<dd>¿Cual es la única pregunta que puedes formular para quedarte con tu libertad y las riquezas?
+			<dd>&nbsp;
+
+		</dl>
+
+		<div class="col-sm-2" style="background-color: #ffc;">
+		</div>
+	</div>
+
+	<p><a href="#TopOfPage"> <img id="picture33" height=9 width=17 src="./images/botnarrb.gif" vspace=0 hspace=0 align="top" border=0 alt="arriba">arriba</a>
+
+	<!--#include file="libro-rg5rbata.shtml" -->
+
+	<!-- barra oscura final de pagina -->
+	<div class="row">
+		<div class="col-sm-12" style="background-color: #030;"><p>&nbsp;</p>
+		</div>
+	</div>
+
+<!-- fin contenido -->
+</div>
+
+</body>
+</html>

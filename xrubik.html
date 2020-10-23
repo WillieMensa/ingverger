@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="ISO-8859-1">
+	<title> Prueba en sitio Ing. Guillermo Verger </title>
+	<meta name="description" content="Resolución cubo de Rubik.">
+	<meta name="keywords" content="
+	Sistemas de Representación, CAD 3D, caligrafía técnica,ingenio, Resolución cubo de Rubik">
+
+<!-- este archivo para testear desarrollos en html y luego pasar a asp -->
+
+<!-- aqui va el include file="genericheading.shtml" -->
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/_ingverger.css" >
+<!-- fin del include -->
+
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+<style>
+
+	.txtblanco { font-family: Roboto; stroke : #000; stroke-width : 1; font-size: 2.0em; }
+	.txtsmall  { font-family: Roboto; stroke : #000; stroke-width : 1; font-size: 1.0em; }
+
+</style>
+
+</head>
+
+<body>
+<!-- aqui va el include file="menu2015.shtml" -->
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+	<div class="navbar-header">
+	  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+	  </button>
+	  <!-- <a class="navbar-brand"  class="active" href="index.php">&nbsp;&nbsp;Ing. Verger </a> -->
+	  <a class="navbar-brand" href="index.php">&nbsp;&nbsp;Ing. Verger </a>
+	</div>
+
+	<div class="collapse navbar-collapse" id="myNavbar">
+		<ul class="nav navbar-nav">
+			<!-- <li class="active"><a href="index.php">Inicio</a></li> -->
+
+			<li class="dropdown">
+			  <a class="dropdown-toggle" data-toggle="dropdown" href="#">Docencia Universitaria<span class="caret"></span></a>
+			  <ul class="dropdown-menu">
+				<li><a href="temas-rep-graf.php">FCEIA - Representac. Gráfica</a></li>
+				<li><a href="temas-sr-isi.php">UTN - Sistemas de Representac.- I.S.I.</a></li>
+			  </ul>
+			</li>
+
+			<li class="dropdown">
+			  <a class="dropdown-toggle" data-toggle="dropdown" href="#">Ingenio<span class="caret"></span></a>
+			  <ul class="dropdown-menu">
+				<li><a href="problemas-anteriores.asp">Problemas anteriores</a></li>
+				<li><a href="sudoku.php">SUDOKU</a></li>
+				<li><a href="sumado.php">SU-MA-DO</a></li>
+				<li><a href="rompecabezas.php">Rompecabezas</a></li>
+			  </ul>
+			</li>
+
+			<li class="dropdown">
+				<ul class="dropdown-menu">
+					<li><a href="repgrafsincorbata.asp">Representación gráfica sin corbata</a></li>
+				</ul>
+			</li>
+
+			<li><a href="consultas.php">Consultas</a></li>
+
+			<li class="dropdown">
+				<a class="dropdown-toggle" data-toggle="dropdown" href="#">Todo lo demás<span class="caret"></span></a>
+				<ul class="dropdown-menu">
+					<li><a href="mapa-rosario.php">Mapa de Rosario</a></li>
+					<li><a href="enlaces.php">Enlaces</a></li>
+				</ul>
+			</li>
+		</ul>
+
+		<ul class="nav navbar-nav navbar-right">
+			<li><a href="curriculum-resumido.php"><span class="glyphicon glyphicon-user"></span>Resumen profesional</a></li>
+		</ul>
+	</div>
+  </div>
+</nav>
+
+<!-- fin del include file -->
+
+
+
+
+
+<div class="container">
+	<a name="TopOfPage"></a>
+	<!-- Contenido de la pagina -->
+	<h1>Resolver el cubo de Rubik</h1>
+	<hr>
+	<div class="row">
+		<div class="col-sm-3" style="background-color: #e6e6b8;">
+		</div>
+		<div class="col-sm-6">
+			<p>Las notas que siguen las hice, originalmente para mi mismo, como un recordatorio de los pasos que debía seguir para resolver el cubo de Rubik.<br>
+			A esas notas agregué las convenciones utilizadas para que se me pueda comenzar a entender.<br>
+			Faltan detalles o aclaraciones? Seguramente. En ese caso me lo puedes solicitar con el <a href="consultas.php">formulario de consultas</a>.
+			</p>
+		</div>
+
+		<div class="col-sm-2" style="background-color: #e6e6b8;">
+			<p>Si tienes alguna sugerencia, 
+			<A HREF="consultas.php">avisame.</A>.
+			<p>&nbsp;</p>
+		</div>
+
+  </div>
+
+	<hr>
+	<div class="row">
+		<div class="col-sm-3" style="background-color: #e6e6b8;">
+			<svg height="220" width="220">
+				<polygon  points="020,020 140,020 200,080 200,200 080,200 020,140" style="fill:white;stroke:black;stroke-width:4;"/>
+				<polyline points="020,060 140,060 200,120" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="020,100 140,100 200,160" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="020,140 140,140 200,200" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="060,020 060,140 120,200" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="100,020 100,140 160,200" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="140,020 140,140 200,200" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="040,160 160,160 160,040" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="060,180 180,180 180,060" style="fill:none;stroke:black;stroke-width:1" />
+
+				<!-- cara superior -->
+				<polygon points="020,020 140,020 140,140 020,140" style="fill:#aaa;stroke-width:0 ; opacity: 0.5;" />
+				<!-- cara derecha -->
+				<polygon points="140,020 200,080 200,200 140,140 " style="fill:#9f3;stroke-width:0 ; opacity: 0.5;" />
+				<!-- cara frontal -->
+				<polygon points="020,140 140,140 200,200 080,200" style="fill:#f93;stroke-width:0 ; opacity: 0.5;" />
+
+			</svg>
+		</div>
+		<div class="col-sm-6">
+		<h2>Convenciones adoptadas</h2>
+		<h3>Identificacion de las caras del cubo</h3>
+		<p>Cada cara del cubo estará vinculada a una letra para identificar los movimientos que se deben realizar. Utilizaremos una convención ampliamente difundida que proviene de la identificación en inglés.</p>
+		<dl>
+			<dd>U : superior - la cara grisada </dd>
+			<dd>F . frontal  - la cara naranja claro </dd>
+			<dd>R : derecha  - la cara verde claro</dd>
+			<dd>L : izquierda - oculta; opuesta a la cara derecha</dd>
+			<dd>B : trasera  - oculta; opuesta a la cara frontal</dd>
+			<dd>D : inferior - oculta; opuesta a la cara superior</dd>
+		</dl>
+		<h3>Movimientos</h3>
+		<p>Una secuencia de movimientos quedará definida por las letras de las caras que se denen girar.
+		Si el movimiento es en sentido horario se indica con la letra. 
+		Si el movimiento es en sentido antihorario se indica con la letra seguida de un apostrofe.</p>
+		<p>Ejemplo: <br>
+		U : indica mover la cara superior en sentido horario.<br>
+		U' : indica mover la cara superior en sentido antihorario.</p>
+		
+		<h3>Colores</h3>
+		<p>Al referirnos a caras de los cubitos individuales que deben tener el mismo color los mostraremos todos de un mismo color. Las caras de cubitos que queden blancas será porque no importa el color de las mismas.</p>
+		</div>
+
+		<div class="col-sm-2"><!-- columna lateral derecha -->
+			<!-- Codigo Adsense adaptable -->
+			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+			<!-- Anuncio Adaptable 06/02/2016 -->
+			<ins class="adsbygoogle"
+				 style="display:block"
+				 data-ad-client="ca-pub-4076082038101002"
+				 data-ad-slot="1005399818"
+				 data-ad-format="auto"></ins>
+			<script>
+			(adsbygoogle = window.adsbygoogle || []).push({});
+			</script>
+		</div>
+	</div>
+	<hr>
+
+	<div class="row">
+		<div class="col-sm-3" style="background-color: #e6e6b8;">
+			<svg height="220" width="220">
+				<polygon  points="020,020 140,020 200,080 200,200 080,200 020,140" style="fill:white;stroke:black;stroke-width:4;"/>
+				<polyline points="020,060 140,060 200,120" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="020,100 140,100 200,160" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="020,140 140,140 200,200" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="060,020 060,140 120,200" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="100,020 100,140 160,200" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="140,020 140,140 200,200" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="040,160 160,160 160,040" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="060,180 180,180 180,060" style="fill:none;stroke:black;stroke-width:1" />
+
+				<!-- cara superior -->
+				<polygon points="020,020 140,020 140,140 020,140" style="fill:#aaa;stroke-width:0 ; opacity: 0.5;" />
+			</svg>
+
+		</div>
+
+		<div class="col-sm-6">
+		<h2>Plan de resolución</h2>
+		<p>La idea es resolver el cubo por capas.
+		<p>En primer lugar buscaremos conseguir una cara completa de un color. Ademas de verse todos los cubitos de esa cara del mismo color deben coincidir los colores de las aristas con los colores de las caras adyacentes. Igualmente los vértices, deben coincidir sus colores con los colores de los centros de las caras correspondientes.</p>
+		<p>A continuación se buscará que la capa de cubitos individuales que siguen a la cara ya resuelta también tengan el color adecuado.</p>
+		<p>Finalmente se buscara conseguir el color y la posición adecuada a los cubitos de la última capa.</p>
+		</div>
+		<div class="col-sm-2"><!-- columna lateral derecha -->
+		</div>
+	</div>
+	<hr>
+
+	<div class="row">
+		<div class="col-sm-3" style="background-color: #e6e6b8;">
+			<svg height="220" width="220">
+
+				<polygon  points="020,020 140,020 200,080 200,200 080,200 020,140" style="fill:white;stroke:black;stroke-width:4;"/>
+				<polyline points="020,060 140,060 200,120" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="020,100 140,100 200,160" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="020,140 140,140 200,200" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="060,020 060,140 120,200" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="100,020 100,140 160,200" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="140,020 140,140 200,200" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="040,160 160,160 160,040" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="060,180 180,180 180,060" style="fill:none;stroke:black;stroke-width:1" />
+
+				<!-- B -->	<polygon points="060,020 100,020 100,060 060,060" style="fill:#888;stroke-width:0; opacity: 0.5;" />
+				<!-- D -->	<polygon points="020,060 060,060 060,100 020,100" style="fill:#888;stroke-width:0; opacity: 0.5;" />	
+				<!-- E -->	<polygon points="060,060 100,060 100,100 060,100" style="fill:#888;stroke-width:0; opacity: 0.5;" />	
+				<!-- F -->	<polygon points="100,060 140,060 140,100 100,100" style="fill:#888;stroke-width:0; opacity: 0.5;" />	
+				<!-- H -->	<polygon points="060,100 100,100 100,140 060,140" style="fill:#888;stroke-width:0; opacity: 0.5;" />
+
+				<!-- lat.der -->	<polygon points="140,060 180,100 180,140 140,100" style="fill:#99ff33;stroke-width:0; opacity: 0.5;" />
+				<!-- frontal -->	<polygon points="060,140 100,140 140,180 100,180" style="fill:#ff9933;stroke-width:0; opacity: 0.5;" />
+
+			</svg>
+
+		</div>
+
+		<div class="col-sm-6">
+		<h2>Paso 1</h2>
+		<p>Elegir un color, por ejemplo, el blanco. Con el centro de cara blanco hacia arriba, mover las aristas blancas para hacer una cruz. Cada arista deberá coincidir en sus colores con el centro de la cara superior blanca y el centro de la cara lateral.</p>
+
+		<p>&nbsp;
+
+		</div>
+
+		<div class="col-sm-2"><!-- columna lateral derecha -->
+		</div>
+	</div>
+
+	<hr>
+	<div class="row">
+		<div class="col-sm-3" style="background-color: #e6e6b8;">
+			<svg height="220" width="220">
+				<polygon  points="020,020 140,020 200,080 200,200 080,200 020,140" style="fill:white;stroke:black;stroke-width:4;"/>
+				<polyline points="020,060 140,060 200,120" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="020,100 140,100 200,160" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="020,140 140,140 200,200" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="060,020 060,140 120,200" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="100,020 100,140 160,200" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="140,020 140,140 200,200" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="040,160 160,160 160,040" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="060,180 180,180 180,060" style="fill:none;stroke:black;stroke-width:1" />
+
+				<!-- superior -->	<polygon points="020,020 140,020 140,140 020,140" style="fill:gray;stroke-width:0 ; opacity: 0.5;" />
+				<!-- lat.der -->	<polygon points="140,020 160,040 160,080 180,100 180,140 160,120 160,160 140,140" style="fill:#9f3;stroke-width:0 ; opacity: 0.5;" />
+				<!-- frontal -->	<polygon points="020,140 140,140 160,160 120,160 140,180 100,180 080,160 040,160" style="fill:#f93;stroke-width:0 ; opacity: 0.5;" />
+			</svg>
+		</div>
+
+		<div class="col-sm-6">
+		<h2>Paso 2</h2>
+		<p>Completar la primer cara dando a los vertices la ubicación y posición correspondiente.</p>
+		<p>La figura muestra una vista análoga a la que tenríamos que tener al completar este paso.</p>
+		<p>&nbsp;
+
+		</div>
+
+		<div class="col-sm-2"><!-- columna lateral derecha -->
+		</div>
+	</div>
+
+	<hr>
+	<div class="row">
+		<div class="col-sm-3" style="background-color: #e6e6b8;">
+			<svg height="220" width="220">
+				<polygon  points="020,020 140,020 200,080 200,200 080,200 020,140" style="fill:white;stroke:black;stroke-width:4;"/>
+				<polyline points="020,060 140,060 200,120" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="020,100 140,100 200,160" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="020,140 140,140 200,200" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="060,020 060,140 120,200" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="100,020 100,140 160,200" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="140,020 140,140 200,200" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="040,160 160,160 160,040" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="060,180 180,180 180,060" style="fill:none;stroke:black;stroke-width:1" />
+
+				<!-- superior -->	<polygon points="020,020 140,020 140,140 020,140" style="fill:gray;stroke-width:0 ; opacity: 0.5;" />
+				<!-- lat.der -->	<polygon points="140,020 180,060 180,180 140,140" style="fill:#9f3;stroke-width:0 ; opacity: 0.5;" />
+				<!-- frontal -->	<polygon points="020,140 140,140 180,180 060,180" style="fill:#f93;stroke-width:0 ; opacity: 0.5;" />
+			</svg>
+		</div>
+
+		<div class="col-sm-6">
+		<h2>Paso 3</h2>
+		<p>Completar la segunda capa.<br>
+		Estan faltando las aristas que deben tener los colores de los cubitos centros de cara.<br>
+		Una vez resuelto este paso tendremos una vista similar a la de la figuira.</p>
+
+		<p>&nbsp;
+
+		</div>
+
+		<div class="col-sm-2"><!-- columna lateral derecha -->
+		</div>
+	</div>
+
+	<hr>
+	<div class="row">
+		<div class="col-sm-3" style="background-color: #e6e6b8;">
+			<svg height="220" width="220">
+				<polygon  points="020,020 140,020 200,080 200,200 080,200 020,140" style="fill:white;stroke:black;stroke-width:4;"/>
+				<polyline points="020,060 140,060 200,120" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="020,100 140,100 200,160" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="020,140 140,140 200,200" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="060,020 060,140 120,200" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="100,020 100,140 160,200" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="140,020 140,140 200,200" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="040,160 160,160 160,040" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="060,180 180,180 180,060" style="fill:none;stroke:black;stroke-width:1" />
+				<polygon points="040,160 160,160 200,200 080,200" style="fill:#9f3;stroke-width:0  ; opacity: 0.5;" />
+				<polygon points="160,040 200,080 200,200 160,160" style="fill:#f93;stroke-width:0  ; opacity: 0.5;" />
+			</svg>
+		</div>
+		<div class="col-sm-6">
+			<h2>Comenzamos la tercera y última capa</h2>
+			<p>En primer lugar invertimos la posición del cubo. La cara blanca quedará hacia abajo y, en el caso de un cubo standard, hacia arriba debería quedar la capa amarilla.<br>
+			Lo más probable es que la ultima cara esté desordenada, con los cubitos fuera de lugar y girados de la posición que debieran tener.<br>
+			Se pueden presentar varios casos posibles
+			</p>
+			<p>
+			&nbsp;
+			<svg height="080" width="080">
+				<text class = "txtsmall" x="00" y="010">a</text>	
+				<polygon  points="010,010 070,010 070,070 010,070" style="fill:white;stroke:black;stroke-width:2;"/>
+				<polyline points="010,030 070,030" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="010,050 070,050" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="030,010 030,070" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="050,010 050,070" style="fill:none;stroke:black;stroke-width:1" />
+				<polygon points="030,030 050,030 050,050 030,050" style="fill:gray;stroke-width:0  ; opacity: 0.5;" />
+			</svg>
+			&nbsp;&nbsp;
+			<svg height="080" width="080">
+				<text class = "txtsmall" x="00" y="010">b</text>	
+				<polygon  points="010,010 070,010 070,070 010,070" style="fill:white;stroke:black;stroke-width:2;"/>
+				<polyline points="010,030 070,030" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="010,050 070,050" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="030,010 030,070" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="050,010 050,070" style="fill:none;stroke:black;stroke-width:1" />
+				<polygon points="030,010 050,010 050,050 010,050 010,030 030,030" style="fill:gray;stroke-width:0  ; opacity: 0.5;" />
+			</svg>
+			&nbsp;&nbsp;
+			<svg height="080" width="080">
+				<text class = "txtsmall" x="00" y="010">c</text>	
+				<polygon  points="010,010 070,010 070,070 010,070" style="fill:white;stroke:black;stroke-width:2;"/>
+				<polyline points="010,030 070,030" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="010,050 070,050" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="030,010 030,070" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="050,010 050,070" style="fill:none;stroke:black;stroke-width:1" />
+				<polygon points="010,030 070,030 070,050 010,050" style="fill:gray;stroke-width:0  ; opacity: 0.5;" />
+			</svg>
+
+		</div>
+		<div class="col-sm-2"><!-- columna lateral derecha -->
+		</div>
+	</div>
+
+	<hr>
+	<div class="row">
+		<div class="col-sm-3" style="background-color: #e6e6b8;">
+			<svg height="220" width="220">
+				<polygon  points="020,020 140,020 200,080 200,200 080,200 020,140" style="fill:white;stroke:black;stroke-width:4;"/>
+				<polyline points="020,060 140,060 200,120" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="020,100 140,100 200,160" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="020,140 140,140 200,200" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="060,020 060,140 120,200" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="100,020 100,140 160,200" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="140,020 140,140 200,200" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="040,160 160,160 160,040" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="060,180 180,180 180,060" style="fill:none;stroke:black;stroke-width:1" />
+				<polygon points="040,160 160,160 200,200 080,200" style="fill:#9f3;stroke-width:0  ; opacity: 0.5;" />
+				<polygon points="160,040 200,080 200,200 160,160" style="fill:#f93;stroke-width:0  ; opacity: 0.5;" />
+
+				<polygon points="060,020 100,020 100,060 140,060 140,100 100,100 100,140,060,140 060,100 020,100 020,060 060,060" style="fill:gray;stroke-width:0  ; opacity: 0.5;" />
+			</svg>
+		</div>
+
+		<div class="col-sm-6">
+			<h2>Paso 4</h2>
+			<p>El objetivo es que se muestre una cruz con el color correcto, en nuestro caso sería el amarillo.</p>
+			Según el caso en que nos encontremos realizaremos los siguientes movimientos:</P>
+			<dl>
+				<dd>a/ F U R U' R' F' pasa al caso 'b' o 'c'</dd>
+				<dd>b/ F U R U' R' F'</dd>
+				<dd>c/ F R U R' U' F'</dd>
+			</dl>
+			<p>&nbsp;
+		</div>
+
+		<div class="col-sm-2"><!-- columna lateral derecha -->
+		</div>
+	</div>
+
+	<hr>
+	<div class="row">
+		<div class="col-sm-3" style="background-color: #e6e6b8;">
+			<svg height="220" width="220">
+				<polygon  points="020,020 140,020 200,080 200,200 080,200 020,140" style="fill:white;stroke:black;stroke-width:4;"/>
+				<polyline points="020,060 140,060 200,120" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="020,100 140,100 200,160" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="020,140 140,140 200,200" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="060,020 060,140 120,200" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="100,020 100,140 160,200" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="140,020 140,140 200,200" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="040,160 160,160 160,040" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="060,180 180,180 180,060" style="fill:none;stroke:black;stroke-width:1" />
+
+				<polygon points="040,160 160,160 200,200 080,200" style="fill:#9f3;stroke-width:0  ; opacity: 0.5;" />
+				<polygon points="160,040 200,080 200,200 160,160" style="fill:#f93;stroke-width:0  ; opacity: 0.5;" />
+				<polygon points="020,020 140,020 140,140 020,140" style="fill:gray;stroke-width:0 ; opacity: 0.5;" />
+			</svg>
+		</div>
+
+		<div class="col-sm-6">
+			<h2>Paso 5</h2>
+			<p>En este paso debemos mover los vértices para completar el color de la cara.</p>
+			<p>La situación de partida puede ser</p>
+			<p>
+			&nbsp;
+			<svg height="110" width="110">
+				<text class = "txtsmall" x="00" y="010">a</text>	
+				<polygon  points="040,010 100,010 100,070 070,100 010,100 010,040" style="fill:white;stroke:black;stroke-width:2;"/>
+				<polyline points="040,010 040,070 100,070" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="030,020 030,080 090,080" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="020,030 020,090 080,090" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="040,070 010,100" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="060,010 060,070 030,100" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="080,010 080,070 050,100" style="fill:none;stroke:black;stroke-width:1" />
+
+				<polyline points="010,060 040,030 100,030" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="010,080 040,050 100,050" style="fill:none;stroke:black;stroke-width:1" />
+
+				<polygon points="060,010 080,010 080,030 100,030 100,050 080,050 080,070 060,070 060,050 040,050 040,030 060,030" style="fill:gray;stroke-width:0  ; opacity: 0.5;" />
+				<polygon points="040,050 040,070 030,080 030,060" style="fill:gray;stroke-width:0  ; opacity: 0.5;" />
+			</svg>
+			&nbsp;&nbsp;
+			<svg height="110" width="110">
+				<text class = "txtsmall" x="00" y="010">b</text>	
+				<polygon  points="010,010 070,010 100,040 100,100 040,100 010,070" style="fill:white;stroke:black;stroke-width:2;"/>
+				<polyline points="010,030 070,030 100,060" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="010,050 070,050 100,080" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="010,070 070,070 100,100" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="030,010 030,070 060,100" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="050,010 050,070 080,100" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="070,010 070,070" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="020,080 080,080 080,020" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="030,090 090,090 090,030" style="fill:none;stroke:black;stroke-width:1" />
+
+				<polygon points="030,010 050,010 050,030 070,030 070,050 050,050 050,070 010,070 010,030 030,030" style="fill:gray;stroke-width:0  ; opacity: 0.5;" />
+			</svg>
+			&nbsp;&nbsp;
+			<svg height="110" width="110">
+				<text class = "txtsmall" x="00" y="010">c</text>	
+				<polygon  points="010,010 070,010 100,040 100,100 040,100 010,070" style="fill:white;stroke:black;stroke-width:2;"/>
+				<polyline points="010,030 070,030 100,060" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="010,050 070,050 100,080" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="010,070 070,070 100,100" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="030,010 030,070 060,100" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="050,010 050,070 080,100" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="070,010 070,070" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="020,080 080,080 080,020" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="030,090 090,090 090,030" style="fill:none;stroke:black;stroke-width:1" />
+
+				<polygon points="030,010 050,010 050,030 070,030 070,050 050,050 050,070 030,070 030,050 010,050 010,030 030,030" style="fill:gray;stroke-width:0  ; opacity: 0.5;" />
+				<polygon points="010,070 030,070 040,080 020,080" style="fill:gray;stroke-width:0  ; opacity: 0.5;" />
+			</svg>
+			</p>
+
+			<p>En todos los casos haremos la secuencia:<br>
+			&nbsp;&nbsp;&nbsp;R U R' U R U U R'</P>
+			<p>Y luego reorientamos el cubo.</p>
+		</div>
+
+		<div class="col-sm-2"><!-- columna lateral derecha -->
+		</div>
+	</div>
+
+	<hr>
+	<div class="row">
+		<div class="col-sm-3" style="background-color: #e6e6b8;">
+			<svg height="220" width="220">
+				<polygon  points="020,020 140,020 200,080 200,200 080,200 020,140" style="fill:white;stroke:black;stroke-width:4;"/>
+				<polyline points="020,060 140,060 200,120" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="020,100 140,100 200,160" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="020,140 140,140 200,200" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="060,020 060,140 120,200" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="100,020 100,140 160,200" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="140,020 140,140 200,200" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="040,160 160,160 160,040" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="060,180 180,180 180,060" style="fill:none;stroke:black;stroke-width:1" />
+
+				<polygon points="040,160 160,160 200,200 080,200" style="fill:#9f3;stroke-width:0  ; opacity: 0.5;" />
+				<polygon points="160,040 200,080 200,200 160,160" style="fill:#f93;stroke-width:0  ; opacity: 0.5;" />
+				<polygon points="020,020 140,020 140,140 020,140" style="fill:gray;stroke-width:0 ; opacity: 0.5;" />
+
+				<!-- y ahora para identificar los diferentes cuadraditos -->
+				<text class = "txtblanco" x="032" y="050">A</text>
+				<text class = "txtblanco" x="112" y="050">C</text>
+				<text class = "txtblanco" x="032" y="130">G</text>
+				<text class = "txtblanco" x="112" y="130">I</text>
+
+			</svg>
+		</div>
+
+		<div class="col-sm-6">
+			<h2>Paso 6</h2>
+			<p>En este paso vamos a posicionar correctamente los vértices.</p>
+			<p>Tenemos una secuencia que produce el desplazamiento en sentido horario de los vértices A, C e I. En definitiva, intercambia los vértices C e I.<br>
+			&nbsp;&nbsp;&nbsp;R' F R' B B R F' R' B B R R U'</p>
+			<p>Y tenemos una secuencia que permuta directamente los vértices C e I:<br>
+			&nbsp;&nbsp;&nbsp;(L' U R U' L U R') (R U R') U (R U U R')</p>
+		</div>
+
+		<div class="col-sm-2"><!-- columna lateral derecha -->
+		</div>
+	</div>
+
+	<hr>
+	<div class="row">
+		<div class="col-sm-3" style="background-color: #e6e6b8;">
+			<svg height="220" width="220">
+				<polygon  points="020,020 140,020 200,080 200,200 080,200 020,140" style="fill:white;stroke:black;stroke-width:4;"/>
+				<polyline points="020,060 140,060 200,120" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="020,100 140,100 200,160" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="020,140 140,140 200,200" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="060,020 060,140 120,200" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="100,020 100,140 160,200" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="140,020 140,140 200,200" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="040,160 160,160 160,040" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="060,180 180,180 180,060" style="fill:none;stroke:black;stroke-width:1" />
+
+				<polygon points="040,160 160,160 200,200 080,200" style="fill:#9f3;stroke-width:0  ; opacity: 0.5;" />
+				<polygon points="160,040 200,080 200,200 160,160" style="fill:#f93;stroke-width:0  ; opacity: 0.5;" />
+				<polygon points="020,020 140,020 140,140 020,140" style="fill:gray;stroke-width:0 ; opacity: 0.5;" />
+
+				<!-- y ahora para identificar los diferentes cuadraditos -->
+				<text class = "txtblanco" x="072" y="050">B</text>
+				<text class = "txtblanco" x="032" y="090">D</text>
+				<text class = "txtblanco" x="112" y="090">F</text>
+				<text class = "txtblanco" x="072" y="130">H</text>
+
+			</svg>
+		</div>
+
+		<div class="col-sm-6">
+			<h2>Paso 7</h2>
+			<p>En este paso vamos a posicionar correctamente las aristas de la última capa. Para esta operación disponemos de varias secuencias.</p>
+			<dl>
+				<dd>a. Desplazamiento en sentido horario de las aristas D, F y H:<br>
+					&nbsp;&nbsp;&nbsp;F F U L R' F F L' R U F F</dd>
+				<dd>b. Desplazamiento en sentido antihorario de las aristas D, F y H:<br>
+					&nbsp;&nbsp;&nbsp;F F U' L R' F F L' R U' F F</dd>
+				<dd>c. Intercambio de aristas; por ejemplo D con H:<br>
+					&nbsp;&nbsp;(R U R') U (R U U R') U
+								(L' U' L) U' (L' U U L) U'</dd>
+			</dl>
+		</div>
+
+		<div class="col-sm-2"><!-- columna lateral derecha -->
+		</div>
+	</div>
+
+	<hr>
+	<div class="row">
+		<div class="col-sm-3" style="background-color: #e6e6b8;">
+			<svg height="220" width="220">
+				<polygon  points="020,020 140,020 200,080 200,200 080,200 020,140" style="fill:white;stroke:black;stroke-width:4;"/>
+				<polyline points="020,060 140,060 200,120" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="020,100 140,100 200,160" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="020,140 140,140 200,200" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="060,020 060,140 120,200" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="100,020 100,140 160,200" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="140,020 140,140 200,200" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="040,160 160,160 160,040" style="fill:none;stroke:black;stroke-width:1" />
+				<polyline points="060,180 180,180 180,060" style="fill:none;stroke:black;stroke-width:1" />
+
+				<!-- cara superior -->
+				<polygon points="020,020 140,020 140,140 020,140" style="fill:yellow;stroke-width:0 ; opacity: 0.5;" />
+				<!-- cara derecha -->
+				<polygon points="140,020 200,080 200,200 140,140 " style="fill:#9f3;stroke-width:0 ; opacity: 0.5;" />
+				<!-- cara frontal -->
+				<polygon points="020,140 140,140 200,200 080,200" style="fill:#f93;stroke-width:0 ; opacity: 0.5;" />
+			</svg>
+		</div>
+
+		<div class="col-sm-6">
+		<h2></h2>
+		<p>Siguiendo los pasos anteriores nuestro cubo debería verse ordenado en forma similar a la que se ve en la imagen</p>
+
+		<p>&nbsp;
+
+		</div>
+
+		<div class="col-sm-2"><!-- columna lateral derecha -->
+		</div>
+	</div>
+
+	<hr>
+	<div class="row">
+		<div class="col-sm-3" style="background-color: #e6e6b8;">
+		</div>
+		<div class="col-sm-7">
+			<!-- Codigo Adsense adaptable -->
+			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+			<!-- Anuncio Adaptable 06/02/2016 -->
+			<ins class="adsbygoogle"
+				 style="display:block"
+				 data-ad-client="ca-pub-4076082038101002"
+				 data-ad-slot="1005399818"
+				 data-ad-format="auto"></ins>
+			<script>
+			(adsbygoogle = window.adsbygoogle || []).push({});
+			</script>
+		</div>
+		<div class="col-sm-2"><!-- columna lateral derecha -->
+		</div>
+	</div>
+
+	<hr>
+
+	<!--#include file="libro-rg5rbata.shtml" -->
+<div class="row">
+	<div class="col-sm-3">
+			<p>&nbsp;</p>
+			<p style="text-align: center"><a href="http://www.ingverger.com.ar/repgrafsincorbata.asp">
+				<img src="images/tapa-s.jpg" width="107" height="154" style="border: #484 1pt solid;" alt="Representación gráfica sin corbata"></a></p>
+	</div>
+	<div class="col-sm-9">
+		<h4><a href="http://www.ingverger.com.ar/repgrafsincorbata.asp">Representación gráfica sin corbata</a></h4>
+		<p>Libro ganador del Concurso ADFI de publicación de libros 2014. Lo pueden encontrar en:
+		<ul>
+			<li>Buchin Libros, Entre Ríos 735, Rosario. </li>
+			<li>Homo Sapiens Ediciones, Sarmiento 829, Rosario.</li>
+			<li>Librería Scarabino, Córdoba 1393, Rosario. </li>
+			<li>Paso de los Libros, Córdoba 862, S1600AWJ Rosario. Teléfono: (0341)447-0328.</li>
+			<li>Puerto Libro, Corrientes 837, Rosario. Teléfono: (0341)426-5346.</li>
+		</ul>
+		<p><a href="http://www.ingverger.com.ar/repgrafsincorbata.asp">Ver contenido del libro</a>
+		<p><a href="https://es.scribd.com/doc/270283665/Representacion-grafica-sin-corbata">Versión completa en formato PDF</a>
+	</div>
+</div>
+<!-- fin del include -->
+
+
+	<hr class="grosa">
+	<!-- fin contenido -->
+
+</div>
+
+</body>
+</html>
+

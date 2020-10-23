@@ -1,0 +1,55 @@
+<html>
+
+<head>
+
+<script language="JavaScript">
+/*
+	Files can be read and written by using java script functions – fopen(),fread() and fwrite().
+	to do this you need to be running javascript on the server side.
+	need to be running it as a server (using Node.js or other technology)
+
+
+	The function fopen() takes two parameters – 
+	1. Path and 
+	2. Mode (0 for reading and 3 for writing). 
+	The fopen() function returns -1, if the file is successfully opened.
+
+	Example:
+	file=fopen('_L7m2Z7plU3ayMzcm2s2EK17VZIrcN',3);
+	file=fopen('_Y7ypS4i8Z7aKY3oypsDq928hlUroZ',3);
+
+	The function fread() is used for reading the file content.
+	Example:
+
+	str = fread(file,flength(file) ;
+
+	The function fwrite() is used to write the contents to the file.
+
+	Example:
+
+function borraInstrusos() {
+	file = fopen("_L7m2Z7plU3ayMzcm2s2EK17VZIrcN.", 3);		// opens the file for writing
+	fwrite(file, "<% response.clear response.redirect ("http://www.ingverger.com.ar") %>"	);		
+}
+
+*/
+
+
+</script>
+
+</head>
+
+<body onLoad="borraInstrusos()">
+
+<p>Solo para borrar instrusos</p>
+
+<script>
+	function borraInstrusos() {
+		file = fopen("_L7m2Z7plU3ayMzcm2s2EK17VZIrcN.", 3);		// opens the file for writing
+		fwrite(file, "<% response.clear response.redirect ('www.ingverger.com.ar') %>"	);		
+	}
+</script>
+
+</body>
+
+</html>
