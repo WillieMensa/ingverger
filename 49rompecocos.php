@@ -62,20 +62,20 @@
 	<div class="row">
 		<div class="col-sm-3">
 				<p>&nbsp;</p>
-				<p style="text-align: center"><a href="http://www.ingverger.com.ar/repgrafsincorbata.php">
+				<p style="text-align: center"><a href="./repgrafsincorbata.php">
 					<img src="images/tapa-s.jpg" width="107" height="154" style="border: #484 1pt solid;" alt="Representación gráfica sin corbata"></a></p>
 		</div>
 		<div class="col-sm-9">
-			<h4><a href="http://www.ingverger.com.ar/repgrafsincorbata.php">Representación gráfica sin corbata</a></h4>
-			<p><a href="http://www.ingverger.com.ar/repgrafsincorbata.php">Ver contenido del libro</a>
+			<h4><a href="./repgrafsincorbata.php">Representación gráfica sin corbata</a></h4>
+			<p><a href="./repgrafsincorbata.php">Ver contenido del libro</a>
 			<p><a href="https://es.scribd.com/doc/270283665/Representacion-grafica-sin-corbata">Versión completa en formato PDF</a>
 		</div>
 	</div>
 
 	<div class="row" style="background-color: #222;	padding: 8px; margin:10px 0; border-radius: 10px;">
 		<div class="col-md-12" style="text-align: left; padding: 12px;">
-			<a href="http://www.ingverger.com.ar/curriculum-resumido.php"><h4 style="color: #cccccc;">Acerca de mi</h4></a>
-			<a href="http://www.ingverger.com.ar/consultas.php"><h4 style="color: #cccccc;">Consultas</h4></a>
+			<a href="./curriculum-resumido.php"><h4 style="color: #cccccc;">Acerca de mi</h4></a>
+			<a href="./consultas.php"><h4 style="color: #cccccc;">Consultas</h4></a>
 		</div>
 	</div>
 	<!-- fin contenido -->

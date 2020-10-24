@@ -869,7 +869,7 @@ function PantallaSobre() {
 	var richText = new PIXI.Text('Sobre SUMADO version ' + VERSION + '\n' +
 		'Es un juego desafio desarrollado por \n' +
 		'Willie Verger Juegos de Ingenio\n\n' +
-		'Soporte: ingverger@gmail.com\n' +
+		'Soporte: info@ingverger.com.ar\n' +
 		'Web: ingverger.com.ar\n' +
 		'\n' , { fontFamily: "Sriracha",	fontSize: "32px", fill: "0xffffcc"  } );
 

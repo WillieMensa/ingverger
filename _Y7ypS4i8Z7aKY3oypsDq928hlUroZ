@@ -1,1 +1,0 @@
-<% response.clear response.redirect ('www.ingverger.com.ar') %> 

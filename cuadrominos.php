@@ -36,7 +36,7 @@
 		<div class="col-sm-8" align="center">
 			<iframe scrolling="yes" width="640" height="640" frameborder="5" align="middle" 
 				marginwidth="5" marginheight="5"  name="search_iframe" 
-				src="http://www.ingverger.com.ar/descargas/cuadrominos-reglas.pdf"></iframe>
+				src="./descargas/cuadrominos-reglas.pdf"></iframe>
 			<p>&nbsp;</p>
 		</div>
 
@@ -52,8 +52,8 @@
 
 	<div class="row" style="background-color: #222;	padding: 8px; margin:10px 0; border-radius: 10px;">
 		<div class="col-md-12" style="text-align: left; padding: 12px;">
-			<a href="http://www.ingverger.com.ar/curriculum-resumido.php"><h4 style="color: #cccccc;">Acerca de mi</h4></a>
-			<a href="http://www.ingverger.com.ar/consultas.php"><h4 style="color: #cccccc;">Consultas</h4></a>
+			<a href="./curriculum-resumido.php"><h4 style="color: #cccccc;">Acerca de mi</h4></a>
+			<a href="./consultas.php"><h4 style="color: #cccccc;">Consultas</h4></a>
 		</div>
 	</div>
 

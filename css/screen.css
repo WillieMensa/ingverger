@@ -1,0 +1,163 @@
+/* null margins and padding to give good cross-browser baseline */
+html,body,address,blockquote,div,
+form,fieldset,caption,
+h1,h2,h3,h4,h5,h6,
+hr,ul,li,ol,ul,
+table,tr,td,th,p,img {
+	margin:0;
+	padding:0;
+}
+
+img, fieldset {
+	border:none;
+}
+
+hr {
+	display:none;
+	/*
+		HR in my code are for semantic breaks in topic/section, NOT
+		style/presenation, so hide them from screen.css users
+	*/
+}
+
+@media (max-width:512px) {
+	* {
+		-webkit-text-size-adjust:none;
+		-ms-text-size-adjust:none;
+	}
+}
+
+body {
+	padding:1em;
+	font:normal 100%/150% arial,helvetica,sans-serif;
+	background:#dff5d6;
+}
+
+h1,
+#footer {
+	text-align:center;
+	background:	#405d27;
+	color:#FFF;
+}
+
+h1 {
+	padding:0.5em;
+	font:bold 200%/120% arial,helvetica,sans-serif;
+}
+
+p {
+	padding:0 1em 1em;
+}
+
+#top {
+	max-width:64em;
+	margin:0 auto;
+	background:#FFF;
+}
+
+#footer {
+	padding:1em;
+}
+
+#menuShowHide {
+	position:absolute;
+	left:-999em;
+}
+
+#mainMenu {
+	list-style:none;
+	text-align:center;
+	padding:0.25em 0;
+	margin-bottom:1em;
+	/* background:#F0F8FF; */
+	/* border-bottom:2px solid #248; */
+}
+
+#mainMenu li {
+	display:inline;
+}
+
+#mainMenu a {
+	display:inline-block;
+	padding:0.25em 1em;
+	text-decoration:none;
+	color:#000;
+}
+
+#mainMenu a:active,
+#mainMenu a:focus,
+#mainMenu a:hover {
+	background:#AEC;
+}
+
+@media (max-width:38em) {
+	body {
+		padding:0;
+		background:#248;
+	}
+	h1 {
+		text-align:left;
+		padding-right:2em;
+		margin-bottom:0.5em;
+	}
+	#mainMenu {
+		clear:both;
+		display:none;
+		overflow:hidden; /* wrap floats and margins */
+		padding:0.25em;
+		margin-top:-1em;
+		/* border-top:2px solid #248; */
+		border-top:2px solid #fa6;
+	}
+	#mainMenu li {
+		float:left;
+		width:50%;
+	}
+	#mainMenu a {
+		display:block;
+		padding:0.75em;
+		margin:0.25em;
+		background:#DEF;
+	}
+	#menuShowHide + label {
+		position:relative;
+		float:right;
+		padding:0.5em;
+		margin:-4.75em 0.5em 0;
+		border:2px solid #FFF;
+		/* background:#248; */
+		background:#405d27;
+		color:#FFF;
+		border-radius:0.5em;
+	}
+	#menuShowHide + label:active,
+	#menuShowHide + label:focus,
+	#menuShowHide + label:hover {
+		background:#274;
+	}
+	#menuShowHide + label:after,
+	#menuShowHide + label:before {
+		content:"";
+		display:block;
+		width:2em;
+		height:0.5em;
+		border:solid #FFF;
+		border-width:0.25em 0;
+	}
+	#menuShowHide + label:after {
+		border-top:0;
+	}
+	#menuShowHide:checked + label {
+		background:#274; 
+	}
+	#menuShowHide:checked ~ #mainMenu {
+		display:block;
+	}
+}
+
+@media (max-width:18em) {
+	#mainMenu li {
+		float:none;
+		width:auto;
+	}
+}

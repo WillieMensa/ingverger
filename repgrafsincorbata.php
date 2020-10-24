@@ -67,8 +67,8 @@
 
 	<div class="row" style="background-color: #222;	padding: 2px; margin:2px 2px; border-radius: 10px;">
 		<div class="col-md-12" style="text-align: left; padding: 12px;">
-			<a href="http://www.ingverger.com.ar/curriculum-resumido.php"><h5 style="color: #cccccc;">Acerca de mi</h5></a>
-			<a href="http://www.ingverger.com.ar/consultas.php"><h5 style="color: #cccccc;">Consultas</h5></a>
+			<a href="./curriculum-resumido.php"><h5 style="color: #cccccc;">Acerca de mi</h5></a>
+			<a href="./consultas.php"><h5 style="color: #cccccc;">Consultas</h5></a>
 		</div>
 	</div>
 

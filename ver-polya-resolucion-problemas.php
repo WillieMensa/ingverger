@@ -27,7 +27,7 @@
 
 		<div class="col-sm-8"><!-- 2da colu -->
 			<iframe width=95% height=600px frameborder=05
-			src="http://www.ingverger.com.ar/descargas/como_plantear_y_resolver_problemas.pdf">
+			src="./descargas/como_plantear_y_resolver_problemas.pdf">
 			</iframe>
 			<p>&nbsp;</p>
 

@@ -83,8 +83,8 @@
 			<dd>Ver y/o descargar el cuadernillo de <a href="ver-caligrafia-tecnica.php">Caligrafía Técnica</a>
 			<dd>&nbsp;
 
-			<dt><a href="http://www.ingverger.com.ar/ver-croquis-tecnico.php">Croquis Técnico</a>	<dd>Apuntes de Croquis Técnico. Una guía para ejecutar croquis de calidad.
-			<dd>Ver o descargar <a href="http://www.ingverger.com.ar/ver-croquis-tecnico.php">picando aqui</a>.
+			<dt><a href="./ver-croquis-tecnico.php">Croquis Técnico</a>	<dd>Apuntes de Croquis Técnico. Una guía para ejecutar croquis de calidad.
+			<dd>Ver o descargar <a href="./ver-croquis-tecnico.php">picando aqui</a>.
 			<dd>&nbsp;
 
 			<dt><a href="ver-anexos-croquizado.php">Anexos Croquizado</a>
@@ -161,8 +161,8 @@
 
 	<div class="row" style="background-color: #222;	padding: 8px; margin:10px 0; border-radius: 10px;">
 		<div class="col-md-12" style="text-align: left; padding: 12px;">
-			<a href="http://www.ingverger.com.ar/curriculum-resumido.php"><h4 style="color: #cccccc;">Acerca de mi</h4></a>
-			<a href="http://www.ingverger.com.ar/consultas.php"><h4 style="color: #cccccc;">Consultas</h4></a>
+			<a href="./curriculum-resumido.php"><h4 style="color: #cccccc;">Acerca de mi</h4></a>
+			<a href="./consultas.php"><h4 style="color: #cccccc;">Consultas</h4></a>
 		</div>
 	</div>
 

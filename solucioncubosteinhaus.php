@@ -24,7 +24,7 @@
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 
 
-	<link rel="stylesheet" href="http://ingverger.com.ar/css/_ingverger.css" >
+	<link rel="stylesheet" href="./css/_ingverger.css" >
 	<!-- aqui va el include file="menu2015.shtml" -->
 	<?php include "menu2015.shtml";?>
 

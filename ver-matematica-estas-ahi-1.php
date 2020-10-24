@@ -27,9 +27,9 @@
 		<div class="col-sm-8">
 			<H2>Matemática... ¿Estás ahi?</H2>
 			<p>&nbsp;
-			<!-- src="http://www.ingverger.com.ar/descargas/matematicaestasahi-episodio-1.pdf" -->
+			<!-- src="./descargas/matematicaestasahi-episodio-1.pdf" -->
 			<iframe	
-				src="http://www.ingverger.com.ar/descargas/matematicaestasahi-episodio-1.pdf"
+				src="./descargas/matematicaestasahi-episodio-1.pdf"
 				scrolling="yes" align="middle" marginwidth="10" marginheight="10"  name="search_iframe"
 				style="width:100%; height:520px;" frameborder="04">
 			</iframe>
@@ -57,8 +57,8 @@
 
 	<div class="row" style="background-color: #222;	padding: 8px; margin:10px 0; border-radius: 10px;">
 		<div class="col-md-12" style="text-align: left; padding: 12px;">
-			<a href="http://www.ingverger.com.ar/curriculum-resumido.php"><h4 style="color: #cccccc;">Acerca de mi</h4></a>
-			<a href="http://www.ingverger.com.ar/consultas.php"><h4 style="color: #cccccc;">Consultas</h4></a>
+			<a href="./curriculum-resumido.php"><h4 style="color: #cccccc;">Acerca de mi</h4></a>
+			<a href="./consultas.php"><h4 style="color: #cccccc;">Consultas</h4></a>
 		</div>
 	</div>
 	<!-- fin contenido -->

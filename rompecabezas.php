@@ -204,7 +204,7 @@
 		<div class="col-sm-4">
 			<h2>Tetraflexagono</h2>
 			<P>Rompecabezas creado por R. E. Neale. Se lo puede preparar uno mismo imprimiendo el archivo que se indica a continuación.
-			<P><A HREF="http://www.ingverger.com.ar/descargas/tetraflexagono.pdf">Descargar archivo PDF</A>
+			<P><A HREF="./descargas/tetraflexagono.pdf">Descargar archivo PDF</A>
 			<P>Se debe imprimir sobre ambas caras de una misma cartulina respetando la cabecera de hoja.
 			<P>Se cortará la hoja por las lineas continuas y se marcarán las lineas de trazos para hacer el plegado.<BR>
 			<P><IMG SRC="images/image002.jpg" WIDTH="128" HEIGHT="96" BORDER="0" ALT="Tetraflexagono paso 2">&nbsp;

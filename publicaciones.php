@@ -111,9 +111,9 @@
 		</script>
 
 
-		<dt><a href="http://www.ingverger.com.ar/ver-croquis-tecnico.php">Croquis Técnico</A>
+		<dt><a href="./ver-croquis-tecnico.php">Croquis Técnico</A>
 		<dd>Una guía para ejecutar croquis de calidad.
-		<dd>Ver o descargar cuadernillo de <A HREF="http://www.ingverger.com.ar/ver-croquis-tecnico.php">Croquis Técnico</A>.
+		<dd>Ver o descargar cuadernillo de <A HREF="./ver-croquis-tecnico.php">Croquis Técnico</A>.
 		<dd>&nbsp;
 
 		<a name="axonometrias-exactas"></a>
@@ -150,7 +150,7 @@
 		<dd>Picar aqui para ver, imprimir o descargar el <a href="ver-capacitacion-cad3d.php">Cuadernillo de CAD en 3D</A>
 		<dd>&nbsp;
 
-		<dt><A HREF="http://www.ingverger.com.ar/ver-cad3d-ejercicios.php">Ejercicios CAD 3D</A>
+		<dt><A HREF="./ver-cad3d-ejercicios.php">Ejercicios CAD 3D</A>
 		<dd>Problemas para resolver aplicando conceptos desarrollados de CAD 3D
 		<dd>&nbsp;
 
@@ -324,16 +324,16 @@
 
 		<dd>&nbsp;
 
-		<dt><A HREF="http://www.ingverger.com.ar/ver-matematica-para-divertirse.asp">
+		<dt><A HREF="./ver-matematica-para-divertirse.asp">
 		Matemáticas para divertirse</A>
 		<dd>Libro del genial Martin Gardner. Para hojear en linea y/o descargar.
-		<dd><a href="http://www.ingverger.com.ar/ver-matematica-para-divertirse.asp">picar aqui</A>
+		<dd><a href="./ver-matematica-para-divertirse.asp">picar aqui</A>
 		<dd>&nbsp;
 
-		<dt><A HREF="http://www.ingverger.com.ar/ver-acertijosdesamlloyd.asp">
+		<dt><A HREF="./ver-acertijosdesamlloyd.asp">
 		Los Acertijos de Sam Lloyd</A>
 		<dd>Otro libro de Martin Gardner. Para hojear en linea y/o descargar.
-		<dd><a href="http://www.ingverger.com.ar/ver-acertijosdesamlloyd.asp">picar aqui</A>
+		<dd><a href="./ver-acertijosdesamlloyd.asp">picar aqui</A>
 		<dd>&nbsp;
 
 		<p  align="right" style="margin-top: 0; margin-bottom: 0"><a href="#TopOfPage"> <img id="picture32" height=9 width=17 src="./images/botnarrb.gif" vspace=0 hspace=0 align="top" border=0 alt="arriba">arriba</a>

@@ -27,7 +27,7 @@
 		<div class="col-sm-8"><!-- 2da colu -->
 			<p>
 			<iframe width=90% height=550px frameborder=05
-				src="http://www.ingverger.com.ar/descargas/capacitacioncad3d-ejercicios-b.pdf">
+				src="./descargas/capacitacioncad3d-ejercicios-b.pdf">
 			</iframe>
 		</div>
 
