@@ -13,90 +13,109 @@
 	<link	rel="stylesheet"	href="./css/screen.css"	media="screen,projection,tv">
 
 </head>
+<style>
+/* estilo particular de esta pagina
+	usamos el wrapper
+*/
+
+.one-two {
+  grid-column: 1 / 3;
+	text-align: center;
+}
+
+.three-six {
+  grid-column: 3 / 7;
+}
+
+.one-six {
+  grid-column: 1 / 7;
+	text-align: center;
+}
+
+</style>
+
 
 <body>
 
 <div id="top">
 
-	<h1>Ing. Guillermo Verger</h1>
+	<h1>Ing. Guillermo Verger - Novedades </h1>
 
 	<input type="checkbox" id="menuShowHide">
 	<label for="menuShowHide"></label>
 	<ul id="mainMenu">
-		<li><a href="./index.html">Inicio                  </a></li>
+		<!-- apunta a esta pagina <li><a href="./index.html">Inicio </a></li> -->
 		<li><a href="./ingenio.html">Ingenio                      </a></li>
 		<li><a href="./aplicaciones.php">Aplicaciones            </a></li>
 		<li><a href="./temas-rep-graf.php">Representación Gráfica</a></li>
 	</ul>
 	
 	<!-- contenido especifico de la pagina. (Novedades) -->
+	<div class="wrapper lima_claro">
+		<div class="one-two">
+			<img src="images/sumado20_co.png" width="200" height="160" border="0" alt="SUMADO 20"/>
+		</div>
+		<div class="three-six">
+			<h2><a href="presentaSumado20.html">SUMADO 2.0</a></h2>
+			<p>Una nueva version del juego de lógica SUMADO. Ahora con variantes de resolución más rapida y muy accesibles.
+		</div>
+	</div>
+
 	<div class="wrapper lima_oscuro">
-		<div class="one">
-			<p><a href="sumaoculta.html">
+		<div class="one-two">
+			<p><a href="sumaoculta.php">
 			<img src="images/sumaoculta54.png" width="260" height="140" alt="sumaoculta" class="img-responsive"></a></p>		
 		</div>
-		<div class="two">
-			<h2><a href="sumaoculta.html">Suma Oculta</a></h2>
+		<div class="three-six">
+			<h2><a href="sumaoculta.php">Suma Oculta</a></h2>
 			<p>Se presenta una suma donde los dígitos han sido reemplazados por letras.<br>
 			Cada letra es un dígito diferente; a letras iguales corresponden dígitos iguales.<br>
 			Se trata de encontrar el valor de cada letra para que la suma sea correcta.. 
 			</p>
-			<a href="sumaoculta.html">Ver mas...</a>
+			<a href="sumaoculta.php">Ver mas...</a>
 		</div>
 	</div>
 
 	<div class="wrapper lima_claro">
-		<div class="one">
+		<div class="one-two">
 			<a href="https://play.google.com/store/apps/details?id=ar.com.ingverger.pentomania" target="_blank">
-				<img src="images/icono-P-512.svg" width="128" height="128" alt="icono pentomania" class="img-responsive">
 				<img src="images/caja_pentomania_xxs.jpg" width="170" height="103" border="0" alt="pentomania aplicaci&oacute;n web" class="img-responsive">
 			</a>
 		</div>
-		<div class="two"><p></p>
-				<h2><a href="https://play.google.com/store/apps/details?id=ar.com.ingverger.pentomania">Pentomania</a></h2>
+		<div class="three-six"><p></p>
+				<h2><a href="https://play.google.com/store/apps/details?id=ar.com.ingverger.pentomania" target="_blank">Pentomania</a></h2>
 				<p>Serie de rompecabezas con piezas poligonales.</p>
 				<p>Hay doce pentominos, piezas formadas por la union de cinco cuadraditos unitarios, y cinco tetrominos, piezas formadas por la union de cuatro cuadraditos unitarios.
 				<p>Los problemas que se plantean consisten en cubrir la grilla de 8 x 8 cuadraditos con los doce pentominos y un tetromino.</p>
-				<p>Dispones de una <a href="frame_pentomania.html">version web</a>
-				o bi&eacute;n la <a href="https://play.google.com/store/apps/details?id=ar.com.ingverger.pentomania">version m&oacute;vil</a> para tablets y celulares.
+				<p>Dispones de una <a href="frame_pentomania.php">version web</a>
+				o bi&eacute;n la <a href="https://play.google.com/store/apps/details?id=ar.com.ingverger.pentomania" target="_blank">version m&oacute;vil</a> para tablets y celulares.
 				</p>
 		</div>
 	</div>
 
-	<div class="wrapper lima_oscuro">
-		<div class="one">
-			<p><a href="49rompecocos.html"><img src="images/49rompecocos-0s.jpg" width="267" height="244" alt="rompecabeza 49 rompecocos" class="img-responsive"></a></p>
-		</div>
-		<div class="two">
-			<h2><a href="49rompecocos.html">49 Rompe Cocos</a></h2>
-			<p>El objetivo es disponer las 16 piezas dentro de la caja, en dos capas, de forma tal que se pueda ver un n&uacute;mero por vez.
-			<p>Hay cuarenta y nueve n&uacute;meros, es decir, se tienen cuarenta y nueve rompecabezas en uno.</p>
-			<p>En cuanto al grado de dificultad digamos que es demandante. O sea que garantiza un largo rato de entretenimiento.</p>
-		</div>
-	</div>
-
 
 	<div class="wrapper lima_claro">
-		<div class="one">
+		<div class="one-two">
 				<a href="https://www.ellitoral.com/index.html/id_um/195976" >
 					<img src="images/nota-el-litoral.JPG" width="294" height="255" border="0" class="img-responsive" alt="">
 				</a>
 		</div>
-		<div class="two">
-			<a href="https://www.ellitoral.com/index.html/id_um/195976"><h2>SEBASTI&#x00C1;N CASSE	para diario "El Litoral"</h2></a>
-			<h3>Mensa: la organizaci&#x00F3;n formada por el 2% m&aacute;s inteligente del mundo que tiene sede en Santa Fe</h3>
-			<p>Se trata de una prestigiosa asociaci&oacute;n internacional sin fines de lucro que s&oacute;lo admite a personas con alto coeficiente intelectual. La historia de un santafesino que es parte del selecto grupo.
-			<br><a href="https://www.ellitoral.com/index.html/id_um/195976" target="_blank">Ir a la nota</a>
+		<div class="three-six">
+			<a href="https://www.ellitoral.com/index.php/id_um/195976-mensa-la-organizacion-formada-por-el-2-mas-inteligente-del-mundo-que-tiene-sede-en-santa-fe-superdotados-informacion-general.html" target="_blank">
+				<h2>SEBASTI&#x00C1;N CASSE	para diario "El Litoral"</h2></a>
+				<h3>Mensa: la organizaci&#x00F3;n formada por el 2% m&aacute;s inteligente del mundo que tiene sede en Santa Fe</h3>
+				<p>Se trata de una prestigiosa asociaci&oacute;n internacional sin fines de lucro que s&oacute;lo admite a personas con alto coeficiente intelectual. La historia de un santafesino que es parte del selecto grupo.
+				<br><a href="https://www.ellitoral.com/index.php/id_um/195976-mensa-la-organizacion-formada-por-el-2-mas-inteligente-del-mundo-que-tiene-sede-en-santa-fe-superdotados-informacion-general.html" target="_blank">Ir a la nota</a>
 			</p>
 		</div>
 	</div>
 
 
 	<div class="wrapper lima_oscuro">
-		<div class="one">
+		<div class="one-two">
 			<a href="./mtimer"><img src="images/phone-inicio.jpg" width="282" height="170" border="0" alt="M-TIMER" class="img-responsive"></a>
 		</div>
-		<div class="two">
+		<div class="three-six">
 			<a href="./mtimer"><h2>M-Timer</h2></a>
 			<h6>Un temporizador con n&uacute;meros gigantes</h6>
 			<p>
@@ -114,28 +133,27 @@
 
 
 	<div class="wrapper lima_claro">
-		<div class="one">
-			<a href="sumado/index.html" target="_blank"><img src="images/sumadoenlinea.jpg" width="247" height="190" class="img-responsive" alt=""></a>
+		<div class="one-two">
+			<a href="sumado/index.html" target="_blank"><img src="images/sumadoenlinea.jpg" width="247" height="190" alt=""></a>
 		</div>
-		<div class="two">
+		<div class="three-six">
 			<h2><a href="https://play.google.com/store/apps/details?id=ar.com.ingverger.sumado">SUMADO. Un juego de l&oacute;gica</a></h2>
 			<p>Una oportunidad de ejercicio mental y diversi&oacute;n al mismo tiempo.</p>
 			<p>Se trata de un conjunto de c&iacute;rculos unidos por l&iacute;neas que forman cuadrados y tri&aacute;ngulos. &nbsp;En los c&iacute;rculos o v&eacute;rtices de cada figura se ha asignado un n&uacute;mero diferente entre uno y nueve. &nbsp;En cada figura se muestra la suma resultante de los correspondientes v&eacute;rtices. El objeto del juego es deducir los valores asignados a cada c&iacute;rculo.  Se dan como ayuda los valores de dos v&eacute;rtices.</p>		
 			<h4><a href="sumado-imprimir.html">imprimirlo para resolver con papel y l&aacute;piz</a></h4>
 			<h4><a href="sumado/index.html" target="_blank">Jugar en l&iacute;nea</a></h4>
-			<h4><a href="https://play.google.com/store/apps/details?id=ar.com.ingverger.sumado">Versi&oacute;n Android en Play Store</a></h4>
-			<p><a href="https://play.google.com/store/apps/details?id=ar.com.ingverger.sumado">Descargar</a> la versi&oacute;n verificada del juego para tel&eacute;fonos Android.
+			<h4><a href="https://play.google.com/store/apps/details?id=ar.com.ingverger.sumado">Versi&oacute;n Android verificada por Google.</a></h4>
 		</div>
 	</div>
 
 
 	<div class="wrapper lima_oscuro">
-		<div class="one">
+		<div class="one-two">
 			<a href="revista-enigma.html">
-			<img src="images/enigma.jpg" width="102" height="132" style="border: #484 1pt solid;"  alt="Revista Enigma, ingenio, puzzles, resoluci&oacute;n de problemas" class="img-responsive"></a></p>
+			<img src="images/enigma.jpg" width="102" height="132" style="border: #484 1pt solid;"  alt="Revista Enigma, ingenio, puzzles, resoluci&oacute;n de problemas"></a></p>
 		</div>
-		<div class="two">
-			<h4><A HREF="revista-enigma.html">Revista Enigma</A></h4>
+		<div class="three-six">
+			<h2><A HREF="revista-enigma.html">Revista Enigma</A></h2>
 			<p style="text-align:right;">
 			<p>Enigma es el bolet&iacute;n informativo de Puzzle SIG, Grupo de Inter&eacute;s Especial en Problemas de Ingenio de Mensa Internacional.
 			<P>Participan personas aficcionadas al dise&#x00F1;o y resoluci&oacute;n de rompecabezas, acertijos, problemas de ingenio, invenci&oacute;n de nuevos tipos de puzzles y temas relacionados.

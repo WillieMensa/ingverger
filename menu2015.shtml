@@ -8,16 +8,11 @@
 		<span class="icon-bar"></span>
 	  </button>
 	  <!-- <a class="navbar-brand"  class="active" href="index.php">&nbsp;&nbsp;Ing. Verger </a> -->
-	  <a class="navbar-brand active" href="index.html">&nbsp;&nbsp;Ing. Verger </a>
+	  <a class="navbar-brand active" href="index.html">&nbsp;&nbsp;Inicio </a>
 	</div>
 
 	<div class="collapse navbar-collapse" id="myNavbar">
 		<ul class="nav navbar-nav">
-
-			<li class="dropdown">
-				<!-- <a class="dropdown-toggle" data-toggle="dropdown" href="novedades.html">Novedades></span></a> -->
-				<a class="dropdown-toggle" href="novedades.php">Novedades</span></a>
-			</li>
 
 			<li class="dropdown">
 			  <a class="dropdown-toggle" href="ingenio.html">Ingenio</a>

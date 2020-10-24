@@ -1,3 +1,8 @@
+/*
+	screen.css
+	copiado a screen-plqpp.css
+*/
+
 /* null margins and padding to give good cross-browser baseline */
 html,body,address,blockquote,div,
 form,fieldset,caption,
@@ -30,6 +35,15 @@ hr {
 body {
 	padding:1em;
 	font:normal 100%/150% arial,helvetica,sans-serif;
+	background:#dff5d6;
+}
+
+body {
+	margin: 0 auto;
+	max-width: 900px;
+	font: normal 100%/150% 'roboto_mediumregular', sans-serif;
+	padding:0.1em;
+	/* font:normal 100%/150% arial,helvetica,sans-serif; */	
 	background:#dff5d6;
 }
 
@@ -87,7 +101,7 @@ p {
 #mainMenu a:active,
 #mainMenu a:focus,
 #mainMenu a:hover {
-	background:#AEC;
+	background:#89bb5d;
 }
 
 @media (max-width:38em) {
@@ -168,24 +182,40 @@ p {
 }
 .wrapper {
 	display: grid;
-	grid-template-columns: repeat(4, 1fr);
-	grid-gap: 10px;
+	grid-template-columns: repeat(6, 1fr);
+	grid-gap: 8px;
 	grid-auto-rows: minmax(080px, auto);
 }
 
 .one {
-	grid-column: 1;
-	grid-row: 1;
+	grid-column: 1 ;
+	text-align: center;
 }
 .two { 
-	grid-column: 2 / 5;
-	grid-row: 1;
+	grid-column: 2;
+}
+
+.three { 
+	grid-column: 3;
+}
+
+.four { 
+	grid-column: 4;
+}
+
+.five { 
+	grid-column: 5;
+}
+
+.seis { 
+	grid-column: 6;
 }
 
 .central {
-	grid-column: 2 / 4;
+	grid-column: 3 / 5;
 	grid-row: 1;
 }
+/*
 .four {
 	grid-column: 3;
 	grid-row: 3;
@@ -198,6 +228,7 @@ p {
 	grid-column: 3;
 	grid-row: 4;
 }
+*/
 
 /*	ver paleta de colores w3schools */
 .lima_oscuro {
@@ -210,3 +241,8 @@ p {
 	background-color: #e6efb3;
 }
 
+/* para tener imagenes responsivas */
+.img-responsive {
+  width: 100%;
+  height: auto;
+}
