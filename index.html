@@ -1,144 +1,168 @@
 <!DOCTYPE html>
-<html lang="en" >
-
+<html lang="es">
 <head>
+	<meta charset="UTF-8">
+	<meta	name="viewport"	content="width=device-width,height=device-height,initial-scale=1">
 	<!-- tutorial de https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Grids	-->
-	<title>Ing. Guillermo Verger</title> 
-
-	<meta charset="utf-8">
 	<meta name="description" content="Ingenio, aplicaciones Android y representación gráfica">
 	<meta name="keywords" content="Ingenio, Lógica, Rompecabezas, representación gráfica, Sistemas de Representación,CAD 3D, axonometría,
 		CAD tridimensional, caligrafía técnica, cortes y secciones,dibujo tecnico,elipses,empalmes,geometria descriptiva, ingeniería, vistas">
 
-<style>
+	<title>Ing. Guillermo Verger</title> 
 
-	body {
-	  width: 90%;
-	  max-width: 1200px;
-	  margin: 0.6em auto;
-	  font: 1.2em/1.2 Roboto, Helvetica, sans-serif;
-		padding: 2px;
-		background-image:linear-gradient( to bottom, #2288ff, #114444 );
-		background-repeat: no-repeat;
-		background-attachment: fixed;
-		background-position: center; 
-
-	}
-			
-	.bg {
-		animation:slide 10s ease-in-out infinite alternate;
-		background-image: linear-gradient(-75deg, #002 50%, #048 50%);
-		bottom:0;
-		left:-50%;
-		opacity:.1;		/*.5;*/
-		position:fixed;
-		right:-50%;
-		top:0;
-		z-index:-1;
-	}
-
-
-	.container > div {
-	  border-radius: 15px;
-	  padding: 20px;
-	  background-color: rgb(207,232,220);
-	  /*	border: 4px solid rgb(79,185,227);	*/
-		text-align: center;
-	}          
- 
-	.container {
-		display: grid;
-	    grid-template-columns: repeat( 3, 1fr );
-	    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-			grid-auto-rows: 180px;
-			grid-auto-rows: minmax(180px, auto);
-	    grid-gap: 40px;
-	  padding: 20px;
-	}
-
-	@keyframes slide {
-		0% {
-			transform:translateX(-25%);
-		}
-		100% {
-			transform:translateX(25%);
-		}
-	}
-
-
-</style>
-
+	<link	rel="stylesheet"	href="./css/screen.css"	media="screen,projection,tv">
 
 </head>
 
 <body>
 
-<!-- Learn about this code on MDN: https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Grids -->
+<div id="top">
 
-<!-- <a id="TopOfPage"></a> -->
-<div class="row" style="background-color: #222;	padding: 8px; margin:8px 0; border-radius: 10px;">
-	<div class="col-md-" style="text-align: left; padding: 8px;">
-		<h3 style="color: #cccccc;">Ing. Guillermo Verger</h3>
-	</div>
-</div>
-<div class="container">
+	<h1>Ing. Guillermo Verger</h1>
 
-	<div>
-		<a href="./novedades.php">
-		<img src="images/novedades.png" width="96" height="96" border="0" alt="">
-    <h3>novedades</h3>
-		<p>&nbsp;</p>
-		</a>
-	</div>
-
-	<div>
-		<a href="ingenio.html">
-		<img src="images/cerebro.png" width="96" height="96" border="0"	alt="">
-		<h3>ingenio</h3>
-		<p>&nbsp;</p>
-		</a>
-	</div>
-
-	<div>
-		<a href="./aplicaciones.php">
-		<img src="images/android_300x400.jpg" width="96" height="96" border="0"	alt="">
-		<h3>aplicaciones</h3>
-		<!-- <p>Aplicaciones gratuitas para navegadores y Android.</p> -->
-		</a>
-	</div>
-
-	<div>
-		<a href="./temas-rep-graf.php">
-		<img src="images/compas.png" width="96" height="96" border="0" alt="">
-		<h3>Representaci&oacute;n Gr&aacute;fica</h3>
-		<p>&nbsp;</p>
-		</a>
-	</div>
-
-	<!-- 
-	<div>
-		<a href="./publicaciones.php">
-		<img src="images/libro.png" width="96" height="96" border="0" alt="">
-		<h3>publicaciones</h3>
-		<p>&nbsp;</p>
-		</a>
-	</div>
-
-		<div><a href="window.history.back()">
-			<img src="images/salida.png" width="96" height="96" border="0" alt="">
-			<br>Volver</a>
+	<input type="checkbox" id="menuShowHide">
+	<label for="menuShowHide"></label>
+	<ul id="mainMenu">
+		<li><a href="./index.html">Inicio                  </a></li>
+		<li><a href="./ingenio.html">Ingenio                      </a></li>
+		<li><a href="./aplicaciones.php">Aplicaciones            </a></li>
+		<li><a href="./temas-rep-graf.php">Representación Gráfica</a></li>
+	</ul>
+	
+	<!-- contenido especifico de la pagina. (Novedades) -->
+	<div class="wrapper lima_oscuro">
+		<div class="one">
+			<p><a href="sumaoculta.html">
+			<img src="images/sumaoculta54.png" width="260" height="140" alt="sumaoculta" class="img-responsive"></a></p>		
 		</div>
-	 -->
+		<div class="two">
+			<h2><a href="sumaoculta.html">Suma Oculta</a></h2>
+			<p>Se presenta una suma donde los dígitos han sido reemplazados por letras.<br>
+			Cada letra es un dígito diferente; a letras iguales corresponden dígitos iguales.<br>
+			Se trata de encontrar el valor de cada letra para que la suma sea correcta.. 
+			</p>
+			<a href="sumaoculta.html">Ver mas...</a>
+		</div>
+	</div>
 
-</div> 
+	<div class="wrapper lima_claro">
+		<div class="one">
+			<a href="https://play.google.com/store/apps/details?id=ar.com.ingverger.pentomania" target="_blank">
+				<img src="images/icono-P-512.svg" width="128" height="128" alt="icono pentomania" class="img-responsive">
+				<img src="images/caja_pentomania_xxs.jpg" width="170" height="103" border="0" alt="pentomania aplicaci&oacute;n web" class="img-responsive">
+			</a>
+		</div>
+		<div class="two"><p></p>
+				<h2><a href="https://play.google.com/store/apps/details?id=ar.com.ingverger.pentomania">Pentomania</a></h2>
+				<p>Serie de rompecabezas con piezas poligonales.</p>
+				<p>Hay doce pentominos, piezas formadas por la union de cinco cuadraditos unitarios, y cinco tetrominos, piezas formadas por la union de cuatro cuadraditos unitarios.
+				<p>Los problemas que se plantean consisten en cubrir la grilla de 8 x 8 cuadraditos con los doce pentominos y un tetromino.</p>
+				<p>Dispones de una <a href="frame_pentomania.html">version web</a>
+				o bi&eacute;n la <a href="https://play.google.com/store/apps/details?id=ar.com.ingverger.pentomania">version m&oacute;vil</a> para tablets y celulares.
+				</p>
+		</div>
+	</div>
 
-	<div style="background-color: #222;	padding: 8px; margin:10px 0; border-radius: 10px;">
+	<div class="wrapper lima_oscuro">
+		<div class="one">
+			<p><a href="49rompecocos.html"><img src="images/49rompecocos-0s.jpg" width="267" height="244" alt="rompecabeza 49 rompecocos" class="img-responsive"></a></p>
+		</div>
+		<div class="two">
+			<h2><a href="49rompecocos.html">49 Rompe Cocos</a></h2>
+			<p>El objetivo es disponer las 16 piezas dentro de la caja, en dos capas, de forma tal que se pueda ver un n&uacute;mero por vez.
+			<p>Hay cuarenta y nueve n&uacute;meros, es decir, se tienen cuarenta y nueve rompecabezas en uno.</p>
+			<p>En cuanto al grado de dificultad digamos que es demandante. O sea que garantiza un largo rato de entretenimiento.</p>
+		</div>
+	</div>
+
+
+	<div class="wrapper lima_claro">
+		<div class="one">
+				<a href="https://www.ellitoral.com/index.html/id_um/195976" >
+					<img src="images/nota-el-litoral.JPG" width="294" height="255" border="0" class="img-responsive" alt="">
+				</a>
+		</div>
+		<div class="two">
+			<a href="https://www.ellitoral.com/index.html/id_um/195976"><h2>SEBASTI&#x00C1;N CASSE	para diario "El Litoral"</h2></a>
+			<h3>Mensa: la organizaci&#x00F3;n formada por el 2% m&aacute;s inteligente del mundo que tiene sede en Santa Fe</h3>
+			<p>Se trata de una prestigiosa asociaci&oacute;n internacional sin fines de lucro que s&oacute;lo admite a personas con alto coeficiente intelectual. La historia de un santafesino que es parte del selecto grupo.
+			<br><a href="https://www.ellitoral.com/index.html/id_um/195976" target="_blank">Ir a la nota</a>
+			</p>
+		</div>
+	</div>
+
+
+	<div class="wrapper lima_oscuro">
+		<div class="one">
+			<a href="./mtimer"><img src="images/phone-inicio.jpg" width="282" height="170" border="0" alt="M-TIMER" class="img-responsive"></a>
+		</div>
+		<div class="two">
+			<a href="./mtimer"><h2>M-Timer</h2></a>
+			<h6>Un temporizador con n&uacute;meros gigantes</h6>
+			<p>
+				M-Timer permite controlar un tiempo establecido previamente y avisa cuando se ha cumplido.
+				El tiempo, fijado por defecto, se modifica con las flechas que apuntan hacia arriba para incrementar y hacia abajo para decrementar. 
+				Una vez establecido el tiempo se esta en condiciones de iniciar la cuenta regresiva. Esto se hace picando en el boton inicio.
+				En pantalla se presenta el tiempo restante. Cuando se ha completado el tiempo comienza un sonido audible para alertar sobre esta situaci&oacute;n.
+				Se puede interrumpir el conteo de tiempo en cualquier instante pulsando el boton detener y reanudar luego.
+				M-Timer puede configurarse para idioma Ingl&eacute;s, Espa&#x00f1;ol y Alem&aacute;n.
+
+			</p>
+		</div>
+	</div>
+
+
+
+	<div class="wrapper lima_claro">
+		<div class="one">
+			<a href="sumado/index.html" target="_blank"><img src="images/sumadoenlinea.jpg" width="247" height="190" class="img-responsive" alt=""></a>
+		</div>
+		<div class="two">
+			<h2><a href="https://play.google.com/store/apps/details?id=ar.com.ingverger.sumado">SUMADO. Un juego de l&oacute;gica</a></h2>
+			<p>Una oportunidad de ejercicio mental y diversi&oacute;n al mismo tiempo.</p>
+			<p>Se trata de un conjunto de c&iacute;rculos unidos por l&iacute;neas que forman cuadrados y tri&aacute;ngulos. &nbsp;En los c&iacute;rculos o v&eacute;rtices de cada figura se ha asignado un n&uacute;mero diferente entre uno y nueve. &nbsp;En cada figura se muestra la suma resultante de los correspondientes v&eacute;rtices. El objeto del juego es deducir los valores asignados a cada c&iacute;rculo.  Se dan como ayuda los valores de dos v&eacute;rtices.</p>		
+			<h4><a href="sumado-imprimir.html">imprimirlo para resolver con papel y l&aacute;piz</a></h4>
+			<h4><a href="sumado/index.html" target="_blank">Jugar en l&iacute;nea</a></h4>
+			<h4><a href="https://play.google.com/store/apps/details?id=ar.com.ingverger.sumado">Versi&oacute;n Android en Play Store</a></h4>
+			<p><a href="https://play.google.com/store/apps/details?id=ar.com.ingverger.sumado">Descargar</a> la versi&oacute;n verificada del juego para tel&eacute;fonos Android.
+		</div>
+	</div>
+
+
+	<div class="wrapper lima_oscuro">
+		<div class="one">
+			<a href="revista-enigma.html">
+			<img src="images/enigma.jpg" width="102" height="132" style="border: #484 1pt solid;"  alt="Revista Enigma, ingenio, puzzles, resoluci&oacute;n de problemas" class="img-responsive"></a></p>
+		</div>
+		<div class="two">
+			<h4><A HREF="revista-enigma.html">Revista Enigma</A></h4>
+			<p style="text-align:right;">
+			<p>Enigma es el bolet&iacute;n informativo de Puzzle SIG, Grupo de Inter&eacute;s Especial en Problemas de Ingenio de Mensa Internacional.
+			<P>Participan personas aficcionadas al dise&#x00F1;o y resoluci&oacute;n de rompecabezas, acertijos, problemas de ingenio, invenci&oacute;n de nuevos tipos de puzzles y temas relacionados.
+			<p>El contenido incluye problemas de diferentes tipos; gran parte de l&oacute;gica y matem&aacute;ticas; muchos gr&aacute;ficos y muy poco texto escrito en ingl&eacute;s.
+			<p>Picando aqui se puede revisar en linea, imprimir o descargar 
+			<A HREF="revista-enigma.html">el &uacute;ltimo n&uacute;mero de la revista Enigma.</A>
+		</div>
+	</div>
+
+	<div class="row" style="background-color: #222;	padding: 8px; margin:10px 0; border-radius: 10px;">
 		<div class="col-md-12" style="text-align: left; padding: 12px;">
-			<a href="./curriculum-resumido.php"><h4 style="color: #cccccc;">Acerca de mi</h4></a>
-			<a href="./consultas.php"><h4 style="color: #cccccc;">Consultas</h4></a>
+			<a href="./curriculum-resumido.html"><h4 style="color: #cccccc;">Acerca de mi</h4></a>
+			<a href="./consultas.html"><h4 style="color: #cccccc;">Consultas</h4></a>
 		</div>
 	</div>
 	<!-- fin contenido -->
+</div>
+
+	<!-- fin contenido -->
+
+	<div id="footer">
+		<hr>
+		by Willie Verger, 2020
+	<!-- #footer --></div>
+
+
+<!-- #top --></div>
 
 </body>
 

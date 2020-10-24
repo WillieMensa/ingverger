@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 	<meta charset="UTF-8">
 	<meta	name="viewport"	content="width=device-width,height=device-height,initial-scale=1">
@@ -12,63 +11,9 @@
 
 	<link	rel="stylesheet"	href="./css/screen.css"	media="screen,projection,tv">
 
-	<!-- particular de esta pagina --><style>
-
-		.wrapper > div {
-			padding: 10px;
-		}
-		.wrapper {
-			display: grid;
-			grid-template-columns: repeat(4, 1fr);
-			grid-gap: 10px;
-			grid-auto-rows: minmax(080px, auto);
-		}
-
-		.one {
-			grid-column: 1;
-			grid-row: 1;
-		}
-		.two { 
-			grid-column: 2 / 5;
-			grid-row: 1;
-		}
-
-		.central {
-			grid-column: 2 / 4;
-			grid-row: 1;
-		}
-		.four {
-			grid-column: 3;
-			grid-row: 3;
-		}
-		.five {
-			grid-column: 2;
-			grid-row: 4;
-		}
-		.six {
-			grid-column: 3;
-			grid-row: 4;
-		}
-
-		/*	ver paleta de colores w3schools */
-		.lima_oscuro {
-			background-color: #a3b927;
-/*			padding: 10px;
-			margin: 1em auto;
-			*/
-		}
-		.lima_claro {
-			background-color: #e6efb3;
-/*			padding: 10px;
-			margin: 1em auto;*/
-		}
-
-	</style>
-
 </head>
 
 <body>
-<?php include 'control_intrusos.php'; ?>
 
 <div id="top">
 
@@ -77,104 +22,103 @@
 	<input type="checkbox" id="menuShowHide">
 	<label for="menuShowHide"></label>
 	<ul id="mainMenu">
-		<li><a href="./novedades.php">Novedades                  </a></li>
+		<li><a href="./index.html">Inicio                  </a></li>
 		<li><a href="./ingenio.html">Ingenio                      </a></li>
-		<li><a href="./aplicaciones.php">Aplicaciones            </a></li>
-		<li><a href="./temas-rep-graf.php">Representación Gráfica</a></li>
+		<li><a href="./aplicaciones.html">Aplicaciones            </a></li>
+		<li><a href="./temas-rep-graf.html">Representación Gráfica</a></li>
 	</ul>
 	
-	<a name="TopOfPage"></a>	
 
 	<div class="wrapper lima_oscuro">
-		<div class="one"><h3><a href="sumaoculta.php">Suma Oculta</a></h3></div>
+		<div class="one"><h3><a href="sumaoculta.html">Suma Oculta</a></h3></div>
 		<div class="two">
 			<p>Se presenta una suma donde los dígitos han sido reemplazados por letras. 
 			Cada letra es un dígito diferente; a letras iguales corresponden dígitos iguales.
 			Encontrar el valor de cada letra para que la suma sea correcta.. 
-			<a href="sumaoculta.php">Ver mas...</a>
+			<a href="sumaoculta.html">Ver mas...</a>
 		</div>
 	</div>
 
 	<div class="wrapper lima_claro">
-		<div class="one"><h3><a href="49rompecocos.php">49 rompe cocos</a></h3></div>
+		<div class="one"><h3><a href="49rompecocos.html">49 rompe cocos</a></h3></div>
 		<div class="two"><p>El objetivo es disponer las 16 piezas dentro de la caja, en dos capas...
-				<a href="49rompecocos.php">Ver mas...</a>
+				<a href="49rompecocos.html">Ver mas...</a>
 		</div>
 	</div>
 
 	<div class="wrapper lima_oscuro">
 		<div class="one">
-			<h3><a href="cuadrominos.php">Cuadr&oacute;minos</a></h3>			
+			<h3><a href="cuadrominos.html">Cuadr&oacute;minos</a></h3>			
 		</div>
 		<div class="two">
 			<p>Cuadróminos es un juego de mesa; variante del dominó tradicional. 
-			<a href="cuadrominos.php">Ver mas...</a>
+			<a href="cuadrominos.html">Ver mas...</a>
 		</div>
 	</div>
 
 	<div class="wrapper lima_claro">
 		<div class="one">
-			<h3><a href="lareglasecreta.php">La regla secreta</a></h3>			
+			<h3><a href="lareglasecreta.html">La regla secreta</a></h3>			
 		</div>
 		<div class="two">
 			<p>Un juego de estrategia e inducción...
-			<a href="lareglasecreta.php">Ver mas...</a>
+			<a href="lareglasecreta.html">Ver mas...</a>
 		</div>
 	</div>
 
 	<div class="wrapper lima_oscuro">
 		<div class="one">
-			<h3><a href="problemas_ingenio_2020.php">Problemas de ingenio</a></h3>			
+			<h3><a href="problemas_ingenio_2020.html">Problemas de ingenio</a></h3>			
 		</div>
 		<div class="two">
 			<p>Desafíos para poner a prueba tu ingenio y ejercitar la resolución de problemas. 
-			<a href="problemas_ingenio_2020.php">Ver mas...</a>
+			<a href="problemas_ingenio_2020.html">Ver mas...</a>
 		</div>
 	</div>
 
 	<div class="wrapper lima_claro">
 		<div class="one">
-			<h3><a href="rompecabezas.php">Rompecabezas</a></h3>			
+			<h3><a href="rompecabezas.html">Rompecabezas</a></h3>			
 		</div>
 		<div class="two">
 			<p>Rompecabezas varios...
-			<a href="rompecabezas.php">Ver mas...</a>
+			<a href="rompecabezas.html">Ver mas...</a>
 		</div>
 	</div>
 
 	<div class="wrapper lima_oscuro">
 		<div class="one">
-			<h3><a href="rubik.php">Cubo de Rubik</a></h3>			
+			<h3><a href="rubik.html">Cubo de Rubik</a></h3>			
 		</div>
 		<div class="two">
 			<p>Notas que hice, originalmente para mi mismo, como un recordatorio de los pasos que debía seguir para resolver el cubo de Rubik.
-			<a href="rubik.php">Ver mas...</a>
+			<a href="rubik.html">Ver mas...</a>
 		</div>
 	</div>
 
 	<div class="wrapper lima_claro">
 		<div class="one">
-			<h3><a href="solucioncubosteinhaus.php">Soluci&#243;n cubo de Steinhaus</a></h3>			
+			<h3><a href="solucioncubosteinhaus.html">Soluci&#243;n cubo de Steinhaus</a></h3>			
 		</div>
 		<div class="two">
 			<p>Video que muestra como armar el cubo de Steinhaus. 
-			<a href="solucioncubosteinhaus.php">Ver mas...</a>
+			<a href="solucioncubosteinhaus.html">Ver mas...</a>
 		</div>
 	</div>
 
 	<div class="wrapper lima_oscuro">
 		<div class="one">
-			<h3><a href="sudoku.php">SUDOKU</a></h3>			
+			<h3><a href="sudoku.html">SUDOKU</a></h3>			
 		</div>
 		<div class="two">
 			<p>Sencillo y atrapante pasatiempo sirve para estimular las neuronas y...
-			<a href="sudoku.php">Ver mas...</a>
+			<a href="sudoku.html">Ver mas...</a>
 		</div>
 	</div>
 
 	<div class="wrapper lima_claro">
 		<div class="one">
-			<h4><a href="revista-enigma.php">Revista Enigma</h4>
+			<h4><a href="revista-enigma.html">Revista Enigma</h4>
 			<img src="images/enigma.jpg" width="102" height="132" style="border: #484 1pt solid;"  alt="Revista Enigma, ingenio, puzzles, resoluci&oacute;n de problemas" class="img-responsive"></a>
 		</div>
 		<div class="two">			
@@ -183,7 +127,7 @@
 			<P>Participan personas aficcionadas al dise&#x00F1;o y resoluci&oacute;n de rompecabezas, acertijos, problemas de ingenio, invenci&oacute;n de nuevos tipos de puzzles y temas relacionados.
 			<p>El contenido incluye problemas de diferentes tipos; gran parte de l&oacute;gica y matem&aacute;ticas; muchos gr&aacute;ficos y muy poco texto escrito en ingl&eacute;s.
 			<p>Picando aqui se puede revisar en linea, imprimir o descargar 
-			<A HREF="revista-enigma.php">el &uacute;ltimo n&uacute;mero de la revista Enigma.</A>
+			<A HREF="revista-enigma.html">el &uacute;ltimo n&uacute;mero de la revista Enigma.</A>
 		</div>
 	</div>
 
@@ -198,11 +142,8 @@
 		by Willie Verger, 2020
 	<!-- #footer --></div>
 
-</div>
 
-
-	
-	<!-- #top --></div>
+<!-- #top --></div>
 
 </body>
 </html>
