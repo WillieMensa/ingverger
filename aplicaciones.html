@@ -1,79 +1,94 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
-	<meta charset="ISO-8859-1">
-	<title>Aplicaciones</title>
+	<meta charset="UTF-8">
+	<meta	name="viewport"	content="width=device-width,height=device-height,initial-scale=1">
+	<!-- tutorial de https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Grids	-->
+	<meta name="description" content="Revista Enigma; boletin informativo de Puzzle SIG. Problemas de ingenio.">
+	<meta name="keywords" content="LÃ³gica, Rompecabezas, representaciÃ³n grÃ¡fica, dibujo tecnico, revista enigma, Enigma Magazine,	ingenierÃ­a, ingenio">
 
-	<!-- Etiqueta para que google verifique propiedad del sitio -->
-	<meta name="google-site-verification" content="r3cCA4myBLQLXlQIYf_nW8ezBopbBrOM8nvgXL56UKM" />
-	<meta name="description" content="Aplicaciones para Android y navegadores. Clever Games">
-	<meta name="keywords" content="Clever Games, Pentomania, SUMADO, Memorioso, acertijos, caligrafía técnica, dibujo tecnico, ingeniería, juegos de ingenio, rompecabezas, sudoku gratis para imprimir, timer de numeros gigantes.">
+	<title>Willie Verger</title>
 
-	<?php include "genericheading.shtml";?>
+	<link	rel="stylesheet"	href="./css/screen.css"	media="screen,projection,tv">
 
-	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-	<link rel="stylesheet" href="./css/_ingverger.css" >
+<style>
+/* estilo particular de esta pagina
+	usamos el wrapper
+*/
+
+.one-two {
+  grid-column: 1 / 3;
+	text-align: center;
+}
+
+.one-four {
+  grid-column: 1 / 5;
+}
+
+.three-six {
+  grid-column: 3 / 7;
+}
+
+.five-six {
+  grid-column: 5 / 7;
+}
+
+.one-six {
+  grid-column: 1 / 7;
+}
+</style>
 
 </head>
 
-<!-- <body id="grad1">  -->
-<body class="claro">
-<?php include 'control_intrusos.php'; ?>
+<body>
+<div id="top">
+	<h1> Aplicaciones </h1>
 
-<div class="container">
-	<?php include "menu2015.shtml";?>
-
-	<a name="TopOfPage"></a>
+	<input type="checkbox" id="menuShowHide">
+	<label for="menuShowHide"></label>
+	<ul id="mainMenu">
+		<li><a href="./index.html">Inicio </a></li>
+		<li><a href="./ingenio.html">Ingenio       </a></li>
+		<li><a href="./aplicaciones.html">Aplicaciones            </a></li>
+		<li><a href="./temas-rep-graf.php">RepresentaciÃ³n GrÃ¡fica</a></li>
+	</ul>
+	
 	<!-- Contenido de la pagina -->
-	<div class="row fila10">
-		<div class="col-sm-12">
-			<h1> Aplicaciones </h1>
-		</div>
-	</div>
 
-
-	<a name="Desbloqueame"></a>
-	<div class="row fila10">
-		<div class="col-sm-4">
-			<p style="text-align: center;"><br>
+	<div class="wrapper lima_oscuro">
+		<div class="one-two">
 			<a href="https://play.google.com/store/apps/details?id=ar.com.ingverger.unlockme">
 				<img src="images/desbloqueame-128x128.png" width="96" height="96" border="0" alt="Desbloqueame en Play Store">
 			</a>			
 		</div>
-		<div class="col-sm-8">
+		<div class="three-six">			
 			<a href="https://play.google.com/store/apps/details?id=ar.com.ingverger.unlockme">
 				<h2>Desbloqueame</h2>
 			</a>
 			<p>Es un h&iacute;brido de Mastermind y el patr&oacute;n de bloqueo de Android. Un juego que tal vez llegues a odiar.
 			Veremos.
 			</p>
-			<p>&nbsp;</p>
 		</div>
 	</div>
 
 	<a name="pentomania"></a>
-	<div class="row fila01">
-		<div class="col-sm-8">
+	<div class="wrapper lima_claro">
+		<div class="one-two">			
+			<a href="https://play.google.com/store/apps/details?id=ar.com.ingverger.pentomania" target="_blank">
+				<img src="images/icono-p-512.jpg" width="96" height="96" alt="icono pentomania" ></a>			
+		</div>
+		<div class="three-six">
 			<a href="https://play.google.com/store/apps/details?id=ar.com.ingverger.pentomania" target="_blank">
 				<h2>Pentomania</h2>
 			</a>
 			<p>Es una serie de rompecabezas, o puzzles, que demandan razonamiento, familiarizaci&oacute;n con las piezas involucradas, prueba y error, y paciencia para ser resuelto.
 			</p>
-			<p><a href="pentomania.php">Ver más...</a>
-			</p>
-		</div>
-		<div class="col-sm-4">
-			<p style="text-align: center;"><br>
-			<a href="https://play.google.com/store/apps/details?id=ar.com.ingverger.pentomania" target="_blank">
-				<img src="images/icono-p-512.jpg" width="96" height="96" alt="icono pentomania" class="img-responsive"></a>
-			</p>
+			<p><a href="pentomania.php">Ver mÃ¡s...</a>
 		</div>
 	</div>
 
-	<a name="memorioso"></a>
-	<div class="row fila10">
-		<div class="col-sm-4">
+	<div class="wrapper lima_oscuro">
+		<div class="one-two">
 		<h4>
 			<p style="text-align: center;">
 			<a href="https://play.google.com/store/apps/details?id=ar.com.ingverger.memorioso" target="_blank">
@@ -81,11 +96,10 @@
 			</p>
       <p>&nbsp;</p>
 			<p style="text-align: center;">
-				<img class="img-responsive" src="images/memorioso.jpg" width="292" height="179" border="0" alt="Memorioso aplicación web">
+				<img class="img-responsive" src="images/memorioso.jpg" width="292" height="179" border="0" alt="Memorioso aplicaciÃ³n web">
 			</p>
 		</div>
-		<div class="col-sm-8">
-			<a href="https://play.google.com/store/apps/details?id=ar.com.ingverger.memorioso" target="_blank">
+		<div class="three-six">			
 				<h2>Memorioso</h2></a>
 				<p>As&#x00ED; como ejercitamos nuestro cuerpo para mantenerlo en forma, debemos ejercitar nuestro cerebro para disfrutar de una buena calidad de vida.
 				Memorioso permite ejercitar la memoria y divertirse al mismo tiempo.
@@ -98,37 +112,34 @@
 				<p><a href="https://play.google.com/store/apps/details?id=ar.com.ingverger.memorioso" target="_blank">
 				Memorioso en Android Play Store</a></p>
 				<p><a href="memorioso/index.html" target="_blank">Jugar en l&#x00ED;nea</a></p>
-		
 		</div>
 	</div>
 
-	<div class="row fila01">
-		<div class="col-sm-8">
+	<div class="wrapper lima_claro">
+		<div class="one-two">
+			<a href="https://play.google.com/store/apps/details?id=ar.com.ingverger.sumado" target="_blank">
+			<img src="images/sumadoenlinea.jpg" width="247" height="190" alt="Juego desafio de logica">
+			</a>
+		</div>
+		<div class="three-six">			
 			<a href="https://play.google.com/store/apps/details?id=ar.com.ingverger.sumado" target="_blank">
 				<h2>SUMADO. Un juego de l&#x00F3;gica</h2>
 			</a>
 			<p>SUMADO es un juego de l&#x00F3;gica que requiere un m&#x00ED;nimo conocimiento de aritmetica para ser resuelto. Es una oportunidad de gimnasia mental y diversion al mismo tiempo.<br>
 			Se puede descargar la aplicaci&oacute;n en Google Play Store o jugar en l&iacute;nea.<br>
 			<a href="sumado.php">Ver m&aacute;s...</a>
-
-		</div>
-		<div class="col-sm-4">
-			<a href="https://play.google.com/store/apps/details?id=ar.com.ingverger.sumado" target="_blank">
-			<img src="images/sumadoenlinea.jpg" width="247" height="190" alt="Juego desafio de logica">
-			</a>
 		</div>
 	</div>
 
-	<div class="row fila10">
-		<div class="col-sm-4">
+	<div class="wrapper lima_oscuro">
+		<div class="one-two">
 			<p style="text-align: center;"><br>
 			<img src="images/icono-t-512.svg" width="128" height="128" border="0" alt="">
 			</a>
 			<p style="text-align: center;"><br>
 			<img src="images/phone-inicio.jpg" width="197" height="119" border="0" alt="M-TIMER"></a>
-
 		</div>
-		<div class="col-sm-8">
+		<div class="three-six">			
 			<a href="https://play.google.com/store/apps/details?id=ar.com.ingverger.mtimer" target="_blank">
 				<h2>M-Timer</h2>
 			</a>
@@ -148,28 +159,32 @@
 		</div>
 	</div>
 
-	<div class="row fila01">
-		<div class="col-sm-8">
+	<div class="wrapper lima_claro">
+		<div class="one-two">
+		  <h4><a href="https://play.google.com/store/apps/dev?id=6494906246736330893&hl=es-419">Presencia en Android Play Store</a></h4>
+		</div>
+		<div class="three-six">			
 			<a href="https://play.google.com/store/apps/dev?id=6494906246736330893&hl=es-419">
 			<img src="images/encabezado-playstore.jpg" width="360" height="201" border="0" alt="Pagina de Willie en Google Play Store"></a>
 		</div>
-		<div class="col-sm-4">
-		  <h4><a href="https://play.google.com/store/apps/dev?id=6494906246736330893&hl=es-419">Presencia en Android Play Store</a></h4>
+	</div>
+
+
+	<div class="wrapper lima_oscuro">
+		<div class="central">
+			<?php include 'codigo-anuncios-graficos.shtml';?>
 		</div>
 	</div>
 
-
-</div> 
-
-
-<div class="row" style="background-color: #111;	padding: 8px; margin:10px 0; border-radius: 10px;">
-	<div class="col-md-12" style="text-align: left; padding: 12px; color: #ddd;">
-		<a href="./curriculum-resumido.php"><h4>Acerca de mi</h4></a>
-		<a href="./consultas.php"><h4>Consultas</h4></a>
-	</div>
+	<input type="checkbox" id="menuShowHide">
+	<label for="menuShowHide"></label>
+	<ul id="mainMenu">
+		<li><a href="./curriculum-resumido.php">QuiÃ©n soy</a></li>
+		<li><a href="./consultas.php">Consultas</a></li>
+	</ul>
+	
 </div>
 
-
 </body>
-
 </html>
+

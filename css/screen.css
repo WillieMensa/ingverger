@@ -33,16 +33,10 @@ hr {
 }
 
 body {
-	padding:1em;
-	font:normal 100%/150% arial,helvetica,sans-serif;
-	background:#dff5d6;
-}
-
-body {
 	margin: 0 auto;
-	max-width: 900px;
+	max-width: 1000px;
 	font: normal 100%/150% 'roboto_mediumregular', sans-serif;
-	padding:0.1em;
+	padding:0.2em;
 	/* font:normal 100%/150% arial,helvetica,sans-serif; */	
 	background:#dff5d6;
 }
