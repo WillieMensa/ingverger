@@ -1,204 +1,241 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
-	<!-- problemas de ingenio -->
 	<meta charset="UTF-8">
-	<title>Suma oculta</title>
-
+	<meta	name="viewport"	content="width=device-width,height=device-height,initial-scale=1">
 	<meta name="description" content="Suma oculta: encontrar el dígito que representa cada letra. problemas de ingenio.">
 	<meta name="keywords" content="Suma oculta, problemas de ingenio, CAD, lógica, Rompecabezas">
 
-	<!-- aqui va el include file="genericheading.shtml" -->
-	<?php include 'genericheading.shtml';?>
-	<!-- genericheading.shtml -->
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Suma oculta</title>
 
-	<!-- Etiqueta para que google verifique propiedad del sitio -->
-	<meta name="google-site-verification" content="r3cCA4myBLQLXlQIYf_nW8ezBopbBrOM8nvgXL56UKM" />
-
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-	<!-- jQuery library -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-	<!-- Latest compiled JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-
-	<link rel="stylesheet" href="../css/_ingverger.css">
-	<link rel="shortcut icon" type="image/x-icon" href="../favicon.ico">
-
-	<!-- fin de genericheading.shtml -->
+	<link	rel="stylesheet"	href="./css/screen.css"	media="screen,projection,tv">
 
 	<style>
-		body {
+		body{
+			/* background: url("./images/pattern_grid_blue.svg"); */
+			background: #4c8c4a;
+		}
+		.container {
+			background-color: white;
+		}
+
 		/*
-			max-width: 700px;
-			*/
-			margin: auto;
+		body {
+			margin: 0 auto;
+			font-family: 'roboto-regular', sans-serif;
+			font-size: 4rem;
+			background: #00ddddd;
 		}
 
 		.container {
-			background-color: #dfd;
+			background-color: lima_claro;		
+			margin: 0rem;
+			/* border: 20px ridge rgba(70, 150, 220, .96); 
+			border-radius: 0;
+			font-family: 'roboto-regular', sans-serif;
+			font-size: 1.0rem;
+			line-height: normal;
+			padding: 0;
 		}
+		*/
 
 		.pointer {cursor: pointer;}
+
+		#numero {
+			font-family: fredoka-one, roboto-regular, Arial Black, sanserif;
+			font-size: 1.2em;
+			color: black;
+		}
+
+		@font-face {
+				font-family: 'roboto-regular';
+				src: url('roboto-regular-webfont.woff2') format('woff2'),
+						 url('roboto-regular-webfont.woff') format('woff');
+				font-weight: normal;
+				font-style: normal;
+		}
+		@font-face {
+				font-family: 'fredoka-one';
+				src: url('FredokaOne-Regular.woff2') format('woff2'),
+						url('FredokaOne-Regular.woff') format('woff');
+				font-weight: normal;
+				font-style: normal;
+				font-display: swap;
+		}
+
+		p {
+			font-family: 'roboto-regular', sans-serif;
+			font-size: 0.91em;
+		}
+
+		.fredoka {
+				font-family: 'Fredoka One';
+				font-weight: normal;
+				font-style: normal;
+		}
+
+		.grilla {
+			display: grid;
+			grid-template-columns: 200px 400px;
+			grid-auto-rows: 10px;
+			grid-auto-rows: minmax(10px, auto);
+			grid-gap: 20px;
+		}
+		.grilla > div {
+			border-radius: 5px;
+			padding: 10px;
+			background-color: rgb(207,232,220);
+			border: 2px solid rgb(79,185,227);
+		}          
+
+		.botonera {
+			background: #4c8c4a;
+			margin: 0;
+			border-radius: 0;
+			padding-top: 20px;
+			font-family: 'roboto-regular', sans-serif;
+			font-size: 1.2em;
+			line-height: normal; 
+			color: #ededed;
+			text-align: center;
+			width: 100%;	/* 640px; */
+			height: 80px;
+		}
+
+		.botones {
+			background: #003300;
+			font-family: 'roboto-regular, sans-serif;
+			font-size: 1.02em;
+			text-align: center;
+			opacity: 0.8;
+			border-radius: 8px;
+			color: #e0f2f1;
+		}
 
 	</style>
 
 </head>
 
 <body>
-	<div class="container">
-		<!-- aqui va el include file="menu2015.shtml" -->
-		<?php include "menu2015.shtml";?>
-		<!-- archivo con los menues comunes # / include ) file="menu2015.shtml" -->
+<div id="top">
 
-		<nav class="navbar navbar-inverse">
-				<div class="container-fluid">
-						<div class="navbar-header">
-								<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>
-								<!-- <a class="navbar-brand"  class="active" href="index.php">&nbsp;&nbsp;Ing. Verger </a> -->
-								<a class="navbar-brand active" href="index.html">&nbsp;&nbsp;Ing. Verger </a>
-						</div>
+	<h1>Suma oculta</h1>
 
-						<div class="collapse navbar-collapse" id="myNavbar">
-								<ul class="nav navbar-nav">
+	<input type="checkbox" id="menuShowHide">
+	<label for="menuShowHide"></label>
+	<ul id="mainMenu">
+		<li><a href="./index.html">Inicio </a></li>
+		<li><a href="./ingenio.html">Ingenio       </a></li>
+		<li><a href="./aplicaciones.html">Aplicaciones            </a></li>
+		<li><a href="./temas-rep-graf.html">Representación Gráfica</a></li>
+	</ul>
+	
 
-										<li class="dropdown">
-												<!-- <a class="dropdown-toggle" data-toggle="dropdown" href="novedades.html">Novedades></span></a> -->
-												<a class="dropdown-toggle" href="novedades.php">Novedades</span></a>
-										</li>
-
-										<li class="dropdown">
-												<a class="dropdown-toggle" data-toggle="dropdown" href="#">Ingenio<span class="caret"></span></a>
-												<ul class="dropdown-menu">
-														<li><a href="problemas_ingenio_2020.html">Problemas de ingenio</a></li>
-														<li><a href="sudoku.php">SUDOKU</a></li>
-														<!-- <li><a href="lareglasecreta.php">La regla secreta.</a></li> -->
-														<li><a href="cuadrominos.php">Cuadr&oacute;minos</a></li>
-														<li><a href="49rompecocos.php">49 rompe cocos</a></li>
-														<li><a href="rompecabezas.php">Rompecabezas</a></li>
-														<li><a href="solucioncubosteinhaus.php">Soluci&#243;n cubo de Steinhaus</a></li>
-														<li><a href="rubik.php">Cubo de Rubik</a></li>
-												</ul>
-										</li>
-
-										<li class="dropdown">
-												<a class="dropdown-toggle" href="aplicaciones.html">Aplicaciones</a>
-										</li>
-
-
-										<li class="dropdown">
-												<a class="dropdown-toggle" data-toggle="dropdown" href="#">Representac. Gr&#225;fica<span
-							class="caret"></span></a>
-												<ul class="dropdown-menu">
-														<li><a href="temas-rep-graf.php">Material de estudio</a></li>
-														<li><a href="repgrafsincorbata.php">Libro: representaci&oacute;n gr&aacute;fica sin corbata</a></li>
-												</ul>
-										</li>
-
-										<li class="dropdown">
-												<a class="dropdown-toggle" data-toggle="dropdown" href="publicaciones.php">Publicaciones<span
-							class="caret"></span></a>
-												<ul class="dropdown-menu">
-														<li><a href="repgrafsincorbata.php">Representaci&#243;n gr&#225;fica sin corbata</a></li>
-														<li><a href="publicaciones.php">Publicaciones varias</a></li>
-														<li><a href="calendarios.php">Impresion calendarios y otros</a></li>
-												</ul>
-										</li>
-
-										<li class="dropdown">
-												<a class="dropdown-toggle" data-toggle="dropdown" href="#">Todo lo dem&aacute;s<span
-							class="caret"></span></a>
-												<ul class="dropdown-menu">
-														<li><a href="enlaces.php">Enlaces</a></li>
-														<li><a href="mapas/mapa-rosario.php">Mapas</a></li>
-														<!-- <li><a href="dibujante.html">Colores</a></li> -->
-														<li><a href="politicaprivacidad.php">Pol&iacute;tica de privacidad</a></li>
-												</ul>
-										</li>
-								</ul>
-
-						</div>
-				</div>
-		</nav>
-
-		<!-- fin de menu2015.shtml -->
-
-		<!-- Contenido de la pagina -->
-		<a name="TopOfPage"></a>
-		<div class="row">
-			<div class="col-sm-5">
-				<h1>Suma oculta</h1>
-					<p>Encontrar el valor de cada letra para que la suma sea correcta.<br>
-						Cada letra es un dígito diferente; a letras iguales corresponden d&#237;gitos iguales.<br> 
-						<strong>Pista para resolver:</strong> se da el valor asignado a una letra.</p>
-
-					<!--  class="img-responsive" -->
-				<h4 class="pointer text-primary" onclick="muestraImg('./ingenio/sumaoculta54.png')">Juego 54</h4>
-				<h4 class="pointer text-primary" onclick="muestraImg('./ingenio/sumaoculta55.png')">Juego 55</h4>
-				<h4 class="pointer text-primary" onclick="muestraImg('./ingenio/sumaoculta56.png')">Juego 56</h4>
-				<h4 class="pointer text-primary" onclick="muestraImg('./ingenio/sumaoculta57.png')">Juego 57</h4>
-				<h4 class="pointer text-primary" onclick="muestraImg('./ingenio/sumaoculta58.png')">Juego 58</h4>
+	<div class="wrapper lima_oscuro">
+		<div class="col-1-6">
+			<p style="margin-left: 20px; font-size: 1.0em;">
+			Se presenta una suma donde los dígitos han sido reemplazados por letras.<br>
+			Cada letra es un dígito diferente; a letras iguales corresponden dígitos iguales.<br />
+			Se trata de encontrar el valor de cada letra para que la suma sea correcta.<br />
+			Pista para resolver: se da el valor asignado a una letra.</p>
+			<div id="boton" class="botonera">		
+				<label for="numero">Nro de problema:</label>
+				<input type="number" id="numero" name="numero" min="1" max="99" autofocus onchange="ajustaNumProb()">
+			</div>
+			<div class="imprimir" id="imprimir">
+				<canvas id="canvas" width="645" height="350"></canvas>
 			</div>
 
-			<div class="col-sm-7">
-				<p align="center">&nbsp;</p>
-				<div id="imagen">
-					<img src="ingenio/sumaoculta58.png" width="580" height="286" class="img-responsive"/>
-				</div>
-
+			<div id="boton" class="botonera">
+				<input class="botones" type="button" id="botnSolucion" onclick="muestraSolucion();" value="Solución">
+				<input class="botones" type="button" id="botnLimpiaSol" onclick="limpiaSoluc();" value="Limpia Solución">
 			</div>
 		</div>
+	</div>
 
-		<div class="row">
-			<div class="col-sm-5">
-				<!-- <h2>Soluciones</h2> -->
-				<h4 class="pointer text-primary" onclick="muestraImg('./ingenio/sumaoculta54sol.png')">Solución juego 54</h4>
-				<h4 class="pointer text-primary" onclick="muestraImg('./ingenio/sumaoculta55sol.png')">Solución juego 55</h4>
-				<h4 class="pointer text-primary" onclick="muestraImg('./ingenio/sumaoculta56sol.png')">Solución juego 56</h4>
-				<h4 class="pointer text-primary" onclick="muestraImg('./ingenio/sumaoculta57sol.png')">Solución juego 57</h4>
-				<h4 class="pointer text-primary" onclick="muestraImg('./ingenio/sumaoculta58sol.png')">Solución juego 58</h4>
-			</div>
-
-			<div class="col-sm-7">
-					<!-- Codigo Adsense adaptable 2019 -->
-					<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-					<ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-4076082038101002" data-ad-slot="3860180150"></ins>
-					<script>
-							(adsbygoogle = window.adsbygoogle || []).push({});
-					</script>
-			</div>
-
+	<div class="wrapper lima_claro">
+		<div class="one-two">
 		</div>
-
-		<hr>
-
-		<div class="row" style="background-color: #222;	padding: 8px; margin:10px 0; border-radius: 10px;">
-				<div class="col-md-12" style="text-align: left; padding: 12px;">
-						<a href="http://www.ingverger.com.ar/curriculum-resumido.php">
-								<h4 style="color: #cccccc;">Acerca de mi</h4>
-						</a>
-						<a href="http://www.ingverger.com.ar/consultas.php">
-								<h4 style="color: #cccccc;">Consultas</h4>
-						</a>
-				</div>
+		<div class="three-six">			
 		</div>
 
 	</div>
 
-<script>
+	<hr>
 
-function muestraImg(param) {
-	console.log('param: ', param);
-  document.getElementById("imagen").innerHTML = '<img src=' + param + ' width="580" height="286" class="img-responsive"/>';
-}
-</script>
+	<div class="wrapper lima_oscuro">
+		<div class="central">
+			<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+			<!-- 
+				Anuncio grafico cuadrado 
+				colocar donde se desea aparezca
+			-->
+			<ins class="adsbygoogle"
+					 style="display:block"
+					 data-ad-client="ca-pub-4076082038101002"
+					 data-ad-slot="7053612568"
+					 data-ad-format="auto"
+					 data-full-width-responsive="true"></ins>
+			<script>
+					 (adsbygoogle = window.adsbygoogle || []).push({});
+			</script>
+		</div>
+	</div>
+
+	<input type="checkbox" id="menuShowHide">
+	<label for="menuShowHide"></label>
+	<ul id="mainMenu">
+		<li><a href="./curriculum-resumido.php">Quién soy</a></li>
+		<li><a href="./consultas.html">Consultas</a></li>
+	</ul>
+	
+</div>
+
+
+</body>
+</html>
+
+
+
+
+<body>
+
+	<div class="row" style="padding: 8px; margin:10px 0; border-radius: 10px;">
+		<div class="col-md-2"></div>
+		<div class="col-md-8">
+		</div>
+		<div class="col-md-2"></div>
+	</div>
+		
+	<h4><a href="ver_resolviendo_sumaoculta.html" >Resolviendo una SUMA OCULTA</a></h4>
+
+	<div class="row">	
+		<div class="col-sm-5"></div>
+		<div class="col-sm-7">
+			<?php include "codigo-infeed-ok.shtml";?>
+		</div>
+	</div>
+
+	<div class="row" style="background-color: #222;	padding: 8px; margin:10px 0; border-radius: 10px;">
+		<div class="col-md-12" style="text-align: left; padding: 12px;">
+				<a href="http://www.ingverger.com.ar/curriculum-resumido.php">
+						<h4 style="color: #cccccc;">Acerca de mi</h4>
+				</a>
+				<a href="http://www.ingverger.com.ar/consultas.html">
+						<h4 style="color: #cccccc;">Consultas</h4>
+				</a>
+		</div>
+	</div>
+
+</div>
+
+<!-- inicio de los scripts -->
+<!-- el proximo script contiene const problemas, array en formato json -->
+<script src="problemas_so.json"></script>
+<!-- <script src="elige_problema.js"></script> -->
+
+<script src="presenta-sumaoculta.js"></script>
+
 
 </body>
 

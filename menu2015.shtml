@@ -25,7 +25,7 @@
 			<li class="dropdown">
 			  <a class="dropdown-toggle" data-toggle="dropdown" href="#">Representac. Gr&#225;fica<span class="caret"></span></a>
 			  <ul class="dropdown-menu">
-				<li><a href="temas-rep-graf.php">Material de estudio</a></li>
+				<li><a href="temas-rep-graf.html">Material de estudio</a></li>
 				<li><a href="ver-publicac-rep-graf.php">Gu&iacute;as de Clase</a></li>
 				<li><a href="repgrafsincorbata.php">Representaci&#243;n gr&#225;fica sin corbata</a></li>
 			  </ul>
@@ -36,7 +36,7 @@
 				<ul class="dropdown-menu">
 					<li><a href="publicaciones.php">Publicaciones varias</a></li>
 					<li><a href="metodo-intelectual.php">Metodolog&iacute;a intelectual</a></li>
-					<li><a href="calendarios.php">Impresion calendarios y otros</a></li>
+					<li><a href="calendarios.html">Impresion calendarios y otros</a></li>
 				</ul>
 			</li>
 
