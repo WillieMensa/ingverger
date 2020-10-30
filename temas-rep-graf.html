@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
 	<meta charset="UTF-8">
 	<meta	name="viewport"	content="width=device-width,height=device-height,initial-scale=1">
@@ -9,28 +9,29 @@
 
 	<title> Representación Gráfica </title>
 
-	<link	rel="stylesheet"	href="./css/screen.css"	media="screen,projection,tv">
+	<link	rel="stylesheet"	href="./css/westilo.css"	media="screen,projection,tv">
 
 </head>
 
 <body>
-<div id="top">
 
+<div class="header">
 	<h1> Representación Gráfica </h1>
+</div>
 
-	<input type="checkbox" id="menuShowHide">
-	<label for="menuShowHide"></label>
-	<ul id="mainMenu">
-		<li><a href="./index.html">Inicio </a></li>
-		<li><a href="./ingenio.html">Ingenio       </a></li>
-		<li><a href="./aplicaciones.html">Aplicaciones            </a></li>
-		<li><a href="./temas-rep-graf.html">Representación Gráfica</a></li>
-	</ul>
-	
+<input type="checkbox" id="menuShowHide">
+<label for="menuShowHide"></label>
+<ul id="mainMenu">
+	<li><a href="./index.html">Inicio </a></li> 
+	<li><a href="./ingenio.html">Ingenio                      </a></li>
+	<li><a href="./aplicaciones.html">Aplicaciones            </a></li>
+	<!-- <li><a href="./temas-rep-graf.html">Representación Gráfica</a></li> -->
+</ul>
 
-	<div class="wrapper lima_oscuro">
-		<div class="one-three">
-			
+<!-- Contenido de la pagina -->
+
+<div class="row clr_palido">
+  <div class="col-6">
 			<dl>
 			<dt><h2><a href="ver-publicac-rep-graf.html">Guías de Clase</a></h2></dt>
 			<dd>Acceso a las guias de clase de Representación Gráfica</dd>
@@ -41,8 +42,8 @@
 			<dd>Adicionalmente resulta un buen entrenamiento para facilitarse la resolución de los problemas de la asignatura.
 			<dd>&nbsp;
 			</dl>
-		</div>
-		<div class="four-six">
+  </div>
+  <div class="col-6">
 			<a name="tpi"></a>
 			<h2>Trabajo Práctico Integrador</h2>
 			<dl>
@@ -56,11 +57,11 @@
 				<dd><a href="http://www.fceia.unr.edu.ar/~gverger/descargas/centro-de-masa.jpg" target="_blank">Imagen de la simulación de la masa</a>
 				<dd>&nbsp;
 			</dl>
-		</div>
-	</div>
+  </div>
+</div>
 
-	<div class="wrapper lima_claro">
-		<div class="one-three">
+<div class="row clr_claro">
+  <div class="col-6">
 			<dl>
 			<dt><a href="ver-caligrafia-tecnica.php">Caligrafía Técnica</a>
 			<dd>Contiene modelos e indicaciones orientadas a lograr una caligrafía técnica aceptable y formatos con el trazado auxiliar listo para realizar el dibujo de letras en 3.5 mm y 5 mm. En formato PDF.
@@ -95,9 +96,8 @@
 			<dd>Resumen de coordenadas en autocad</dd>
 		</dl>
 
-		</div>
-
-		<div class="four-six">			
+  </div>
+  <div class="col-6">
 			<h2>&nbsp;</h2>
 
 			<dt><a href="ver-geometria-descriptiva-londres.php">Cuadernillo de Geometria Descriptiva</a>
@@ -127,30 +127,28 @@
 
 			</dl>
 
-		</div>
-	</div>
+  </div>
+</div>
 
-	<div class="wrapper lima_claro">
-		<div class="one-two">
-		</div>
-		<div class="three-six">			
-		</div>
-	</div>
-
-	<div class="wrapper lima_claro">
-		<div class="one-two">
-		</div>
-		<div class="three-six">			
-		</div>
-	</div>
-
-	<hr>
-
-	<div class="wrapper lima_oscuro">
-		<div class="central">
-			<?php include 'codigo-anuncios-graficos.shtml';?>
-		</div>
-	</div>
+<div class="row clr_palido">
+  <div class="col-2"></div>
+  <div class="col-8">
+		<!-- 
+		Codigo para anuncios InArticle en el lugar donde quiero aparezca
+		-->
+		<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<ins class="adsbygoogle"
+				 style="display:block; text-align:center;"
+				 data-ad-layout="in-article"
+				 data-ad-format="fluid"
+				 data-ad-client="ca-pub-4076082038101002"
+				 data-ad-slot="9586801789"></ins>
+		<script>
+				 (adsbygoogle = window.adsbygoogle || []).push({});
+		</script>
+  </div>
+  <div class="col-2"></div>
+</div>
 
 	<input type="checkbox" id="menuShowHide">
 	<label for="menuShowHide"></label>
@@ -158,10 +156,10 @@
 		<li><a href="./curriculum-resumido.html">Quién soy</a></li>
 		<li><a href="./consultas.html">Consultas</a></li>
 	</ul>
-	
-</div>
 
+<div class="footer">
+  <p>by Willie Verger, 2020</p>
+</div>
 
 </body>
 </html>
-

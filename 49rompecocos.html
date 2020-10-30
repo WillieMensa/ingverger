@@ -1,176 +1,83 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
-	<meta charset="utf-8">
-	<title>49 rompe cocos</title>
+	<meta charset="UTF-8">
+	<meta	name="viewport"	content="width=device-width,height=device-height,initial-scale=1">
+	<!-- tutorial de https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Grids	-->
 	<meta name="description" content="Rompecabezas. Resoluci�n de problemas de ingenio">
 	<meta name="keywords" content="L�gica,Rompecabezas, representaci�n gr�fica, Desarrollo,Sistemas de Representaci�n, Problemas de ingenio, Juegos de mesa">
 
-	<!-- genericheading.shtml -->
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>49 rompe cocos</title>
 
-	<!-- Etiqueta para que google verifique propiedad del sitio -->
-	<meta name="google-site-verification" content="r3cCA4myBLQLXlQIYf_nW8ezBopbBrOM8nvgXL56UKM" />
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-
-	<!-- jQuery library -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
-	<!-- Latest compiled JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-
-	<link rel="stylesheet" href="./css/_ingverger.css" >
-	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-
-	<!-- fin de genericheading.shtml -->
-
+	<link	rel="stylesheet"	href="./css/westilo.css"	media="screen,projection,tv">
 
 </head>
 
 <body>
 
-<div class="container">
+<div class="header">
+	<h1> Novedades </h1>
+</div>
 
-<!-- archivo con los menues comunes # / include ) file="menu2015.shtml" -->
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-	<div class="navbar-header">
-	  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-		<span class="icon-bar"></span>
-		<span class="icon-bar"></span>
-		<span class="icon-bar"></span>
-	  </button>
-	  <!-- <a class="navbar-brand"  class="active" href="index.php">&nbsp;&nbsp;Ing. Verger </a> -->
-	  <a class="navbar-brand active" href="index.html">&nbsp;&nbsp;Inicio </a>
-	</div>
+<input type="checkbox" id="menuShowHide">
+<label for="menuShowHide"></label>
+<ul id="mainMenu">
+	<li><a href="./index.html">Inicio </a></li> 
+	<li><a href="./ingenio.html">Ingenio                      </a></li>
+	<li><a href="./aplicaciones.html">Aplicaciones            </a></li>
+	<li><a href="./temas-rep-graf.html">Representación Gráfica</a></li>
+</ul>
 
-	<div class="collapse navbar-collapse" id="myNavbar">
-		<ul class="nav navbar-nav">
-
-			<li class="dropdown">
-			  <a class="dropdown-toggle" href="ingenio.html">Ingenio</a>
-			</li>
-
-			<li class="dropdown">
-				<a class="dropdown-toggle" href="aplicaciones.html">Aplicaciones</a>
-			</li>
-
-			<li class="dropdown">
-			  <a class="dropdown-toggle" data-toggle="dropdown" href="#">Representac. Gr&#225;fica<span class="caret"></span></a>
-			  <ul class="dropdown-menu">
-				<li><a href="temas-rep-graf.html">Material de estudio</a></li>
-				<li><a href="ver-publicac-rep-graf.html">Gu&iacute;as de Clase</a></li>
-				<li><a href="repgrafsincorbata.php">Representaci&#243;n gr&#225;fica sin corbata</a></li>
-			  </ul>
-			</li>
-
-			<li class="dropdown">
-				<a class="dropdown-toggle" data-toggle="dropdown" href="publicaciones.php">Publicaciones<span class="caret"></span></a>
-				<ul class="dropdown-menu">
-					<li><a href="publicaciones.php">Publicaciones varias</a></li>
-					<li><a href="metodo-intelectual.php">Metodolog&iacute;a intelectual</a></li>
-					<li><a href="calendarios.html">Impresion calendarios y otros</a></li>
-				</ul>
-			</li>
-
-			<li class="dropdown">
-				<a class="dropdown-toggle" data-toggle="dropdown" href="#">Todo lo dem&aacute;s<span class="caret"></span></a>
-				<ul class="dropdown-menu">
-					<!-- <li><a href="enlaces.php">Enlaces</a></li> -->
-					<li><a href="mapas/mapa-rosario.php">Mapas</a></li>
-					<!-- <li><a href="dibujante.html">Colores</a></li> -->
-					<li><a href="politicaprivacidad.php">Pol&iacute;tica de privacidad</a></li>
-				</ul>
-			</li>
-		</ul>
-
-	</div>
-	</div>
-</nav>
-<!-- fin de menu2015.shtml -->
-
-
-	<a name="TopOfPage"></a>
 	<!-- Contenido de la pagina -->
-	<!-- <h1>La regla secreta</h1> -->
-	<div class="row">
-		<div class="col-sm-3">
-			<p>&nbsp;</p>
+
+
+<div class="row clr_palido">
+  <div class="col-6" >
 			<h3>49 rompe cocos</h3>
-			<p>El objetivo es disponer las 16 piezas dentro de la caja, en dos capas, de forma tal que se pueda ver un n�mero por vez.
-			<p>Hay cuarenta y nueve n�meros, es decir, se tienen cuarenta y nueve rompecabezas en uno.</p>
+			<p>El objetivo es disponer las 16 piezas dentro de la caja, en dos capas, de forma tal que se pueda ver un número por vez.
+			<p>Hay cuarenta y nueve números, es decir, se tienen cuarenta y nueve rompecabezas en uno.</p>
 			<p>En cuanto al grado de dificultad digamos que es demandante. O sea que garantiza un largo rato de entretenimiento.</p>
-			<hr>
 			<h4>El rompecabezas en su envase</h4>
 			<p><img src="images/49rompecocos-0s.jpg" width="278" height="256" border="0" alt=""></p>
-			<p></p>
-			<p>La idea original fue de Marcel Gillen</p>
-			<p>&nbsp;</p>
-		</div>
-
-		<!-- <div class="col-sm-7" style="background-color: #e6e6b8;" align="center"> -->
-		<div class="col-sm-7" align="center">
-			<h4>Dos momentos de elaboraci�n</h4>
+  </div>
+  <div class="col-6">
+			<h4>Dos momentos de elaboración</h4>
 			<p><img src="images/49rompecocos-bs.jpg" width="320" height="240" border="0" alt="">
 			<img src="images/49rompecocos-as.jpg" width="320" height="240" border="0" alt=""></p>
+			<p>Idea original de Marcel Gillen</p>
+  </div>
+</div>
 
-			<h4>Consultas sobre el juego</h4>
-			<p><iframe scrolling="yes" align="middle" marginwidth="10" marginheight="10"  name="search_iframe" 
-				src="https://docs.google.com/forms/d/e/1FAIpQLSfiJ0SRz7Lwb8Ybgs8OZaq0o0KbHv7bay8are_-TfLK_ZLcrg/viewform?usp=pp_url&entry.1995061904&entry.1286194737"
-				style="width:600px; height:560px;" frameborder="10">
-			</iframe>
+<div class="row clr_claro">
+  <div class="col-2"></div>
+  <div class="col-8">
+		<!-- 
+		Codigo para anuncios InArticle en el lugar donde quiero aparezca
+		-->
+		<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<ins class="adsbygoogle"
+				 style="display:block; text-align:center;"
+				 data-ad-layout="in-article"
+				 data-ad-format="fluid"
+				 data-ad-client="ca-pub-4076082038101002"
+				 data-ad-slot="9586801789"></ins>
+		<script>
+				 (adsbygoogle = window.adsbygoogle || []).push({});
+		</script>
+  </div>
+  <div class="col-2"></div>
+</div>
 
-			<p>&nbsp;</p>
-			<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-			<!-- 
-				Anuncio grafico cuadrado 
-				colocar donde se desea aparezca
-			-->
-			<ins class="adsbygoogle"
-					 style="display:block"
-					 data-ad-client="ca-pub-4076082038101002"
-					 data-ad-slot="7053612568"
-					 data-ad-format="auto"
-					 data-full-width-responsive="true"></ins>
-			<script>
-					 (adsbygoogle = window.adsbygoogle || []).push({});
-			</script>
+	<input type="checkbox" id="menuShowHide">
+	<label for="menuShowHide"></label>
+	<ul id="mainMenu">
+		<li><a href="./curriculum-resumido.html">Quién soy</a></li>
+		<li><a href="./consultas.html">Consultas</a></li>
+	</ul>
 
-
-		</div>
-
-		<div class="col-sm-2">
-		</div>
-	</div>
-
-	<hr>
-
-	<div class="row">
-		<div class="col-sm-3">
-				<p>&nbsp;</p>
-				<p style="text-align: center"><a href="http://www.ingverger.com.ar/repgrafsincorbata.php">
-					<img src="images/tapa-s.jpg" width="107" height="154" style="border: #484 1pt solid;" alt="Representaci�n gr�fica sin corbata"></a></p>
-		</div>
-		<div class="col-sm-9">
-			<h4><a href="http://www.ingverger.com.ar/repgrafsincorbata.php">Representaci�n gr�fica sin corbata</a></h4>
-			<p><a href="http://www.ingverger.com.ar/repgrafsincorbata.php">Ver contenido del libro</a>
-			<p><a href="https://es.scribd.com/doc/270283665/Representacion-grafica-sin-corbata">Versi�n completa en formato PDF</a>
-		</div>
-	</div>
-
-	<div class="row" style="background-color: #222;	padding: 8px; margin:10px 0; border-radius: 10px;">
-		<div class="col-md-12" style="text-align: left; padding: 12px;">
-			<a href="http://www.ingverger.com.ar/curriculum-resumido.html"><h4 style="color: #cccccc;">Acerca de mi</h4></a>
-			<a href="http://www.ingverger.com.ar/consultas.html"><h4 style="color: #cccccc;">Consultas</h4></a>
-		</div>
-	</div>
-	<!-- fin contenido -->
-
+<div class="footer">
+  <p>by Willie Verger, 2020</p>
 </div>
 
 </body>
 </html>
-
