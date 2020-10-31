@@ -212,7 +212,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: var(--clr-medio);
+  /* background-color: var(--clr-medio); */
 }
 
 li {
@@ -228,7 +228,7 @@ li a, .dropbtn {
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-  background-color: var(--clr-oscuro);
+  /* background-color: var(--clr-oscuro); */
 }
 
 li.dropdown {

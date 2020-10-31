@@ -9,26 +9,22 @@
 
 	<title>Matematica para Divertirse</title>
 
-	<link	rel="stylesheet"	href="./css/screen.css"	media="screen,projection,tv">
+	<link	rel="stylesheet"	href="./css/estilo202010.css"	media="screen,projection,tv">
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+	<script src="menuppal.js"></script>
 
 </head>
 
 <body>
-<div id="top">
+	<div class="header">
+		<h1> Matematica para Divertirse </h1>
+	</div>
 
-	<h1>Matematica para Divertirse</h1>
+	<div id="menuppal"></div>
 
-	<input type="checkbox" id="menuShowHide">
-	<label for="menuShowHide"></label>
-	<ul id="mainMenu">
-		<li><a href="./index.html">Inicio </a></li>
-		<li><a href="./ingenio.html">Ingenio       </a></li>
-		<li><a href="./aplicaciones.html">Aplicaciones            </a></li>
-		<li><a href="./temas-rep-graf.html">Representación Gráfica</a></li>
-	</ul>
-
-	<div class="wrapper lima_claro">
-		<div class="one-six">
+	<div class="row clr_palido">
+		<div class="col-12">
 			<iframe scrolling="yes" align="middle" name="search_iframe"
 			src="./descargas/MartinGardner-MatemáticaParaDivertirse.pdf"
 			style="width:80%; height:560px;" frameborder="04">
@@ -37,21 +33,32 @@
 		</div>
 	</div>
 
-	<div class="wrapper lima_oscuro">
-		<div class="central">
-			<?php include 'codigo-anuncios-graficos.shtml';?>
+	<div class="row clr_claro">
+		<div class="col-2"></div>
+		<div class="col-8">
+			<!-- Codigo para anuncios InArticle en el lugar donde quiero aparezca	-->
+			<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+			<ins class="adsbygoogle"
+					 style="display:block; text-align:center;"
+					 data-ad-layout="in-article"
+					 data-ad-format="fluid"
+					 data-ad-client="ca-pub-4076082038101002"
+					 data-ad-slot="9586801789"></ins>
+			<script>
+					 (adsbygoogle = window.adsbygoogle || []).push({});
+			</script>
 		</div>
+		<div class="col-2"></div>
 	</div>
 
-	<input type="checkbox" id="menuShowHide">
-	<label for="menuShowHide"></label>
 	<ul id="mainMenu">
 		<li><a href="./curriculum-resumido.html">Quién soy</a></li>
 		<li><a href="./consultas.html">Consultas</a></li>
 	</ul>
-	
-</div>
 
+	<div class="footer">
+		<p>by Willie Verger, 2020</p>
+	</div>
 
 </body>
 </html>

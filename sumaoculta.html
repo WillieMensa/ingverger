@@ -8,7 +8,10 @@
 
 	<title>Suma oculta</title>
 
-	<link	rel="stylesheet"	href="./css/screen.css"	media="screen,projection,tv">
+	<link	rel="stylesheet"	href="./css/estilo202010.css"	media="screen,projection,tv">
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+	<script src="menuppal.js"></script>
 
 	<style>
 		body{
@@ -117,22 +120,14 @@
 </head>
 
 <body>
-<div id="top">
+	<div class="header">
+		<h1> Suma oculta </h1>
+	</div>
 
-	<h1>Suma oculta</h1>
-
-	<input type="checkbox" id="menuShowHide">
-	<label for="menuShowHide"></label>
-	<ul id="mainMenu">
-		<li><a href="./index.html">Inicio </a></li>
-		<li><a href="./ingenio.html">Ingenio       </a></li>
-		<li><a href="./aplicaciones.html">Aplicaciones            </a></li>
-		<li><a href="./temas-rep-graf.html">Representación Gráfica</a></li>
-	</ul>
+	<div id="menuppal"></div>
 	
-
-	<div class="wrapper lima_oscuro">
-		<div class="col-1-6">
+	<div class="row clr_claro">
+		<div class="col-12">
 			<p style="margin-left: 20px; font-size: 1.0em;">
 			Se presenta una suma donde los dígitos han sido reemplazados por letras.<br>
 			Cada letra es un dígito diferente; a letras iguales corresponden dígitos iguales.<br />
@@ -142,7 +137,7 @@
 				<label for="numero">Nro de problema:</label>
 				<input type="number" id="numero" name="numero" min="1" max="99" autofocus onchange="ajustaNumProb()">
 			</div>
-			<div class="imprimir" id="imprimir">
+			<div class="imprimir" id="imprimir" style="text-align: center;">
 				<canvas id="canvas" width="645" height="350"></canvas>
 			</div>
 
@@ -151,45 +146,35 @@
 				<input class="botones" type="button" id="botnLimpiaSol" onclick="limpiaSoluc();" value="Limpia Solución">
 			</div>
 		</div>
+		<h4><a href="ver_resolviendo_sumaoculta.html" >Una forma de resolver SUMA OCULTA</a></h4>
 	</div>
 
-	<div class="wrapper lima_claro">
-		<div class="one-two">
-		</div>
-		<div class="three-six">			
-		</div>
-
-	</div>
-
-	<hr>
-
-	<div class="wrapper lima_oscuro">
-		<div class="central">
+	<div class="row clr_claro">
+		<div class="col-2"></div>
+		<div class="col-8">
+			<!-- Codigo para anuncios InArticle en el lugar donde quiero aparezca	-->
 			<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-			<!-- 
-				Anuncio grafico cuadrado 
-				colocar donde se desea aparezca
-			-->
 			<ins class="adsbygoogle"
-					 style="display:block"
+					 style="display:block; text-align:center;"
+					 data-ad-layout="in-article"
+					 data-ad-format="fluid"
 					 data-ad-client="ca-pub-4076082038101002"
-					 data-ad-slot="7053612568"
-					 data-ad-format="auto"
-					 data-full-width-responsive="true"></ins>
+					 data-ad-slot="9586801789"></ins>
 			<script>
 					 (adsbygoogle = window.adsbygoogle || []).push({});
 			</script>
 		</div>
+		<div class="col-2"></div>
 	</div>
 
-	<input type="checkbox" id="menuShowHide">
-	<label for="menuShowHide"></label>
 	<ul id="mainMenu">
 		<li><a href="./curriculum-resumido.html">Quién soy</a></li>
 		<li><a href="./consultas.html">Consultas</a></li>
 	</ul>
-	
-</div>
+
+	<div class="footer">
+		<p>by Willie Verger, 2020</p>
+	</div>
 
 
 </body>
@@ -198,36 +183,9 @@
 
 
 
-<body>
+	
+	
 
-	<div class="row" style="padding: 8px; margin:10px 0; border-radius: 10px;">
-		<div class="col-md-2"></div>
-		<div class="col-md-8">
-		</div>
-		<div class="col-md-2"></div>
-	</div>
-		
-	<h4><a href="ver_resolviendo_sumaoculta.html" >Resolviendo una SUMA OCULTA</a></h4>
-
-	<div class="row">	
-		<div class="col-sm-5"></div>
-		<div class="col-sm-7">
-			<?php include "codigo-infeed-ok.shtml";?>
-		</div>
-	</div>
-
-	<div class="row" style="background-color: #222;	padding: 8px; margin:10px 0; border-radius: 10px;">
-		<div class="col-md-12" style="text-align: left; padding: 12px;">
-				<a href="http://www.ingverger.com.ar/curriculum-resumido.html">
-						<h4 style="color: #cccccc;">Acerca de mi</h4>
-				</a>
-				<a href="http://www.ingverger.com.ar/consultas.html">
-						<h4 style="color: #cccccc;">Consultas</h4>
-				</a>
-		</div>
-	</div>
-
-</div>
 
 <!-- inicio de los scripts -->
 <!-- el proximo script contiene const problemas, array en formato json -->

@@ -3,6 +3,21 @@
 	2020 .10.17 
 */
 
+/*
+	Siendo que al cargar la pagina hay que llamar dos funciones, reemplazo el habitual
+		window.onload = function(){
+			poneMenuPpal();
+		};
+	por la start() que sigue
+*/
+
+function start() {
+	poneMenuPpal();
+	initPagina();
+}
+window.onload = start;
+
+
 const
 	NCOL = 3,
 	NFIL = 3,
@@ -19,7 +34,7 @@ let
 		
 
 
-function init() {
+function initPagina() {
 	if (DEBUG) { console.log("function init() beginnen Version 11")}
 	nPagActual = getNroPag();			//	leer nro problema actual
 	document.getElementById("numero").value = nPagActual;
@@ -301,11 +316,13 @@ function clearStorage(key)
 
 
 
-function printDiv( lConSolucion ) {
-	var objeto=document.getElementById('imprimir'); 
+//	function printDiv( lConSolucion ) {
+function printDiv() {
+	var objeto = document.getElementById('imprimir'); 
 	//	console.log( "lConSolucion: " + lConSolucion );
+	//	console.log(objeto);
 
-	document.body.className = (lConSolucion ? "resuelto" : "noresuelto");
+	//	document.body.className = (lConSolucion ? "resuelto" : "noresuelto");
 	//obtenemos el objeto a imprimir
 	var ventana=window.open('','_blank');  //abrimos una ventana vacía nueva
 	ventana.document.write(objeto.innerHTML);  //imprimimos el HTML del objeto en la nueva ventana
