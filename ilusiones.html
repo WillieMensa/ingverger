@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="ISO-8859-1">
+    <title>Aplicaciones</title>
+
+    <!-- Etiqueta para que google verifique propiedad del sitio -->
+    <meta name="google-site-verification" content="r3cCA4myBLQLXlQIYf_nW8ezBopbBrOM8nvgXL56UKM" />
+    <meta name="description" content="Aplicaciones para Android y navegadores. Clever Games">
+    <meta name="keywords" content="Clever Games, Pentomania, SUMADO, Memorioso, acertijos, caligraf�a t�cnica, dibujo tecnico, ingenier�a, juegos de ingenio, rompecabezas, sudoku gratis para imprimir, timer de numeros gigantes.">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+		<script src="https://unpkg.com/konva@6.0.0/konva.min.js"></script>
+
+    <style>
+        
+        html {
+            font-family: sans-serif;
+        }
+        
+        * {
+            box-sizing: border-box;
+        }
+        
+
+			dd{line-height:20px; margin-left:20px}
+
+			.footer {
+				color: #888; font-style: normal; 
+				font-size: 0.7em;
+			}
+
+			img { border: 0; margin:0; }
+
+			.claro {
+				width: 90%;
+				max-width: 800px;
+				margin: 0.5em auto;
+				font: 1.8em Arial, Helvetica, sans-serif;
+				padding: 16px 16px;
+			}
+
+			.oscuro {
+				width: 90%;
+				max-width: 1200px;
+				margin: 1em auto;
+				font: 1.8em Arial, Helvetica, sans-serif;
+				padding: 16px 16px;
+				background-image:linear-gradient( to bottom right, #468, #486 );
+				background-repeat: no-repeat;
+				background-attachment: fixed;
+				background-position: center; 
+			}
+					
+			.bg {
+				animation:slide 10s ease-in-out infinite alternate;
+				background-image: linear-gradient(-75deg, #111 50%, #444 50%);	/*	#cdf 50%, #def 50%);	*/
+				bottom:0;
+				left:-50%;
+				opacity:.5;		/*.5;*/
+				position:fixed;
+				right:-50%;
+				top:0;
+				z-index:-1;
+			}
+
+			.w_contenedor > div {
+				border-radius: 10px;
+				padding: 10px;
+				/*	background-color: #002200;	/* rgb(207,232,220); */
+				/*	border: 4px solid #111;				rgb(79,185,227);	*/
+				text-align: center;
+			}          
+
+			.w_contenedor {
+				display: grid;
+				grid-template-columns: repeat( 3, 1fr );
+				grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+				grid-auto-rows: 200px;
+				grid-auto-rows: minmax(200px, auto);
+				grid-gap: 20px;
+			}
+
+			@keyframes slide {
+				0% {
+					transform:translateX(-25%);
+				}
+				100% {
+					transform:translateX(25%);
+				}
+			}
+
+			a:link {
+				font-weight: bolder !important;
+			}
+
+    </style>
+
+</head>
+
+<!-- <body id="grad1">  -->
+
+<body class="claro">
+
+	<a name="TopOfPage"></a>
+	<!-- Contenido de la pagina -->
+
+	<div style="background-color: #888;	padding: 1px; margin:1px 0; border-radius: 10px;">
+		<div style="text-align: left; padding: 1px; color: #ddd;">
+		<h1>Titulo</h1>
+		<p>Aqui va la pagina principal</p>
+		</div>
+	</div>
+
+	<div id="container" style="text-align: center;"></div>
+	<div id="botonera" class="footer">
+		<input class="botones" type="button" id="botnJugar"  onclick="pantaJuego();" value="Jugar">
+		<input class="botones" type="button" id="botnAcerca" onclick="alert('Acerca de');" value="Acerca de">
+		<input class="botones" type="button" id="botnSalir"  onclick="alert('salir');" value="Salir">
+		<input class="botones" type="button" id="botnInicio" onclick="pantaPresenta();" value="Inicio">
+		<!-- <input class="botones" type="button" id="imagen" onclick="imagenAguardar();" value="Imagen"> -->
+	</div>
+
+	<div style="background-color: #111;	padding: 8px; margin:10px 0; border-radius: 10px;">
+		<div style="text-align: left; padding: 12px; color: #ddd;">
+			<a href="http://www.ingverger.com.ar/curriculum-resumido.html"><h4>Acerca de mi</h4></a>
+			<a href="http://www.ingverger.com.ar/consultas.html"><h4>Consultas</h4></a>
+		</div>
+	</div>
+
+	<script>
+
+		//=========
+		// constantes
+		//=========
+		const
+			versionString = "0.3.0", //  lleva el numero de version actual
+			//	DEBUG = false,
+			DEBUG = true,
+			NRO_PROB = 50,
+			NDIG = 10,				//	cantidad de dígitos
+			STAGE_X = 700,		//	ancho del canvas (utilizar siempre el mismo nombre)
+			STAGE_Y = 600,		//	alto del canvas
+			BACKG_CLR = '#def',
+			FAKE_CONST = "";
+
+
+		const								//	para utilizar la rejilla
+			GRID_STEP = 50,
+			GRID_CLR = '#888';
+
+		window.onload = function(){
+			//	pruebaKonva();
+			init();
+		};
+
+		function init() {
+			//	prepara stage y layer de juego
+			//	llama a pagina de presentación
+			//	eventualmente dibuja rejilla
+
+			stage = new Konva.Stage({
+				container: 'container',
+				width:  STAGE_X,					//	window.innerWidth,
+				height: STAGE_Y					//	window.innerHeight
+			});
+
+			gameLayer = new Konva.Layer();
+
+
+			pantaPresenta();
+			//	pantaJuego();
+			
+			stage.add(gameLayer);
+
+			//	grillaLayer.moveToTop();
+
+		};
+
+
+		function pantaPresenta() {	// Presentacion del juego. Pantalla inicial
+			//	color de fondo para el canvas/stage. diferenciar del cuerpo de la pagina
+			var fondo = new Konva.Rect({
+						x: 0,
+						y: 0,
+						width: STAGE_X,
+						height:STAGE_Y ,
+						name: 'fondoCanvas',
+						fill: '#abc',
+						stroke: 'black',
+						strokeWidth: 4
+					});
+
+			//	if (DEBUG)	{	DibujaGrilla()}
+			// titulo
+			//	simbolos de suma, igual y linea de total
+			var titulo = new Konva.Text({
+				text: "SUMA OCULTA",
+				fontSize: 64,
+				fontFamily: 'Arial Black',
+				fill: '#123',
+				//	width: 300,
+				//	padding: 20,
+				width: 700,
+				height: STAGE_Y/2,
+				padding: 20,
+				verticalAlign: 'middle',
+				align: 'center',
+			});
+
+			gameLayer.add(fondo, titulo);
+
+			stage.add(gameLayer);
+
+			gameLayer.draw();
+
+			document.getElementById("botnJugar"  ).style.visibility='visible';
+			document.getElementById("botnAcerca" ).style.visibility='hidden';
+			document.getElementById("botnSalir"  ).style.visibility='hidden';
+			document.getElementById("botnInicio" ).style.visibility='hidden';
+
+		}
+
+
+	</script>
+
+</body>
+
+</html>

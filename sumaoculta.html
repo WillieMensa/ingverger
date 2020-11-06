@@ -16,7 +16,7 @@
 	<style>
 		body{
 			/* background: url("./images/pattern_grid_blue.svg"); */
-			background: #4c8c4a;
+			/* background: #4c8c4a; */
 		}
 		.container {
 			background-color: white;
@@ -120,12 +120,11 @@
 </head>
 
 <body>
+	<div id="menuppal"></div>
 	<div class="header">
 		<h1> Suma oculta </h1>
 	</div>
 
-	<div id="menuppal"></div>
-	
 	<div class="row clr_claro">
 		<div class="col-12">
 			<p style="margin-left: 20px; font-size: 1.0em;">
@@ -138,7 +137,7 @@
 				<input type="number" id="numero" name="numero" min="1" max="99" autofocus onchange="ajustaNumProb()">
 			</div>
 			<div class="imprimir" id="imprimir" style="text-align: center;">
-				<canvas id="canvas" width="645" height="350"></canvas>
+				<canvas id="canvas" width="645" height="350" class="img-responsive"></canvas>
 			</div>
 
 			<div id="boton" class="botonera">
@@ -146,23 +145,15 @@
 				<input class="botones" type="button" id="botnLimpiaSol" onclick="limpiaSoluc();" value="Limpia Solución">
 			</div>
 		</div>
-		<h4><a href="ver_resolviendo_sumaoculta.html" >Una forma de resolver SUMA OCULTA</a></h4>
+		<h4><a href="problemas_ingenio_2020.html" >Una forma de resolver SUMA OCULTA</a></h4>
 	</div>
 
 	<div class="row clr_claro">
 		<div class="col-2"></div>
 		<div class="col-8">
-			<!-- Codigo para anuncios InArticle en el lugar donde quiero aparezca	-->
-			<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-			<ins class="adsbygoogle"
-					 style="display:block; text-align:center;"
-					 data-ad-layout="in-article"
-					 data-ad-format="fluid"
-					 data-ad-client="ca-pub-4076082038101002"
-					 data-ad-slot="9586801789"></ins>
-			<script>
-					 (adsbygoogle = window.adsbygoogle || []).push({});
-			</script>
+			<!-- Pruebo con un vínculo para productos mercado pago -->
+			<a href="http://mpago.li/2Tefbho" target="_blank">
+				<img src="images/point_bluetooth_1200x628 A_s.jpg" width="600" height="314" border="0" class="img-responsive"/></a>
 		</div>
 		<div class="col-2"></div>
 	</div>
@@ -177,23 +168,12 @@
 	</div>
 
 
-</body>
-</html>
+	<!-- inicio de los scripts -->
+	<!-- el proximo script contiene const problemas, array en formato json -->
+	<script src="problemas_so.json"></script>
+	<!-- <script src="elige_problema.js"></script> -->
 
-
-
-
-	
-	
-
-
-<!-- inicio de los scripts -->
-<!-- el proximo script contiene const problemas, array en formato json -->
-<script src="problemas_so.json"></script>
-<!-- <script src="elige_problema.js"></script> -->
-
-<script src="presenta-sumaoculta.js"></script>
-
+	<script src="presenta-sumaoculta.js"></script>
 
 </body>
 

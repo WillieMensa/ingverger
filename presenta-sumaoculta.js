@@ -28,6 +28,7 @@ var
 // BEGIN
 //==================
 window.onload = function(){
+	poneMenuPpal();
 	init();
 };
 

@@ -18,8 +18,8 @@ function poneMenuPpal() {
 		'	<li class="dropdown">' +
 		'		<a href="javascript:void(0)" class="dropbtn">Representac. Gráfica</a>' +
 		'		<div class="dropdown-content">' +
-		'			<a href="./temas-rep-graf.html">Material de estudio</a>' +
-		'			<a href="./guias-de-clase.html">Gu&iacute;as de Clase</a>' +
+		'			<a href="./guias-de-clase.html">Guías de Clase</a>' +
+		'			<a href="./rg-material-estudio.html">Material adicional</a>' +
 		'			<a href="./representacion-con-cad.html">Representación asistida con CAD</a>' +
 		'			<a href="./repgrafsincorbata.html">Representaci&#243;n gr&#225;fica sin corbata</a>' +
 		'		</div>' +
@@ -29,7 +29,6 @@ function poneMenuPpal() {
 		'		<div class="dropdown-content">' +
 		'			<a href="matematica-recreativa.html">Matemática recreativa</a>' +
 		'			<a href="publicaciones-varias.html">Publicaciones varias</a>' +
-		'			<a href="metodo-intelectual.php">Metodolog&iacute;a intelectual</a>' +
 		'			<a href="calendarios.html">Impresion calendarios y otros</a>' +
 		'		</div>' +
 		'	</li>' +
