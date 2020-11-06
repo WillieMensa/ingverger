@@ -8,517 +8,512 @@
 
 
 <url>
-  <loc>http://www.ingverger.com.ar/index.html</loc>
+  <loc>./index.html</loc>
   <lastmod>2020-03-06T14:24:48+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/novedades.php</loc>
+  <loc>./novedades.php</loc>
   <lastmod>2020-07-19T01:49:02+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/ingenio.html</loc>
+  <loc>./ingenio.html</loc>
   <lastmod>2020-07-19T01:49:02+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/aplicaciones.html</loc>
+  <loc>./aplicaciones.html</loc>
   <lastmod>2020-07-19T01:49:02+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/temas-rep-graf.html</loc>
+  <loc>./temas-rep-graf.html</loc>
   <lastmod>2020-07-19T01:49:02+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/publicaciones.php</loc>
+  <loc>./publicaciones.php</loc>
   <lastmod>2020-07-19T01:49:02+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/consultas.html</loc>
+  <loc>./consultas.html</loc>
   <lastmod>2020-07-19T01:49:02+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/curriculum-resumido.html</loc>
+  <loc>./curriculum-resumido.html</loc>
   <lastmod>2020-07-19T01:49:02+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/repgrafsincorbata.php</loc>
+  <loc>./repgrafsincorbata.php</loc>
   <lastmod>2020-07-19T01:49:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/calendarios.html</loc>
+  <loc>./calendarios.html</loc>
   <lastmod>2020-07-19T01:49:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/mapas/mapa-rosario.php</loc>
+  <loc>./mapas/mapa-rosario.php</loc>
   <lastmod>2020-07-19T01:49:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/politicaprivacidad.php</loc>
+  <loc>./politicaprivacidad.php</loc>
   <lastmod>2020-07-19T01:49:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/sumaoculta.html</loc>
+  <loc>./sumaoculta.html</loc>
   <lastmod>2020-07-19T01:49:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/frame_pentomania.php</loc>
+  <loc>./49rompecocos.html</loc>
   <lastmod>2020-07-19T01:49:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/49rompecocos.html</loc>
+  <loc>./sumado-imprimir.php</loc>
   <lastmod>2020-07-19T01:49:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/sumado-imprimir.php</loc>
-  <lastmod>2020-07-19T01:49:02+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.ingverger.com.ar/sumado/index.html</loc>
+  <loc>./sumado/index.html</loc>
   <lastmod>2019-01-18T21:46:32+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/revista-enigma.html</loc>
+  <loc>./revista-enigma.html</loc>
   <lastmod>2020-07-19T01:49:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/cuadrominos.php</loc>
+  <loc>./cuadrominos.php</loc>
   <lastmod>2020-07-19T01:49:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/problemas_ingenio_2020.html</loc>
+  <loc>./problemas_ingenio_2020.html</loc>
   <lastmod>2020-06-08T03:11:19+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/rompecabezas.php</loc>
+  <loc>./rompecabezas.php</loc>
   <lastmod>2020-07-19T01:49:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/rubik.php</loc>
+  <loc>./rubik.php</loc>
   <lastmod>2020-07-19T01:49:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/solucioncubosteinhaus.php</loc>
+  <loc>./solucioncubosteinhaus.php</loc>
   <lastmod>2020-07-19T01:49:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/sudoku.php</loc>
+  <loc>./sudoku.php</loc>
   <lastmod>2020-07-19T01:49:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/pentomania.php</loc>
+  <loc>./pentomania.php</loc>
   <lastmod>2020-07-19T01:49:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/memorioso/index.html</loc>
+  <loc>./memorioso/index.html</loc>
   <lastmod>2020-01-10T00:28:56+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/sumado.php</loc>
+  <loc>./sumado.php</loc>
   <lastmod>2020-07-19T01:49:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/mtimer/index.html</loc>
+  <loc>./mtimer/index.html</loc>
   <lastmod>2020-01-16T01:50:18+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/ver-publicac-rep-graf.php</loc>
+  <loc>./ver-publicac-rep-graf.php</loc>
   <lastmod>2020-07-19T01:49:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/ver-caligrafia-tecnica.php</loc>
+  <loc>./ver-caligrafia-tecnica.php</loc>
   <lastmod>2020-07-19T01:49:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/ver-croquis-tecnico.php</loc>
+  <loc>./ver-croquis-tecnico.php</loc>
   <lastmod>2020-07-19T01:49:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/ver-anexos-croquizado.php</loc>
+  <loc>./ver-anexos-croquizado.php</loc>
   <lastmod>2020-07-19T01:49:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/alias-acad.html</loc>
+  <loc>./alias-acad.html</loc>
   <lastmod>2020-07-19T01:49:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/ver-geometria-descriptiva-londres.php</loc>
+  <loc>./ver-geometria-descriptiva-londres.php</loc>
   <lastmod>2020-07-19T01:49:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/ver-geometria-descriptiva-watts-rule.php</loc>
+  <loc>./ver-geometria-descriptiva-watts-rule.php</loc>
   <lastmod>2020-07-19T01:49:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/ver-ejer-vistas-aux.asp</loc>
+  <loc>./ver-ejer-vistas-aux.asp</loc>
   <lastmod>2020-07-19T01:49:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/ver-tips-autocad-visualizar.php</loc>
+  <loc>./ver-tips-autocad-visualizar.php</loc>
   <lastmod>2020-07-19T01:49:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/ver-capacitacion-cad3d.php</loc>
+  <loc>./ver-capacitacion-cad3d.php</loc>
   <lastmod>2020-07-19T01:49:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/ver-cad3d-ejercicios.php</loc>
+  <loc>./ver-cad3d-ejercicios.php</loc>
   <lastmod>2020-07-19T01:49:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/ver-matematica-estas-ahi-1.php</loc>
+  <loc>./ver-matematica-estas-ahi-1.php</loc>
   <lastmod>2020-07-19T01:49:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/ver-matematica-estas-ahi-2.php</loc>
+  <loc>./ver-matematica-estas-ahi-2.php</loc>
   <lastmod>2020-07-19T01:49:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/ver-matematica-estas-ahi-3.php</loc>
+  <loc>./ver-matematica-estas-ahi-3.php</loc>
   <lastmod>2020-07-19T01:49:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/ver-matematica-estas-ahi-4.php</loc>
+  <loc>./ver-matematica-estas-ahi-4.php</loc>
   <lastmod>2020-07-19T01:49:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/ver-iq-test-3.php</loc>
+  <loc>./ver-iq-test-3.php</loc>
   <lastmod>2020-07-19T01:49:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/ver-iq-test-2.php</loc>
+  <loc>./ver-iq-test-2.php</loc>
   <lastmod>2020-07-19T01:49:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/ver-iq-test.php</loc>
+  <loc>./ver-iq-test.php</loc>
   <lastmod>2020-07-19T01:49:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/ver-matematica-para-divertirse.html</loc>
+  <loc>./ver-matematica-para-divertirse.html</loc>
   <lastmod>2020-07-19T01:49:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/ver-acertijosdesamlloyd.html</loc>
+  <loc>./ver-acertijosdesamlloyd.html</loc>
   <lastmod>2020-07-19T01:49:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/ver-caleidociclo-6.php</loc>
+  <loc>./ver-caleidociclo-6.php</loc>
   <lastmod>2020-07-19T01:49:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/descargas/rg5rbata-00.pdf</loc>
+  <loc>./descargas/rg5rbata-00.pdf</loc>
   <lastmod>2019-11-22T00:28:16+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/descargas/rg5rbata-01.pdf</loc>
+  <loc>./descargas/rg5rbata-01.pdf</loc>
   <lastmod>2019-11-22T00:30:48+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/descargas/rg5rbata-02.pdf</loc>
+  <loc>./descargas/rg5rbata-02.pdf</loc>
   <lastmod>2019-11-22T00:32:51+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/descargas/rg5rbata-03.pdf</loc>
+  <loc>./descargas/rg5rbata-03.pdf</loc>
   <lastmod>2019-11-22T00:33:56+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/descargas/rg5rbata-04.pdf</loc>
+  <loc>./descargas/rg5rbata-04.pdf</loc>
   <lastmod>2019-11-22T00:36:10+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/descargas/rg5rbata-05.pdf</loc>
+  <loc>./descargas/rg5rbata-05.pdf</loc>
   <lastmod>2019-11-22T00:37:46+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/descargas/rg5rbata-06.pdf</loc>
+  <loc>./descargas/rg5rbata-06.pdf</loc>
   <lastmod>2019-11-22T00:38:29+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/descargas/rg5rbata-07.pdf</loc>
+  <loc>./descargas/rg5rbata-07.pdf</loc>
   <lastmod>2019-11-22T00:41:11+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/descargas/rg5rbata-08.pdf</loc>
+  <loc>./descargas/rg5rbata-08.pdf</loc>
   <lastmod>2019-11-22T00:41:40+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/descargas/rg5rbata-09.pdf</loc>
+  <loc>./descargas/rg5rbata-09.pdf</loc>
   <lastmod>2019-11-22T00:42:10+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/descargas/calendario-anual-2019.pdf</loc>
+  <loc>./descargas/calendario-anual-2019.pdf</loc>
   <lastmod>2018-12-27T22:34:14+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/descargas/calendario-mensual-2019.pdf</loc>
+  <loc>./descargas/calendario-mensual-2019.pdf</loc>
   <lastmod>2018-12-27T22:34:16+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/descargas/calendario_anual_2020.pdf</loc>
+  <loc>./descargas/calendario_anual_2020.pdf</loc>
   <lastmod>2019-11-25T01:31:14+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/descargas/calendario_mensual_2020.pdf</loc>
+  <loc>./descargas/calendario_mensual_2020.pdf</loc>
   <lastmod>2019-11-23T02:18:21+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/descargas/agenda_semanal.pdf</loc>
+  <loc>./descargas/agenda_semanal.pdf</loc>
   <lastmod>2019-11-25T20:52:53+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/descargas/planilla_la_podrida.pdf</loc>
+  <loc>./descargas/planilla_la_podrida.pdf</loc>
   <lastmod>2019-02-05T22:22:10+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/mapas/berlin.php</loc>
+  <loc>./mapas/berlin.php</loc>
   <lastmod>2020-07-19T01:49:02+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/mapas/miami.php</loc>
+  <loc>./mapas/miami.php</loc>
   <lastmod>2020-07-19T01:49:02+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/mapas/ny.php</loc>
+  <loc>./mapas/ny.php</loc>
   <lastmod>2020-07-19T01:49:02+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/mapas/orlando.php</loc>
+  <loc>./mapas/orlando.php</loc>
   <lastmod>2020-07-19T01:49:02+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/pentomania/index.html</loc>
+  <loc>./pentomania/index.html</loc>
   <lastmod>2019-12-05T02:56:41+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/descargas/puzzle%20sig-no%20242-july%202019.pdf</loc>
+  <loc>./descargas/puzzle%20sig-no%20242-july%202019.pdf</loc>
   <lastmod>2019-09-17T01:45:49+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/descargas/puzzle%20sig-no%20243%20sept%202019.pdf</loc>
+  <loc>./descargas/puzzle%20sig-no%20243%20sept%202019.pdf</loc>
   <lastmod>2019-09-17T01:46:23+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/descargas/Puzzle%20SIG-No%20244-Nov%202019.pdf</loc>
+  <loc>./descargas/Puzzle%20SIG-No%20244-Nov%202019.pdf</loc>
   <lastmod>2020-01-10T19:55:35+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/descargas/puzzle%20sig-no%20245-march%202020.pdf</loc>
+  <loc>./descargas/puzzle%20sig-no%20245-march%202020.pdf</loc>
   <lastmod>2020-03-19T02:26:11+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/descargas/cuadrominos-reglas.pdf</loc>
+  <loc>./descargas/cuadrominos-reglas.pdf</loc>
   <lastmod>2020-01-21T22:46:50+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/enlaces.php</loc>
+  <loc>./enlaces.php</loc>
   <lastmod>2020-07-19T01:49:02+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/ingenio/110_pesoaladerecha.html</loc>
+  <loc>./ingenio/110_pesoaladerecha.html</loc>
   <lastmod>2020-06-07T22:20:13+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/ingenio/120_numero_tanya.html</loc>
+  <loc>./ingenio/120_numero_tanya.html</loc>
   <lastmod>2020-06-08T00:07:59+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/descargas/tetraflexagono.pdf</loc>
+  <loc>./descargas/tetraflexagono.pdf</loc>
   <lastmod>2015-12-31T14:25:40+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/descargas/sudoku-dificil-201104.pdf?dl=0</loc>
+  <loc>./descargas/sudoku-dificil-201104.pdf?dl=0</loc>
   <lastmod>2011-04-12T23:39:10+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/descargas/sudoku-dificil-201201.pdf?dl=0</loc>
+  <loc>./descargas/sudoku-dificil-201201.pdf?dl=0</loc>
   <lastmod>2019-12-10T20:49:47+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/descargas/sudoku-dificil-201202.pdf</loc>
+  <loc>./descargas/sudoku-dificil-201202.pdf</loc>
   <lastmod>2012-02-17T01:59:31+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/descargas/sudoku201209.pdf?dl=0</loc>
+  <loc>./descargas/sudoku201209.pdf?dl=0</loc>
   <lastmod>2012-09-09T23:13:50+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/descargas/sudoku201210.pdf?dl=0</loc>
+  <loc>./descargas/sudoku201210.pdf?dl=0</loc>
   <lastmod>2012-12-13T02:27:27+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/descargas/sudoku-dificil-201112.pdf?dl=0</loc>
+  <loc>./descargas/sudoku-dificil-201112.pdf?dl=0</loc>
   <lastmod>2011-12-05T02:54:54+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/descargas/sudoku201301.pdf?dl=0</loc>
+  <loc>./descargas/sudoku201301.pdf?dl=0</loc>
   <lastmod>2013-01-07T16:40:44+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/descargas/sudoku201302.pdf?dl=0</loc>
+  <loc>./descargas/sudoku201302.pdf?dl=0</loc>
   <lastmod>2013-02-14T01:05:33+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/descargas/guiaclase-a-fundamentos.pdf</loc>
+  <loc>./descargas/guiaclase-a-fundamentos.pdf</loc>
   <lastmod>2016-02-13T22:53:30+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/descargas/guiaclase-vistas-0.pdf</loc>
+  <loc>./descargas/guiaclase-vistas-0.pdf</loc>
   <lastmod>2015-08-18T16:13:00+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/descargas/guiaclase-perpendicularidad-2.pdf</loc>
+  <loc>./descargas/guiaclase-perpendicularidad-2.pdf</loc>
   <lastmod>2012-09-18T23:19:44+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/descargas/GuiaClase-ProyeccionCircunferencia.pdf</loc>
+  <loc>./descargas/GuiaClase-ProyeccionCircunferencia.pdf</loc>
   <lastmod>2013-05-23T01:18:22+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/descargas/guiaclase-cambiodeplano.pdf</loc>
+  <loc>./descargas/guiaclase-cambiodeplano.pdf</loc>
   <lastmod>2015-10-19T01:44:14+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/descargas/guiaclase-lectura-1.pdf</loc>
+  <loc>./descargas/guiaclase-lectura-1.pdf</loc>
   <lastmod>2012-10-13T21:47:24+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/descargas/guiaclase-axonometria-2015.pptx</loc>
+  <loc>./descargas/guiaclase-axonometria-2015.pptx</loc>
   <lastmod>2015-08-28T02:23:54+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/descargas/guiaclase-intersecciones.pdf</loc>
+  <loc>./descargas/guiaclase-intersecciones.pdf</loc>
   <lastmod>2018-02-08T02:42:50+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/descargas/guiaclase-poliedros.pdf</loc>
+  <loc>./descargas/guiaclase-poliedros.pdf</loc>
   <lastmod>2015-10-26T02:15:54+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/descargas/guiaclase-superficiescurvas.pdf</loc>
+  <loc>./descargas/guiaclase-superficiescurvas.pdf</loc>
   <lastmod>2015-06-18T01:48:20+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/descargas/cad-vistas-axonometria.pdf</loc>
+  <loc>./descargas/cad-vistas-axonometria.pdf</loc>
   <lastmod>2019-12-26T01:48:37+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/descargas/resolucionmodelo-1.pdf</loc>
+  <loc>./descargas/resolucionmodelo-1.pdf</loc>
   <lastmod>2020-03-22T22:27:11+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/descargas/geometria_descriptiva.pdf</loc>
+  <loc>./descargas/geometria_descriptiva.pdf</loc>
   <lastmod>2010-05-30T23:45:22+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/descargas/capacitacioncad3d-ejercicios-b.pdf</loc>
+  <loc>./descargas/capacitacioncad3d-ejercicios-b.pdf</loc>
   <lastmod>2016-10-15T03:07:36+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/descargas/matematicaestasahi-episodio-1.pdf</loc>
+  <loc>./descargas/matematicaestasahi-episodio-1.pdf</loc>
   <lastmod>2005-09-10T06:10:16+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://www.ingverger.com.ar/mapa-rosario.php</loc>
+  <loc>./mapa-rosario.php</loc>
   <lastmod>2020-07-19T01:49:02+00:00</lastmod>
   <priority>0.41</priority>
 </url>
