@@ -10,8 +10,8 @@
 
 	uso de colores comunes según https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties 
 
-*/
 
+paleta de colores original
 :root {
 	--clr-oscuro : #203c10;
 	--clr-medio  : #587f34;
@@ -19,6 +19,34 @@
 	--clr-claro  : #e0e0b8;
 	--clr-fondo  : #e7e7cb;
 	--clr-contra : #a95;
+}
+<color name='color-theme_000051260029-5' rgb='F2935C' r='242' g='147' b='92' />
+<color name='color-theme_000051260029-1' rgb='C5D1D9' r='197' g='209' b='217' />
+<color name='color-theme_000051260029-2' rgb='518C86' r='81' g='140' b='134' />
+<color name='color-theme_000051260029-3' rgb='01402E' r='1' g='64' b='46' />
+<color name='color-theme_000051260029-4' rgb='012619' r='1' g='38' b='25' />
+
+
+*/
+
+:root {
+--hunter-green:		#386641ff;
+--may-green:		#6a994eff;
+--android-green:	#a7c957ff;
+--eggshell:			#f2e8cfff;
+--metallic-sunburst:#a08840ff;
+
+--pine-tree: #14220bff;
+--army-green: #405127ff;
+--yellow-green-crayola: #a7d266ff;
+--pale-spring-bud: #d8e0a2ff;
+--cafe-noir: #563a1dff;
+
+	--clr-oscuro : #660000ff;
+	--clr-medio  : #6a994eff;
+	--clr-claro  : #a7c957ff;
+	--clr-fondo  : #f2e8cfff;
+	--clr-contra : #a08840ff;
 }
 
 
@@ -81,8 +109,12 @@ h1 {
 	font:bold 200%/120% arial,helvetica,sans-serif;
 }
 
+h4 {
+	padding: 1em;
+}
+
 p {
-	padding:0 1em 1em;
+	padding:0 1em 0.5em;
 }
 
 #top {
@@ -179,11 +211,11 @@ html {
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 
-.clr_oscuro {	background-color: var(--clr-oscuro); } }
-.clr_medio {	background-color: var(--clr-medio); }
-.clr_palido {	background-color: var(--clr-palido); }
-.clr_claro { background-color: var(--clr-claro); }
-.clr_contra {	background-color: var(--clr-contra); } }
+.clr_oscuro { background-color: var(--clr-oscuro); } }
+.clr_medio  { background-color: var(--clr-medio); }
+.clr_claro  { background-color: var(--clr-claro); }
+.clr_fondo  { background-color: var(--clr-fondo); }
+.clr_contra { background-color: var(--clr-contra); } }
 
 /* fond -->	background:#dff5d6; */
 
@@ -240,19 +272,19 @@ li.dropdown {
   position: absolute;
   background-color:  var(--clr-medio);
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.82);
   z-index: 1;
 }
 
 .dropdown-content a {
-  color: black;
+  color: white;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
   text-align: left;
 }
 
-.dropdown-content a:hover {background-color: var(--clr-palido);}
+.dropdown-content a:hover {background-color: var(--clr-oscuro);}
 
 .dropdown:hover .dropdown-content {
   display: block;
