@@ -10,23 +10,6 @@
 
 	uso de colores comunes según https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties 
 
-
-paleta de colores original
-:root {
-	--clr-oscuro : #203c10;
-	--clr-medio  : #587f34;
-	--clr-palido : #bbcc66;
-	--clr-claro  : #e0e0b8;
-	--clr-fondo  : #e7e7cb;
-	--clr-contra : #a95;
-}
-<color name='color-theme_000051260029-5' rgb='F2935C' r='242' g='147' b='92' />
-<color name='color-theme_000051260029-1' rgb='C5D1D9' r='197' g='209' b='217' />
-<color name='color-theme_000051260029-2' rgb='518C86' r='81' g='140' b='134' />
-<color name='color-theme_000051260029-3' rgb='01402E' r='1' g='64' b='46' />
-<color name='color-theme_000051260029-4' rgb='012619' r='1' g='38' b='25' />
-
-
 */
 
 :root {
@@ -44,9 +27,9 @@ paleta de colores original
 
 	--clr-oscuro : #660000ff;
 	--clr-medio  : #6a994eff;
-	--clr-claro  : #a7c957ff;
+	--clr-claro  : #a7c957ff; 
 	--clr-fondo  : #f2e8cfff;
-	--clr-contra : #a08840ff;
+	--clr-contra : #685533ff;
 }
 
 
@@ -211,11 +194,11 @@ html {
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 
-.clr_oscuro { background-color: var(--clr-oscuro); } }
+.clr_oscuro { background-color: var(--clr-oscuro); } 
 .clr_medio  { background-color: var(--clr-medio); }
 .clr_claro  { background-color: var(--clr-claro); }
 .clr_fondo  { background-color: var(--clr-fondo); }
-.clr_contra { background-color: var(--clr-contra); } }
+.clr_contra { background-color: var(--clr-contra); } 
 
 /* fond -->	background:#dff5d6; */
 
@@ -260,7 +243,8 @@ li a, .dropbtn {
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-  background-color: var(--clr-oscuro);
+  /* background-color: var(--clr-oscuro); */
+  background-color: var(--clr-contra);
 }
 
 li.dropdown {
@@ -284,7 +268,7 @@ li.dropdown {
   text-align: left;
 }
 
-.dropdown-content a:hover {background-color: var(--clr-oscuro);}
+.dropdown-content a:hover {background-color: var(--clr-contra);}
 
 .dropdown:hover .dropdown-content {
   display: block;
