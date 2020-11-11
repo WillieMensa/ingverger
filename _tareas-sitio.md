@@ -13,9 +13,22 @@ http://www.ingverger.com.ar/ver-polya-resolucion-problemas.php
 ver-matematica-estas-ahi-4.php	31	4.97 KB	16	17	
 ver-iq-test-2.php ? borrar
 solucioncubosteinhaus.php
+xrubik.php
+
 
 ## reemplazar, eliminar
 
+### redireccionar
+
+/ver-prob-dividir-cuadrado-soluc.php	5	6.04 KB	5	5	
+
+/pentomania.php	5	9.36 KB	5	5	
+/lareglasecreta.php	5	6.08 KB	4	4	
+/sudoku.php	4	6.98 KB	4	4	
+/repgrafsincorbata.php	4	6.22 KB	4	4	
+/ver-caleidociclo-6.php	4	5.97 KB	4	4	
+/curriculum-resumido.php	4	8.57 KB	3	3	
+/ver-tips-autocad-visualizar.php	4	5.03 KB	3	4	
 
 
 ## REEMPLAZAR PHP C/ HTML
@@ -24,8 +37,6 @@ mapasmapa-rosario.php	42	4.10 KB	28	27
 politicaprivacidad.php	41	8.62 KB	26	27	
 
 ver-prob-dividir-cuadrado-soluc.php	38	6.34 KB	25	28	
-
-rubik.php	32	35.09 KB	22	18	
 
 mapasberlin.php	29	3.78 KB	19	18	
 
@@ -243,3 +254,22 @@ Imagenes en e:\Dropbox\Sitios\IngVerger-accesorios\_MERCADO-PAGO\
 
 # REVISAR CORREGIR PAGINAS
 
+
+## PAGINAS NO ENCONTRADAS
+
+	ver-polya-resolucion-problemas.asp, 
+	ver-iq-test.asp
+	rg-tpi-alumnos.asp	
+	ver-perpendicularidad.asp
+	ver-ejer-vistas-aux.asp	
+	temas-rep-graf.asp	
+	ver-seis-sombreros-para-pensar.asp
+	ver-guiaclase-intersecciones.asp
+	ver-guiaclase-lectura.asp
+	ver-capacitacion-cad3d.asp	
+	ver-guiaclase-perpendicularidad.asp
+	normas-trabajo-individual.asp	
+	ver-sudoku-complicado.asp
+	ver-sudoku-dificil-201104.asp
+	ver-neuroplasticidad.asp
+	aplicacionesandroid.asp
