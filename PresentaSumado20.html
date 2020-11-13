@@ -4,10 +4,6 @@
 <meta charset="utf-8">
 <meta	name="viewport"	content="width=device-width,height=device-height,initial-scale=1">
 
-	<!-- 
-		tutorial de https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Grids	
-		https://cutcodedown.com/tutorial/mobileMenu
-	-->
 	<title>Presentación SUMADO 2.0</title>
 	
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
@@ -37,12 +33,18 @@
 
 	<div id="menuppal"></div>
 
-<div class="row clr_fondo">
+<div class="row clr_claro">
 	<div class="col-8">
 		<p>Hay círculos unidos por líneas que forman triángulos. En los círculos hay
 		números consecutivos a partir del 1 al 9. El número dentro de cada triángulo es 
 		la suma de los valores de los círculos que son sus vértices. El objetivo del
 		juego es deducir los valores de cada círculo, el primero de los cuales ya está asignado.</p>
+		<!-- 
+			En los círculos hay números consecutivos a partir del 1 al 9.
+			En el interior de los triángulos se presenta la suma de esos números.
+			El objetivo del juego es deducir los valores de cada círculo, el primero de los cuales ya está asignado.
+		-->
+
 	</div>
 	<div class="col-4">
 		<p><label for="numero">Página:</label>
@@ -55,8 +57,7 @@
 	</div>
 </div>
 
-<div class="row clr_claro">
-  <div class="col-2"></div>
+<div class="row clr_fondo">
   <div class="col-8" id="imprimir">
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
@@ -340,12 +341,7 @@
 		</svg>
 			
 	</div>
-  <div class="col-2"></div>
-</div>
-
-	<div class="row clr_claro">
-		<div class="col-2"></div>
-		<div class="col-8">
+  <div class="col-4">
 			<!-- Codigo para anuncios InArticle en el lugar donde quiero aparezca	-->
 			<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 			<ins class="adsbygoogle"
@@ -356,10 +352,10 @@
 					 data-ad-slot="9586801789"></ins>
 			<script>
 					 (adsbygoogle = window.adsbygoogle || []).push({});
-			</script>
-		</div>
-		<div class="col-2"></div>
-	</div>
+			</script>	
+  </div>
+</div>
+
 
 	<ul id="mainMenu">
 		<li><a href="./curriculum-resumido.html">Quién soy</a></li>

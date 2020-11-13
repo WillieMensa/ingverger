@@ -8,514 +8,84 @@
 
 
 <url>
-  <loc>./index.html</loc>
-  <lastmod>2020-03-06T14:24:48+00:00</lastmod>
+  <loc>https://gifted-spence-636cb0.netlify.app/</loc>
+  <lastmod>2020-11-13T03:03:57+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>./novedades.php</loc>
-  <lastmod>2020-07-19T01:49:02+00:00</lastmod>
+  <loc>https://gifted-spence-636cb0.netlify.app/presentasumado20</loc>
+  <lastmod>2020-11-13T03:03:57+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>./ingenio.html</loc>
-  <lastmod>2020-07-19T01:49:02+00:00</lastmod>
+  <loc>https://gifted-spence-636cb0.netlify.app/sumaoculta.html</loc>
+  <lastmod>2020-11-13T03:03:57+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>./aplicaciones.html</loc>
-  <lastmod>2020-07-19T01:49:02+00:00</lastmod>
+  <loc>https://gifted-spence-636cb0.netlify.app/pentomania.html</loc>
+  <lastmod>2020-11-13T03:03:57+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>./temas-rep-graf.html</loc>
-  <lastmod>2020-07-19T01:49:02+00:00</lastmod>
+  <loc>https://gifted-spence-636cb0.netlify.app/frame_pentomania.html</loc>
+  <lastmod>2020-11-13T03:03:57+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>./publicaciones.php</loc>
-  <lastmod>2020-07-19T01:49:02+00:00</lastmod>
+  <loc>https://gifted-spence-636cb0.netlify.app/revista-enigma.html</loc>
+  <lastmod>2020-11-13T03:03:57+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>./consultas.html</loc>
-  <lastmod>2020-07-19T01:49:02+00:00</lastmod>
+  <loc>https://gifted-spence-636cb0.netlify.app/curriculum-resumido.html</loc>
+  <lastmod>2020-11-13T03:03:57+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>./curriculum-resumido.html</loc>
-  <lastmod>2020-07-19T01:49:02+00:00</lastmod>
+  <loc>https://gifted-spence-636cb0.netlify.app/consultas.html</loc>
+  <lastmod>2020-11-13T03:03:57+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>./repgrafsincorbata.php</loc>
-  <lastmod>2020-07-19T01:49:02+00:00</lastmod>
+  <loc>https://gifted-spence-636cb0.netlify.app/problemas_ingenio_2020.html</loc>
+  <lastmod>2020-11-13T03:03:57+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>./calendarios.html</loc>
-  <lastmod>2020-07-19T01:49:02+00:00</lastmod>
+  <loc>https://gifted-spence-636cb0.netlify.app/descargas/puzzle%20sig-no%20245-march%202020.pdf</loc>
+  <lastmod>2020-11-13T03:03:57+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>./mapas/mapa-rosario.php</loc>
-  <lastmod>2020-07-19T01:49:02+00:00</lastmod>
+  <loc>https://gifted-spence-636cb0.netlify.app/descargas/Puzzle%20SIG-No%20246-July%202020.pdf</loc>
+  <lastmod>2020-11-13T03:03:57+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>./politicaprivacidad.php</loc>
-  <lastmod>2020-07-19T01:49:02+00:00</lastmod>
+  <loc>https://gifted-spence-636cb0.netlify.app/descargas/Puzzle%20SIG-No%20247-October%202020.pdf</loc>
+  <lastmod>2020-11-13T03:03:57+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>./sumaoculta.html</loc>
-  <lastmod>2020-07-19T01:49:02+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>./49rompecocos.html</loc>
-  <lastmod>2020-07-19T01:49:02+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>./sumado-imprimir.php</loc>
-  <lastmod>2020-07-19T01:49:02+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>./sumado/index.html</loc>
-  <lastmod>2019-01-18T21:46:32+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>./revista-enigma.html</loc>
-  <lastmod>2020-07-19T01:49:02+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>./cuadrominos.php</loc>
-  <lastmod>2020-07-19T01:49:02+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>./problemas_ingenio_2020.html</loc>
-  <lastmod>2020-06-08T03:11:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>./rompecabezas.php</loc>
-  <lastmod>2020-07-19T01:49:02+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>./rubik.php</loc>
-  <lastmod>2020-07-19T01:49:02+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>./solucioncubosteinhaus.php</loc>
-  <lastmod>2020-07-19T01:49:02+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>./sudoku.php</loc>
-  <lastmod>2020-07-19T01:49:02+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>./pentomania.php</loc>
-  <lastmod>2020-07-19T01:49:02+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>./memorioso/index.html</loc>
-  <lastmod>2020-01-10T00:28:56+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>./sumado.php</loc>
-  <lastmod>2020-07-19T01:49:02+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>./mtimer/index.html</loc>
-  <lastmod>2020-01-16T01:50:18+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>./ver-publicac-rep-graf.php</loc>
-  <lastmod>2020-07-19T01:49:02+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>./ver-caligrafia-tecnica.php</loc>
-  <lastmod>2020-07-19T01:49:02+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>./ver-croquis-tecnico.php</loc>
-  <lastmod>2020-07-19T01:49:02+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>./ver-anexos-croquizado.php</loc>
-  <lastmod>2020-07-19T01:49:02+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>./alias-acad.html</loc>
-  <lastmod>2020-07-19T01:49:02+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>./ver-geometria-descriptiva-londres.php</loc>
-  <lastmod>2020-07-19T01:49:02+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>./ver-geometria-descriptiva-watts-rule.php</loc>
-  <lastmod>2020-07-19T01:49:02+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>./ver-ejer-vistas-aux.asp</loc>
-  <lastmod>2020-07-19T01:49:02+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>./ver-tips-autocad-visualizar.php</loc>
-  <lastmod>2020-07-19T01:49:02+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>./ver-capacitacion-cad3d.php</loc>
-  <lastmod>2020-07-19T01:49:02+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>./ver-cad3d-ejercicios.php</loc>
-  <lastmod>2020-07-19T01:49:02+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>./ver-matematica-estas-ahi-1.php</loc>
-  <lastmod>2020-07-19T01:49:02+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>./ver-matematica-estas-ahi-2.php</loc>
-  <lastmod>2020-07-19T01:49:02+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>./ver-matematica-estas-ahi-3.php</loc>
-  <lastmod>2020-07-19T01:49:02+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>./ver-matematica-estas-ahi-4.php</loc>
-  <lastmod>2020-07-19T01:49:02+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>./ver-iq-test-3.php</loc>
-  <lastmod>2020-07-19T01:49:02+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>./ver-iq-test-2.php</loc>
-  <lastmod>2020-07-19T01:49:02+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>./ver-iq-test.php</loc>
-  <lastmod>2020-07-19T01:49:02+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>./ver-matematica-para-divertirse.html</loc>
-  <lastmod>2020-07-19T01:49:02+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>./ver-acertijosdesamlloyd.html</loc>
-  <lastmod>2020-07-19T01:49:02+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>./ver-caleidociclo-6.php</loc>
-  <lastmod>2020-07-19T01:49:02+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>./descargas/rg5rbata-00.pdf</loc>
-  <lastmod>2019-11-22T00:28:16+00:00</lastmod>
+  <loc>https://gifted-spence-636cb0.netlify.app/ingenio/110_pesoaladerecha.html</loc>
+  <lastmod>2020-11-13T03:03:57+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>./descargas/rg5rbata-01.pdf</loc>
-  <lastmod>2019-11-22T00:30:48+00:00</lastmod>
+  <loc>https://gifted-spence-636cb0.netlify.app/ingenio/120_numero_tanya.html</loc>
+  <lastmod>2020-11-13T03:03:57+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>./descargas/rg5rbata-02.pdf</loc>
-  <lastmod>2019-11-22T00:32:51+00:00</lastmod>
+  <loc>https://gifted-spence-636cb0.netlify.app/ingenio/130_equilatero_disecado.html</loc>
+  <lastmod>2020-11-13T03:03:57+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>./descargas/rg5rbata-03.pdf</loc>
-  <lastmod>2019-11-22T00:33:56+00:00</lastmod>
+  <loc>https://gifted-spence-636cb0.netlify.app/ingenio/sumaoculta-resolucion.html</loc>
+  <lastmod>2020-11-13T03:03:57+00:00</lastmod>
   <priority>0.51</priority>
-</url>
-<url>
-  <loc>./descargas/rg5rbata-04.pdf</loc>
-  <lastmod>2019-11-22T00:36:10+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>./descargas/rg5rbata-05.pdf</loc>
-  <lastmod>2019-11-22T00:37:46+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>./descargas/rg5rbata-06.pdf</loc>
-  <lastmod>2019-11-22T00:38:29+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>./descargas/rg5rbata-07.pdf</loc>
-  <lastmod>2019-11-22T00:41:11+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>./descargas/rg5rbata-08.pdf</loc>
-  <lastmod>2019-11-22T00:41:40+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>./descargas/rg5rbata-09.pdf</loc>
-  <lastmod>2019-11-22T00:42:10+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>./descargas/calendario-anual-2019.pdf</loc>
-  <lastmod>2018-12-27T22:34:14+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>./descargas/calendario-mensual-2019.pdf</loc>
-  <lastmod>2018-12-27T22:34:16+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>./descargas/calendario_anual_2020.pdf</loc>
-  <lastmod>2019-11-25T01:31:14+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>./descargas/calendario_mensual_2020.pdf</loc>
-  <lastmod>2019-11-23T02:18:21+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>./descargas/agenda_semanal.pdf</loc>
-  <lastmod>2019-11-25T20:52:53+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>./descargas/planilla_la_podrida.pdf</loc>
-  <lastmod>2019-02-05T22:22:10+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>./mapas/berlin.php</loc>
-  <lastmod>2020-07-19T01:49:02+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>./mapas/miami.php</loc>
-  <lastmod>2020-07-19T01:49:02+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>./mapas/ny.php</loc>
-  <lastmod>2020-07-19T01:49:02+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>./mapas/orlando.php</loc>
-  <lastmod>2020-07-19T01:49:02+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>./pentomania/index.html</loc>
-  <lastmod>2019-12-05T02:56:41+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>./descargas/puzzle%20sig-no%20242-july%202019.pdf</loc>
-  <lastmod>2019-09-17T01:45:49+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>./descargas/puzzle%20sig-no%20243%20sept%202019.pdf</loc>
-  <lastmod>2019-09-17T01:46:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>./descargas/Puzzle%20SIG-No%20244-Nov%202019.pdf</loc>
-  <lastmod>2020-01-10T19:55:35+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>./descargas/puzzle%20sig-no%20245-march%202020.pdf</loc>
-  <lastmod>2020-03-19T02:26:11+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>./descargas/cuadrominos-reglas.pdf</loc>
-  <lastmod>2020-01-21T22:46:50+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>./enlaces.php</loc>
-  <lastmod>2020-07-19T01:49:02+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>./ingenio/110_pesoaladerecha.html</loc>
-  <lastmod>2020-06-07T22:20:13+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>./ingenio/120_numero_tanya.html</loc>
-  <lastmod>2020-06-08T00:07:59+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>./descargas/tetraflexagono.pdf</loc>
-  <lastmod>2015-12-31T14:25:40+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>./descargas/sudoku-dificil-201104.pdf?dl=0</loc>
-  <lastmod>2011-04-12T23:39:10+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>./descargas/sudoku-dificil-201201.pdf?dl=0</loc>
-  <lastmod>2019-12-10T20:49:47+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>./descargas/sudoku-dificil-201202.pdf</loc>
-  <lastmod>2012-02-17T01:59:31+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>./descargas/sudoku201209.pdf?dl=0</loc>
-  <lastmod>2012-09-09T23:13:50+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>./descargas/sudoku201210.pdf?dl=0</loc>
-  <lastmod>2012-12-13T02:27:27+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>./descargas/sudoku-dificil-201112.pdf?dl=0</loc>
-  <lastmod>2011-12-05T02:54:54+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>./descargas/sudoku201301.pdf?dl=0</loc>
-  <lastmod>2013-01-07T16:40:44+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>./descargas/sudoku201302.pdf?dl=0</loc>
-  <lastmod>2013-02-14T01:05:33+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>./descargas/guiaclase-a-fundamentos.pdf</loc>
-  <lastmod>2016-02-13T22:53:30+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>./descargas/guiaclase-vistas-0.pdf</loc>
-  <lastmod>2015-08-18T16:13:00+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>./descargas/guiaclase-perpendicularidad-2.pdf</loc>
-  <lastmod>2012-09-18T23:19:44+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>./descargas/GuiaClase-ProyeccionCircunferencia.pdf</loc>
-  <lastmod>2013-05-23T01:18:22+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>./descargas/guiaclase-cambiodeplano.pdf</loc>
-  <lastmod>2015-10-19T01:44:14+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>./descargas/guiaclase-lectura-1.pdf</loc>
-  <lastmod>2012-10-13T21:47:24+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>./descargas/guiaclase-axonometria-2015.pptx</loc>
-  <lastmod>2015-08-28T02:23:54+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>./descargas/guiaclase-intersecciones.pdf</loc>
-  <lastmod>2018-02-08T02:42:50+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>./descargas/guiaclase-poliedros.pdf</loc>
-  <lastmod>2015-10-26T02:15:54+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>./descargas/guiaclase-superficiescurvas.pdf</loc>
-  <lastmod>2015-06-18T01:48:20+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>./descargas/cad-vistas-axonometria.pdf</loc>
-  <lastmod>2019-12-26T01:48:37+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>./descargas/resolucionmodelo-1.pdf</loc>
-  <lastmod>2020-03-22T22:27:11+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>./descargas/geometria_descriptiva.pdf</loc>
-  <lastmod>2010-05-30T23:45:22+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>./descargas/capacitacioncad3d-ejercicios-b.pdf</loc>
-  <lastmod>2016-10-15T03:07:36+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>./descargas/matematicaestasahi-episodio-1.pdf</loc>
-  <lastmod>2005-09-10T06:10:16+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>./mapa-rosario.php</loc>
-  <lastmod>2020-07-19T01:49:02+00:00</lastmod>
-  <priority>0.41</priority>
 </url>
 
 
