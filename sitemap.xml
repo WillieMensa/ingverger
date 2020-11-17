@@ -1,92 +1,34 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
-<url>
-  <loc>https://gifted-spence-636cb0.netlify.app/</loc>
-  <lastmod>2020-11-17T13:16:27+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://gifted-spence-636cb0.netlify.app/presentasumado20</loc>
-  <lastmod>2020-11-17T13:16:27+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://gifted-spence-636cb0.netlify.app/sumaoculta.html</loc>
-  <lastmod>2020-11-17T13:16:27+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://gifted-spence-636cb0.netlify.app/pentomania.html</loc>
-  <lastmod>2020-11-17T13:16:27+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://gifted-spence-636cb0.netlify.app/frame_pentomania.html</loc>
-  <lastmod>2020-11-17T13:16:27+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://gifted-spence-636cb0.netlify.app/revista-enigma.html</loc>
-  <lastmod>2020-11-17T13:16:27+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://gifted-spence-636cb0.netlify.app/curriculum-resumido.html</loc>
-  <lastmod>2020-11-17T13:16:27+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://gifted-spence-636cb0.netlify.app/consultas.html</loc>
-  <lastmod>2020-11-17T13:16:27+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://gifted-spence-636cb0.netlify.app/problemas_ingenio_2020.html</loc>
-  <lastmod>2020-11-17T13:16:27+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://gifted-spence-636cb0.netlify.app/descargas/puzzle%20sig-no%20245-march%202020.pdf</loc>
-  <lastmod>2020-11-17T13:16:27+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://gifted-spence-636cb0.netlify.app/descargas/Puzzle%20SIG-No%20246-July%202020.pdf</loc>
-  <lastmod>2020-11-17T13:16:27+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://gifted-spence-636cb0.netlify.app/descargas/Puzzle%20SIG-No%20247-October%202020.pdf</loc>
-  <lastmod>2020-11-17T13:16:27+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://gifted-spence-636cb0.netlify.app/ingenio/110_pesoaladerecha.html</loc>
-  <lastmod>2020-11-17T13:16:27+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://gifted-spence-636cb0.netlify.app/ingenio/120_numero_tanya.html</loc>
-  <lastmod>2020-11-17T13:16:27+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://gifted-spence-636cb0.netlify.app/ingenio/130_equilatero_disecado.html</loc>
-  <lastmod>2020-11-17T13:16:27+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://gifted-spence-636cb0.netlify.app/ingenio/sumaoculta-resolucion.html</loc>
-  <lastmod>2020-11-17T13:16:27+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-
-
-</urlset>
+<?xml version='1.0' encoding='UTF-8'?><urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
+<url><loc>https://gifted-spence-636cb0.netlify.app/</loc></url>
+<url><loc>https://gifted-spence-636cb0.netlify.app/49rompecocos.html</loc></url>
+<url><loc>https://gifted-spence-636cb0.netlify.app/alias-acad.html</loc></url>
+<url><loc>https://gifted-spence-636cb0.netlify.app/aplicaciones.html</loc></url>
+<url><loc>https://gifted-spence-636cb0.netlify.app/calendarios.html</loc></url>
+<url><loc>https://gifted-spence-636cb0.netlify.app/consultas.html</loc></url>
+<url><loc>https://gifted-spence-636cb0.netlify.app/cuadrominos.html</loc></url>
+<url><loc>https://gifted-spence-636cb0.netlify.app/curriculum-resumido.html</loc></url>
+<url><loc>https://gifted-spence-636cb0.netlify.app/frame_pentomania.html</loc></url>
+<url><loc>https://gifted-spence-636cb0.netlify.app/guias-de-clase.html</loc></url>
+<url><loc>https://gifted-spence-636cb0.netlify.app/index.html</loc></url>
+<url><loc>https://gifted-spence-636cb0.netlify.app/ingenio.html</loc></url>
+<url><loc>https://gifted-spence-636cb0.netlify.app/ingenio/110_pesoaladerecha.html</loc></url>
+<url><loc>https://gifted-spence-636cb0.netlify.app/ingenio/120_numero_tanya.html</loc></url>
+<url><loc>https://gifted-spence-636cb0.netlify.app/ingenio/130_equilatero_disecado.html</loc></url>
+<url><loc>https://gifted-spence-636cb0.netlify.app/ingenio/sumaoculta-resolucion.html</loc></url>
+<url><loc>https://gifted-spence-636cb0.netlify.app/lareglasecreta.html</loc></url>
+<url><loc>https://gifted-spence-636cb0.netlify.app/matematica-recreativa.html</loc></url>
+<url><loc>https://gifted-spence-636cb0.netlify.app/pentomania.html</loc></url>
+<url><loc>https://gifted-spence-636cb0.netlify.app/presentasumado20</loc></url>
+<url><loc>https://gifted-spence-636cb0.netlify.app/problemas_ingenio_2020.html</loc></url>
+<url><loc>https://gifted-spence-636cb0.netlify.app/publicaciones-varias.html</loc></url>
+<url><loc>https://gifted-spence-636cb0.netlify.app/repgrafsincorbata.html</loc></url>
+<url><loc>https://gifted-spence-636cb0.netlify.app/representacion-con-cad.html</loc></url>
+<url><loc>https://gifted-spence-636cb0.netlify.app/revista-enigma.html</loc></url>
+<url><loc>https://gifted-spence-636cb0.netlify.app/rg-material-estudio.html</loc></url>
+<url><loc>https://gifted-spence-636cb0.netlify.app/rompecabezas.html</loc></url>
+<url><loc>https://gifted-spence-636cb0.netlify.app/rubik.html</loc></url>
+<url><loc>https://gifted-spence-636cb0.netlify.app/solucioncubosteinhaus.html</loc></url>
+<url><loc>https://gifted-spence-636cb0.netlify.app/sudoku.html</loc></url>
+<url><loc>https://gifted-spence-636cb0.netlify.app/sumado.html</loc></url>
+<url><loc>https://gifted-spence-636cb0.netlify.app/sumado/index.html</loc></url>
+<url><loc>https://gifted-spence-636cb0.netlify.app/sumaoculta.html</loc></url></urlset>
