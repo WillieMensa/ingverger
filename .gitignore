@@ -17,6 +17,3 @@ examples_old/
 # respaldo temporal
 *.bak
 plqpp
-
-# textos notas, observaciones y ayudas mios
-*.txt
