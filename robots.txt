@@ -1,4 +1,4 @@
 # /robots.txt file 
 User-agent: *
 Allow: /
-Sitemap: ./sitemap.xml
+Sitemap: https://gifted-spence-636cb0.netlify.app/sitemap.xml
