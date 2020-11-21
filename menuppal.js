@@ -30,6 +30,7 @@ function poneMenuPpal() {
 		'			<a href="matematica-recreativa.html">Matemática recreativa</a>' +
 		'			<a href="publicaciones-varias.html">Publicaciones varias</a>' +
 		'			<a href="calendarios.html">Impresion calendarios y otros</a>' +
+		'			<a href="galeria-imagenes.html">Galería de personajes</a>' +
 		'		</div>' +
 		'	</li>' +
 		'</ul>' ;
