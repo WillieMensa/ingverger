@@ -308,3 +308,6 @@ vertical	160 x 600
 cuadrado	300 x 250
 <iframe src="https://rcm-eu.amazon-adsystem.com/e/cm?o=30&p=12&l=ur1&category=kindlestore&banner=0EBKJZ3WWFVPXWK2EQG2&f=ifr&linkID=5966166e432eb868fd864d4c16d5215c&t=willieve-21&tracking_id=willieve-21" width="300" height="250" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0"></iframe>
 
+
+Enlace a pagina: Los 50 libros más vendidos
+<a target="_blank" href="https://www.amazon.es/b?_encoding=UTF8&tag=willieve-21&linkCode=ur2&linkId=d0736528026833fe361b22091042d01b&camp=3638&creative=24630&node=15246790031">Los 50 libros más vendidos</a><img src="//ir-es.amazon-adsystem.com/e/ir?t=willieve-21&l=ur2&o=30" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />

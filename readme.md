@@ -12,4 +12,13 @@ La idea está en elaboración.
 
 ## Direcciones acortadas
 
+https://bit.ly/incio-wv
+
 https://bit.ly/galeria-personajes
+
+https://bit.ly/galeria-personajes
+
+
+https://bit.ly/3kxT6z6 soluciones de problemas
+
+https://bit.ly/Sumado20
