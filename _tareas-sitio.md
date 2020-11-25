@@ -311,3 +311,6 @@ cuadrado	300 x 250
 
 Enlace a pagina: Los 50 libros más vendidos
 <a target="_blank" href="https://www.amazon.es/b?_encoding=UTF8&tag=willieve-21&linkCode=ur2&linkId=d0736528026833fe361b22091042d01b&camp=3638&creative=24630&node=15246790031">Los 50 libros más vendidos</a><img src="//ir-es.amazon-adsystem.com/e/ir?t=willieve-21&l=ur2&o=30" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+
+## sitemap enviar a
+search engines including Google, Bing, Baidu, Yandex and more.

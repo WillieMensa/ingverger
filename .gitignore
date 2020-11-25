@@ -9,7 +9,7 @@ npm-debug.log
 # project ignores
 !.gitkeep
 .privado
-*__temp
+*__*.*
 node_modules
 docs/
 examples_old/
