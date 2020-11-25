@@ -1,5 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?><urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
+<?xml version='1.0' encoding='UTF-8'?>
+<urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
 <url><loc>https://gifted-spence-636cb0.netlify.app/</loc></url>
+<url><loc>https://gifted-spence-636cb0.netlify.app/index.html</loc></url>
 <url><loc>https://gifted-spence-636cb0.netlify.app/49rompecocos.html</loc></url>
 <url><loc>https://gifted-spence-636cb0.netlify.app/alias-acad.html</loc></url>
 <url><loc>https://gifted-spence-636cb0.netlify.app/aplicaciones.html</loc></url>
@@ -9,7 +11,6 @@
 <url><loc>https://gifted-spence-636cb0.netlify.app/curriculum-resumido.html</loc></url>
 <url><loc>https://gifted-spence-636cb0.netlify.app/galeria-imagenes.html</loc></url>
 <url><loc>https://gifted-spence-636cb0.netlify.app/guias-de-clase.html</loc></url>
-<url><loc>https://gifted-spence-636cb0.netlify.app/index.html</loc></url>
 <url><loc>https://gifted-spence-636cb0.netlify.app/ingenio.html</loc></url>
 <url><loc>https://gifted-spence-636cb0.netlify.app/ingenio/110_pesoaladerecha.html</loc></url>
 <url><loc>https://gifted-spence-636cb0.netlify.app/ingenio/120_numero_tanya.html</loc></url>
@@ -17,9 +18,11 @@
 <url><loc>https://gifted-spence-636cb0.netlify.app/ingenio/sumaoculta-resolucion.html</loc></url>
 <url><loc>https://gifted-spence-636cb0.netlify.app/lareglasecreta.html</loc></url>
 <url><loc>https://gifted-spence-636cb0.netlify.app/matematica-recreativa.html</loc></url>
-<url><loc>https://gifted-spence-636cb0.netlify.app/pentomania_frame.html</loc></url>
+<url><loc>https://gifted-spence-636cb0.netlify.app/memorioso/index.html</loc></url>
+<url><loc>https://gifted-spence-636cb0.netlify.app/mtimer/index.html</loc></url>
 <url><loc>https://gifted-spence-636cb0.netlify.app/pentomania.html</loc></url>
-<url><loc>https://gifted-spence-636cb0.netlify.app/presentasumado20</loc></url>
+<url><loc>https://gifted-spence-636cb0.netlify.app/pentomania_frame.html</loc></url>
+<url><loc>https://gifted-spence-636cb0.netlify.app/presentasumado20.html</loc></url>
 <url><loc>https://gifted-spence-636cb0.netlify.app/problemas_ingenio_2020.html</loc></url>
 <url><loc>https://gifted-spence-636cb0.netlify.app/publicaciones-varias.html</loc></url>
 <url><loc>https://gifted-spence-636cb0.netlify.app/repgrafsincorbata.html</loc></url>
