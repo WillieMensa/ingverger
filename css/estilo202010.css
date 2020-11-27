@@ -13,18 +13,6 @@
 */
 
 :root {
---hunter-green:		#386641ff;
---may-green:		#6a994eff;
---android-green:	#a7c957ff;
---eggshell:			#f2e8cfff;
---metallic-sunburst:#a08840ff;
-
---pine-tree: #14220bff;
---army-green: #405127ff;
---yellow-green-crayola: #a7d266ff;
---pale-spring-bud: #d8e0a2ff;
---cafe-noir: #563a1dff;
-
 	--clr-oscuro : #660000ff;
 	--clr-medio  : #6a994eff;
 	--clr-claro  : #a7c957ff; 
@@ -67,7 +55,6 @@ body {
 	max-width: 1000px;
 	font: normal 100%/150% 'roboto_mediumregular', sans-serif;
 	padding:0.2em;
-	/* font:normal 100%/150% arial,helvetica,sans-serif; */	
 	background: var(--clr-fondo);
 }
 
@@ -152,33 +139,6 @@ html {
 	padding:0.4em;
 }
 
-/*
-.menu ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.menu li {
-  padding: 8px;
-  margin-bottom: 7px;
-  background-color: var(--clr-medio);
-  color: #ffffff;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-}
-
-.menu li:hover {
-  background-color: var(--clr-medio);
-}
-
-.aside {
-  background-color: var(--clr-medio);
-  padding: 15px;
-  color: #ffffff;
-  text-align: center;
-  font-size: 14px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-}
 
 /* For desktop: */
 .col-1 {width: 8.33%;}
