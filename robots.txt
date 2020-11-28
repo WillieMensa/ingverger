@@ -1,6 +1,7 @@
 # /robots.txt file 
 User-agent: *
 Allow: /
+Disallow: *.pdf
 
 Sitemap: https://gifted-spence-636cb0.netlify.app//sitemap.xml
 Sitemap: https://gifted-spence-636cb0.netlify.app//sitemap.html
