@@ -195,26 +195,3 @@ razonamiento
 resolver problemas
 retos mentales
 
-acertijos
-creatividad
-enigmas
-entrenamiento cerebral
-entrenamiento mental
-entrenamiento neuronal
-Gimnasia Cerebral
-gimnasia mental
-ingenio
-inteligencia verbal
-juegos
-juegos de ingenio
-juegos de lógica
-juegos de matemática
-juegos de números
-juegos mentales
-lógica
-Memoria
-percepción visual
-problemas
-razonamiento
-resolver problemas
-retos mentales
