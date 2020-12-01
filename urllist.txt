@@ -6,7 +6,7 @@ https://gifted-spence-636cb0.netlify.app/calendarios.html
 https://gifted-spence-636cb0.netlify.app/consultas.html
 https://gifted-spence-636cb0.netlify.app/cuadrominos.html
 https://gifted-spence-636cb0.netlify.app/curriculum-resumido.html
-https://gifted-spence-636cb0.netlify.app/galeria-imagenes.html
+https://gifted-spence-636cb0.netlify.app/galeria-personajes.html
 https://gifted-spence-636cb0.netlify.app/guias-de-clase.html
 https://gifted-spence-636cb0.netlify.app/index.html
 https://gifted-spence-636cb0.netlify.app/ingenio.html

@@ -180,9 +180,7 @@ entrenamiento mental
 entrenamiento neuronal
 Gimnasia Cerebral
 gimnasia mental
-ingenio
 inteligencia verbal
-juegos
 juegos de ingenio
 juegos de lógica
 juegos de matemática
@@ -190,6 +188,7 @@ juegos de números
 juegos mentales
 lógica
 Memoria
+neuróbica
 percepción visual
 problemas
 razonamiento
