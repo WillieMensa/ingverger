@@ -1,3 +1,4 @@
+https://gifted-spence-636cb0.netlify.app/
 https://gifted-spence-636cb0.netlify.app/index.html
 https://gifted-spence-636cb0.netlify.app/49rompecocos.html
 https://gifted-spence-636cb0.netlify.app/alias-acad.html
@@ -8,16 +9,13 @@ https://gifted-spence-636cb0.netlify.app/cuadrominos.html
 https://gifted-spence-636cb0.netlify.app/curriculum-resumido.html
 https://gifted-spence-636cb0.netlify.app/galeria-personajes.html
 https://gifted-spence-636cb0.netlify.app/guias-de-clase.html
-https://gifted-spence-636cb0.netlify.app/index.html
 https://gifted-spence-636cb0.netlify.app/ingenio.html
-https://gifted-spence-636cb0.netlify.app/ingenio/110_pesoaladerecha.html
-https://gifted-spence-636cb0.netlify.app/ingenio/120_numero_tanya.html
-https://gifted-spence-636cb0.netlify.app/ingenio/130_equilatero_disecado.html
-https://gifted-spence-636cb0.netlify.app/ingenio/sumaoculta-resolucion.html
 https://gifted-spence-636cb0.netlify.app/lareglasecreta.html
 https://gifted-spence-636cb0.netlify.app/matematica-recreativa.html
-https://gifted-spence-636cb0.netlify.app/pentomania_frame.html
+https://gifted-spence-636cb0.netlify.app/memorioso/index.html
+https://gifted-spence-636cb0.netlify.app/mtimer/index.html
 https://gifted-spence-636cb0.netlify.app/pentomania.html
+https://gifted-spence-636cb0.netlify.app/pentomania_frame.html
 https://gifted-spence-636cb0.netlify.app/presentasumado20.html
 https://gifted-spence-636cb0.netlify.app/problemas_ingenio_2020.html
 https://gifted-spence-636cb0.netlify.app/publicaciones-varias.html

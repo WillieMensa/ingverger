@@ -26,13 +26,13 @@ https://bit.ly/Sumado20
 https://bit.ly/calendario2021gratis
 
 
-bit.ly/calendario2021gratis0
+bit.ly/calendario2021gratis
 NOV 25
 Juego de lógica suma oculta
 bit.ly/sumaoculta5
 NOV 22
 Inicio
-bit.ly/incio-wv0
+bit.ly/incio-wv
 NOV 20
 Galería de personajes
 bit.ly/galeria-personajes3
