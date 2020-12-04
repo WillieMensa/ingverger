@@ -1,5 +1,8 @@
 # TAREAS EN SITIO
 
+* redireccionar permanente los archivos *.php
+
+
 ## AGREGAR PROGRAMAS DE REFERIDOS
 
 Comience a recomendar el servicio
