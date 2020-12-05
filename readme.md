@@ -51,6 +51,11 @@ https://gifted-spence-636cb0.netlify.app/calendarios.html
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/15d76782-50d4-4bd1-8ec8-f46306baa10d/deploy-status)](https://app.netlify.com/sites/gifted-spence-636cb0/deploys)
 
+What IP addresses does Gifted-spence-636cb0.netlify.app resolve to?
+• Gifted-spence-636cb0.netlify.app resolves to the IP addresses 104.248.63.248.
+Where are Gifted-spence-636cb0.netlify.app servers located in?
+• Gifted-spence-636cb0.netlify.app has servers located in North Bergen, New Jersey, 07047, United States.
+
 
 ## Recomendaciones
 
