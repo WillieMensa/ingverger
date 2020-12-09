@@ -21,7 +21,7 @@ function poneMenuPpal() {
 		'			<a href="./guias-de-clase.html">Guías de Clase</a>' +
 		'			<a href="./rg-material-estudio.html">Material adicional</a>' +
 		'			<a href="./representacion-con-cad.html">Representación asistida con CAD</a>' +
-		'			<a href="./repgrafsincorbata.html">Representaci&#243;n gr&#225;fica sin corbata</a>' +
+		'			<a href="./repgrafsincorbata.html">Representación gráfica sin corbata</a>' +
 		'		</div>' +
 		'	</li>' +
 		'	<li class="dropdown">' +
