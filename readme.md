@@ -91,6 +91,17 @@ probable-honeysuckle-nautilus
 https://glitch.com/edit/#!/meowing-thread-boursin?previewSize=100&attributionHidden=false&sidebarCollapsed=false&path=.env&previewFirst=false
 
 
-SECRET
+# Google analytics
 
-SECRET
+## Codigo para obtener estadísticas
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-8VTQ90FCD9"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-8VTQ90FCD9');
+	</script>
+
