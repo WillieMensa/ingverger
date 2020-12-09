@@ -24,6 +24,31 @@
 		/* background-color: #fff; */ 
 	}
 
+	@import url("https://fonts.googleapis.com/css?family=Luckiest+Guy");
+	@import url("https://fonts.googleapis.com/css?family=Bangers");
+	@import url("https://fonts.googleapis.com/css?family=Sriracha");
+	@import url('https://fonts.googleapis.com/css?family=Caveat+Brush|Pangolin');
+
+	.trazo { fill:white; stroke:#333;stroke-width:4;opacity:1.0; }
+	.auxiliar { fill:white; stroke:#888;stroke-width:0.5;opacity:1.0; }
+	.marco { fill:white; stroke:#234;stroke-width:3;opacity:1.0; }
+	.normal { font-family: "Sriracha"; font-size: 16px; }
+	.valor { font-family: "Luckiest Guy"; font-size: 20px; fill:#333; font: bold; dominant-baseline: central; text-anchor: middle;}
+	.vert { font-family: 'Sriracha', cursive; font-size: 28px; fill:#020; font: bold; dominant-baseline: middle; text-anchor: middle;
+		visibility: visible;
+		}
+	.vertNP { 
+			font-family: 'Caveat Brush', cursive; 
+			font-size: 28px; fill:#026; 
+			font: bold; dominant-baseline: middle; text-anchor: middle;
+			display:none;
+		}
+
+	.valor_teorico { font-family: "Delius Unicase"; font: bold 20px sans-serif; }
+	.title { font: bold 20px sans-serif; }
+	.heavy { font-family: "Luckiest Guy"; font-size: 40px; }
+
+
 </style>
 
 
@@ -58,55 +83,18 @@
 
 <div class="row clr_fondo">
   <div class="col-8" id="imprimir" style="width:100%">
-		<canvas id="canvas" width="100%" class="img-responsive"></canvas>
+	<!-- 
+		centimeters = pixels * 2.54 / 96 
+		pixels = cm * 96 / 2.54
+		148 mm = 560 px
+		210 mm = 794 px
+	-->
+		<canvas id="canvas1" width="560" height="794" class="img-responsive" style="border:1px solid #000000;"></canvas>
 
 			<!-- viewBox tiene las medidas de un A5 vertical -->
 			<!-- Outline the SVG viewport. -->
 			<!-- Ojo! el texto SVG no admite caracteres acentuados -->
 
-			<style>
-
-			@import url("https://fonts.googleapis.com/css?family=Luckiest+Guy");
-			@import url("https://fonts.googleapis.com/css?family=Bangers");
-			@import url("https://fonts.googleapis.com/css?family=Sriracha");
-			@import url('https://fonts.googleapis.com/css?family=Caveat+Brush|Pangolin');
-
-			.trazo { fill:white; stroke:#333;stroke-width:4;opacity:1.0; }
-			.auxiliar { fill:white; stroke:#888;stroke-width:0.5;opacity:1.0; }
-			.marco { fill:white; stroke:#234;stroke-width:3;opacity:1.0; }
-			.normal { font-family: "Sriracha"; font-size: 16px; }
-			.valor { font-family: "Luckiest Guy"; font-size: 20px; fill:#333; font: bold; dominant-baseline: central; text-anchor: middle;}
-			.vert { font-family: 'Sriracha', cursive; font-size: 28px; fill:#020; font: bold; dominant-baseline: middle; text-anchor: middle;
-				visibility: visible;
-				}
-			.vertNP { 
-					font-family: 'Caveat Brush', cursive; 
-					font-size: 28px; fill:#026; 
-					font: bold; dominant-baseline: middle; text-anchor: middle;
-					display:none;
-				}
-
-			.valor_teorico { font-family: "Delius Unicase"; font: bold 20px sans-serif; }
-			.title { font: bold 20px sans-serif; }
-			.heavy { font-family: "Luckiest Guy"; font-size: 40px; }
-
-			/*
-			.imprimir{
-				background: white;
-				/*
-				margin-right: 200px;
-				margin-left: 200px;
-				padding-left: 20px;
-				padding-right: 20px;
-				padding-top: 20px;
-				*/
-				max-width: 900px;
-			}
-			.imprimir table{
-			max-width: 960px;
-			}
-
-			</style>
 
 			<defs>
 				<g id="grillaRect">
@@ -335,17 +323,6 @@
 			
 	</div>
   <div class="col-4">
-			<!-- Codigo para anuncios InArticle en el lugar donde quiero aparezca	-->
-			<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-			<ins class="adsbygoogle"
-					 style="display:block; text-align:center;"
-					 data-ad-layout="in-article"
-					 data-ad-format="fluid"
-					 data-ad-client="ca-pub-4076082038101002"
-					 data-ad-slot="9586801789"></ins>
-			<script>
-					 (adsbygoogle = window.adsbygoogle || []).push({});
-			</script>	
   </div>
 </div>
 
@@ -361,7 +338,89 @@
 
 	<!-- el proximo script contiene const problemas, array en formato json -->
 	<script src="problemas_sumado.json"></script>
-	<script src="presentaSumado.js"></script>
+	<!-- script src="presentaSumado.js">< / script ! -->
+	<script>
+		var c = document.getElementById("canvas1");
+		var ctx = c.getContext("2d");
+		//	ctx.moveTo(0, 0);
+		//	ctx.lineTo(200, 100);
+		//	ctx.stroke();
+
+		//	estilo de trazado
+		ctx.lineWidth = "2";
+		ctx.strokeStyle = "#222";  // Green path
+
+		ctx.beginPath();
+
+		// ctx.arc(x, y, radius, startAngle, endAngle [, anticlockwise]); -->
+		let paso = 80;		//	separacion entre vertices
+		let posX = 60;
+		let posY = 60;
+		let radio = 16;
+		
+		//	trazado lineas rectas comunes a todas las variantes
+		ctx.rect(posX,posY, paso*2, paso*2);
+		//	vertical
+		ctx.moveTo( posX+paso, posY );
+		ctx.lineTo( posX + paso, posY + 2*paso);
+		//	horizontal 
+		ctx.moveTo( posX, posY + paso );
+		ctx.lineTo( posX + 2*paso, posY + paso );
+		ctx.stroke();
+
+		//	trazado lineas rectas particulares de cada variante
+		//	 "RA":
+		ctx.moveTo( posX, posY );
+		ctx.lineTo( posX + 2*paso, posY + 2*paso );
+		ctx.moveTo( posX + 2*paso, posY );
+		ctx.lineTo( posX, posY + 2*paso );
+		ctx.stroke();
+
+		//	 "CO":
+		//	 "DD":
+		//	 "DI":
+		//	 "CR":
+		//	 "CL":
+
+		
+		ctx.beginPath();
+		ctx.fillStyle = '#f1f2f3';
+		//	ctx.fill = 'rgb(200, 0, 0)';
+
+		for ( var x=0; x<=2; x++ )
+		{
+			for ( var y=0; y<=2; y++ )
+			{
+				ctx.moveTo( posX + x * paso, posY + y * paso );
+				//	ctx.arc( posX - radio + x * paso, posY + y * paso, radio, 0, 2 * Math.PI);
+				ctx.arc( posX + x * paso, posY + y * paso, radio, 0, 2 * Math.PI);
+				ctx.stroke();
+				ctx.fill();		// = 'rgb(200, 0, 0)';
+			}
+		}
+	
+			//	necesito las posiciones donde colocar las sumas
+			var aPosSumas = [
+				[0.32*paso, 0.68*paso],
+				[0.68*paso, 0.32*paso],
+				[1.32*paso, 0.32*paso],
+				[1.68*paso, 0.68*paso],
+				[0.32*paso, 1.68*paso],
+				[0.68*paso, 1.32*paso],
+				[1.32*paso, 1.32*paso],
+				[1.68*paso, 1.68*paso]
+			];
+
+			var RAsuma = [15,17,16,10,13,14,11,6];
+		//	colocar las sumas en poligonos
+		for ( var i=0; i<8 ;i++ )
+		{
+			//	en aPosSumas colocar RAsuma
+			ctx.fillText(RAsuma[i], aPosSumas[i][0], aPosSumas[i][1] );
+		}		
+
+
+	</script>
 
 
 </body>

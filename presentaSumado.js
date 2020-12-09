@@ -95,7 +95,7 @@ function presentaGrilla( modGrilla)			//
 			break;
 	}
 
-	//	colocar sumas en poligonos				RAsuma[i];
+	//	colocar sumas en poligonos RAsuma[i];
 	//	for ( var i=0;i<RAsuma.length ;i++ )
 	//	no puedo pasar el tipo de grila como parámetro pero todos los casos tienen 8 polígonos (triang) 
 	for ( var i=0; i<8 ;i++ )
