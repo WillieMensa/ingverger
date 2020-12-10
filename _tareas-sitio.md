@@ -1,5 +1,8 @@
 # TAREAS EN SITIO
 
+verificar situacion sitio en 
+https://search.google.com/search-console/security-issues?resource_id=https%3A%2F%2Fingverger.ar%2F
+
 * redireccionar permanente los archivos *.php
 
 

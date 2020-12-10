@@ -93,7 +93,9 @@ https://glitch.com/edit/#!/meowing-thread-boursin?previewSize=100&attributionHid
 
 # Google analytics
 
-## Codigo para obtener estadísticas
+## Codigo para obtener estadísticas 
+
+### gifted-spence-...
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-8VTQ90FCD9"></script>
@@ -105,3 +107,14 @@ https://glitch.com/edit/#!/meowing-thread-boursin?previewSize=100&attributionHid
 		gtag('config', 'G-8VTQ90FCD9');
 	</script>
 
+### ingverger.ar
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-PP1LNRZ7TV"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'G-PP1LNRZ7TV');
+	</script>
