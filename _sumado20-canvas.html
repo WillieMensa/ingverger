@@ -34,14 +34,22 @@
 	}
 
 	@import url("https://fonts.googleapis.com/css?family=Luckiest+Guy");
-	@import url("https://fonts.googleapis.com/css?family=Bangers");
 	@import url("https://fonts.googleapis.com/css?family=Sriracha");
-	@import url('https://fonts.googleapis.com/css?family=Caveat+Brush|Pangolin');
+
+	@font-face {
+			font-family: 'fredoka-one';
+			src: url('FredokaOne-Regular.woff2') format('woff2'),
+					url('FredokaOne-Regular.woff') format('woff');
+			font-weight: normal;
+			font-style: normal;
+			font-display: swap;
+	}
+
 
 	.trazo { fill:white; stroke:#333;stroke-width:4;opacity:1.0; }
 	.auxiliar { fill:white; stroke:#888;stroke-width:0.5;opacity:1.0; }
 	.marco { fill:white; stroke:#234;stroke-width:3;opacity:1.0; }
-	.normal { font-family: "Sriracha"; font-size: 16px; }
+	.normal { font-family: "Arial"; font-size: 16px; }
 	.valor { font-family: "Luckiest Guy"; font-size: 20px; fill:#333; font: bold; dominant-baseline: central; text-anchor: middle;}
 	.vert { font-family: 'Sriracha', cursive; font-size: 28px; fill:#020; font: bold; dominant-baseline: middle; text-anchor: middle;
 		visibility: visible;
@@ -72,7 +80,7 @@
 
 <div class="row clr_claro" style="font-size: 1.2em;">
 	<div class="col-8">
-		<p>
+		<p class="normal">
 			Pongamos las neuronas en movimiento!<br/>
 			En los círculos están todos los números del 1 al 9. 
 			En el interior de los triángulos se presenta la suma de sus vértices.
@@ -99,236 +107,6 @@
 		210 mm = 794 px
 	-->
 		<canvas id="canvas1" width="560" height="794" class="img-responsive" style="border:1px solid #000000;"></canvas>
-
-			<!-- viewBox tiene las medidas de un A5 vertical -->
-			<!-- Outline the SVG viewport. -->
-			<!-- Ojo! el texto SVG no admite caracteres acentuados -->
-
-
-			<defs>
-				<g id="grillaRect">
-					<!-- lineas horizontales que unen vertices (lados) -->
-					<line x1="000" y1="000" x2="160" y2="000" class = "trazo" />
-					<line x1="000" y1="080" x2="160" y2="080" class = "trazo" />
-					<line x1="000" y1="160" x2="160" y2="160" class = "trazo" />
-
-					<!-- verticales -->
-					<line x1="000" y1="000" x2="000" y2="160" class = "trazo" />
-					<line x1="080" y1="000" x2="080" y2="160" class = "trazo" />
-					<line x1="160" y1="000" x2="160" y2="160" class = "trazo" />
-				</g>
-
-				<!-- los circulos -->
-				<g id="circulos">
-					<circle id="circ00" cx="000" cy="000" r="20" class = "trazo" />
-					<circle id="circ01" cx="080" cy="000" r="20" class = "trazo" />
-					<circle id="circ02" cx="160" cy="000" r="20" class = "trazo" />
-					<circle id="circ10" cx="000" cy="080" r="20" class = "trazo" />
-					<circle id="circ11" cx="080" cy="080" r="20" class = "trazo" />
-					<circle id="circ12" cx="160" cy="080" r="20" class = "trazo" />
-					<circle id="circ20" cx="000" cy="160" r="20" class = "trazo" />
-					<circle id="circ21" cx="080" cy="160" r="20" class = "trazo" />
-					<circle id="circ22" cx="160" cy="160" r="20" class = "trazo" />
-				</g>
-
-				<line id="diagDer" x1="000" y1="000" x2="080" y2="080" class = "trazo" />
-				<line id="diagIzq" x1="000" y1="000" x2="-080" y2="080" class = "trazo" />
-
-			</defs>
-
-			<!-- <rect width="148mm" height="205mm" x="0"   y="0" fill="#fff" stroke="#031" stroke-width="1" /> -->
-
-			<g transform="scale(1.0)">
-				<!-- rectangulo para hojas A4 -->
-
-				<!-- ahora el tablero sumado modelo RA(dial) -->
-				<g id="RA" transform="translate(075,070)">
-					<use id="grillaR" xlink:href="#grillaRect" x="000" y="000" />
-					<use id="D1" xlink:href="#diagDer" x="000" y="000" />
-					<use id="D2" xlink:href="#diagDer" x="080" y="080" />
-					<use id="D3" xlink:href="#diagIzq" x="160" y="000" />
-					<use id="D4" xlink:href="#diagIzq" x="080" y="080" />
-					<!-- circulos -->
-					<use id="circ1" xlink:href="#circulos" x="000" y="000" /> 
-					<!-- las sumas en los poligonos -->
-					<!-- dominant-baseline="middle" text-anchor="middle"  -->
-					<text id="sumaRApos00" x="025" y="054" class="valor" > </text>
-					<text id="sumaRApos01" x="054" y="025" class="valor" > </text>
-					<text id="sumaRApos02" x="106" y="025" class="valor" > </text>
-					<text id="sumaRApos03" x="135" y="054" class="valor" > </text>
-					<text id="sumaRApos04" x="025" y="106" class="valor" > </text>
-					<text id="sumaRApos05" x="054" y="134" class="valor" > </text>
-					<text id="sumaRApos06" x="106" y="134" class="valor" > </text>
-					<text id="sumaRApos07" x="135" y="106" class="valor" > </text>
-					<!-- Valores de los vertices -->
-					<text id="RAver00" x="000" y="000" class="vert" > </text>
-					<text id="RAver01" x="080" y="000" class="vert" > </text>
-					<text id="RAver02" x="160" y="000" class="vert" > </text>
-					<text id="RAver03" x="000" y="080" class="vert" > </text>
-					<text id="RAver04" x="080" y="080" class="vert" > </text>
-					<text id="RAver05" x="160" y="080" class="vert" > </text>
-					<text id="RAver06" x="000" y="160" class="vert" > </text>
-					<text id="RAver07" x="080" y="160" class="vert" > </text>
-					<text id="RAver08" x="160" y="160" class="vert" > </text>
-				</g>
-
-				<!-- ahora el tablero sumado modelo CO(ncentrico) -->
-				<g id="CO" transform="translate(325,070)">
-					<use id="grillaR" xlink:href="#grillaRect" x="000" y="000" />
-					<use id="D1" xlink:href="#diagIzq" x="080" y="000" />
-					<use id="D2" xlink:href="#diagDer" x="080" y="000" />
-					<use id="D3" xlink:href="#diagDer" x="000" y="080" />
-					<use id="D4" xlink:href="#diagIzq" x="160" y="080" />
-					<use id="circ1" xlink:href="#circulos" x="000" y="000" /> 
-					<!-- las sumas en los poligonos -->
-					<text id="sumaCOpos00" x="025" y="025" class="valor" >CO</text>
-					<text id="sumaCOpos01" x="054" y="054" class="valor" >CO</text>
-					<text id="sumaCOpos02" x="106" y="054" class="valor" >CO</text>
-					<text id="sumaCOpos03" x="135" y="025" class="valor" >CO</text>
-					<text id="sumaCOpos04" x="025" y="134" class="valor" >CO</text>
-					<text id="sumaCOpos05" x="054" y="106" class="valor" >CO</text>
-					<text id="sumaCOpos06" x="106" y="106" class="valor" >CO</text>
-					<text id="sumaCOpos07" x="135" y="134" class="valor" >CO</text>
-					<!-- Valores de los vertices -->
-					<text id="COver00" x="000" y="000" class="vert" > </text>
-					<text id="COver01" x="080" y="000" class="vert" > </text>
-					<text id="COver02" x="160" y="000" class="vert" > </text>
-					<text id="COver03" x="000" y="080" class="vert" > </text>
-					<text id="COver04" x="080" y="080" class="vert" > </text>
-					<text id="COver05" x="160" y="080" class="vert" > </text>
-					<text id="COver06" x="000" y="160" class="vert" > </text>
-					<text id="COver07" x="080" y="160" class="vert" > </text>
-					<text id="COver08" x="160" y="160" class="vert" > </text>
-				</g>
-
-				<!-- ahora el tablero sumado modelo DD(iagonal derecha) -->
-				<g id="DD" transform="translate(075,315)">
-					<use id="grillaR" xlink:href="#grillaRect" x="000" y="000" />
-					<use id="D1" xlink:href="#diagDer" x="000" y="000" />
-					<use id="D2" xlink:href="#diagDer" x="080" y="000" />
-					<use id="D3" xlink:href="#diagDer" x="000" y="080" />
-					<use id="D4" xlink:href="#diagDer" x="080" y="080" />
-
-					<use id="circ1" xlink:href="#circulos" x="000" y="000" /> 
-					<!-- las sumas en los poligonos -->
-					<text id="sumaDDpos00" x="025" y="054" class="valor" >N</text>
-					<text id="sumaDDpos01" x="054" y="025" class="valor" >N</text>
-					<text id="sumaDDpos02" x="106" y="054" class="valor" >N</text>
-					<text id="sumaDDpos03" x="135" y="025" class="valor" >N</text>
-					<text id="sumaDDpos04" x="025" y="135" class="valor" >N</text>
-					<text id="sumaDDpos05" x="054" y="106" class="valor" >N</text>
-					<text id="sumaDDpos06" x="106" y="135" class="valor" >N</text>
-					<text id="sumaDDpos07" x="135" y="106" class="valor" >N</text>
-					<!-- Valores de los vertices -->
-					<text id="DDver00" x="000" y="000" class="vert" > </text>
-					<text id="DDver01" x="080" y="000" class="vert" > </text>
-					<text id="DDver02" x="160" y="000" class="vert" > </text>
-					<text id="DDver03" x="000" y="080" class="vert" > </text>
-					<text id="DDver04" x="080" y="080" class="vert" > </text>
-					<text id="DDver05" x="160" y="080" class="vert" > </text>
-					<text id="DDver06" x="000" y="160" class="vert" > </text>
-					<text id="DDver07" x="080" y="160" class="vert" > </text>
-					<text id="DDver08" x="160" y="160" class="vert" > </text>
-
-				</g>
-
-				<!-- ahora el tablero sumado modelo DI(iagonal izquierda) -->
-				<g id="DI" transform="translate(325,315)">
-					<use id="grillaR" xlink:href="#grillaRect" x="000" y="000" />
-					<use id="D1" xlink:href="#diagIzq" x="080" y="000" />
-					<use id="D2" xlink:href="#diagIzq" x="160" y="000" />
-					<use id="D3" xlink:href="#diagIzq" x="080" y="080" />
-					<use id="D4" xlink:href="#diagIzq" x="160" y="080" />
-
-					<use id="circ1" xlink:href="#circulos" x="000" y="000" /> 
-					<!-- las sumas en los poligonos -->
-					<text id="sumaDIpos00" x="025" y="025" class="valor" >N</text>
-					<text id="sumaDIpos01" x="054" y="054" class="valor" >N</text>
-					<text id="sumaDIpos02" x="106" y="025" class="valor" >N</text>
-					<text id="sumaDIpos03" x="135" y="054" class="valor" >N</text>
-					<text id="sumaDIpos04" x="025" y="106" class="valor" >N</text>
-					<text id="sumaDIpos05" x="054" y="135" class="valor" >N</text>
-					<text id="sumaDIpos06" x="106" y="106" class="valor" >N</text>
-					<text id="sumaDIpos07" x="135" y="135" class="valor" >N</text>
-					<!-- Valores de los vertices -->
-					<text id="DIver00" x="000" y="000" class="vert" > </text>
-					<text id="DIver01" x="080" y="000" class="vert" > </text>
-					<text id="DIver02" x="160" y="000" class="vert" > </text>
-					<text id="DIver03" x="000" y="080" class="vert" > </text>
-					<text id="DIver04" x="080" y="080" class="vert" > </text>
-					<text id="DIver05" x="160" y="080" class="vert" > </text>
-					<text id="DIver06" x="000" y="160" class="vert" > </text>
-					<text id="DIver07" x="080" y="160" class="vert" > </text>
-					<text id="DIver08" x="160" y="160" class="vert" > </text>
-
-				</g>
-
-
-				<!-- ahora el tablero sumado modelo CR(Chevron Right) -->
-				<g id="CR" transform="translate(075,560)">
-					<use id="grillaR" xlink:href="#grillaRect" x="000" y="000" />
-					<use id="D1" xlink:href="#diagDer" x="000" y="000" />
-					<use id="D2" xlink:href="#diagDer" x="080" y="000" />
-					<use id="D3" xlink:href="#diagIzq" x="080" y="080" />
-					<use id="D4" xlink:href="#diagIzq" x="160" y="080" />
-					<!-- circulos -->
-					<use id="circ1" xlink:href="#circulos" x="000" y="000" /> 
-					<!-- las sumas en los poligonos -->
-					<!-- dominant-baseline="middle" text-anchor="middle"  -->
-					<text id="sumaCRpos00" x="025" y="054" class="valor" >c</text>
-					<text id="sumaCRpos01" x="054" y="025" class="valor" >R</text>
-					<text id="sumaCRpos02" x="106" y="054" class="valor" >C</text>
-					<text id="sumaCRpos03" x="135" y="025" class="valor" >R</text>
-					<text id="sumaCRpos04" x="025" y="106" class="valor" >C</text>
-					<text id="sumaCRpos05" x="054" y="135" class="valor" >R</text>
-					<text id="sumaCRpos06" x="106" y="106" class="valor" >C</text>
-					<text id="sumaCRpos07" x="135" y="135" class="valor" >R</text>
-					<!-- Valores de los vertices -->
-					<!-- dominant-baseline="middle" text-anchor="middle"  -->
-					<text id="CRver00" x="000" y="000" class="vert" > </text>
-					<text id="CRver01" x="080" y="000" class="vert" > </text>
-					<text id="CRver02" x="160" y="000" class="vert" > </text>
-					<text id="CRver03" x="000" y="080" class="vert" > </text>
-					<text id="CRver04" x="080" y="080" class="vert" > </text>
-					<text id="CRver05" x="160" y="080" class="vert" > </text>
-					<text id="CRver06" x="000" y="160" class="vert" > </text>
-					<text id="CRver07" x="080" y="160" class="vert" > </text>
-					<text id="CRver08" x="160" y="160" class="vert" > </text>
-				</g>
-
-				<!-- ahora el tablero sumado modelo CL(Chevron Left) -->
-				<g id="CL" transform="translate(325,560)">
-					<use id="grillaR" xlink:href="#grillaRect" x="000" y="000" />
-					<use id="D1" xlink:href="#diagIzq" x="080" y="000" />
-					<use id="D2" xlink:href="#diagIzq" x="160" y="000" />
-					<use id="D3" xlink:href="#diagDer" x="000" y="080" />
-					<use id="D4" xlink:href="#diagDer" x="080" y="080" />
-					<!-- circulos -->
-					<use id="circ1" xlink:href="#circulos" x="000" y="000" /> 
-					<!-- las sumas en los poligonos -->
-					<!-- dominant-baseline="middle" text-anchor="middle"  -->
-					<text id="sumaCLpos00" x="025" y="025" class="valor" >N</text>
-					<text id="sumaCLpos01" x="054" y="054" class="valor" >N</text>
-					<text id="sumaCLpos02" x="106" y="025" class="valor" >N</text>
-					<text id="sumaCLpos03" x="135" y="054" class="valor" >N</text>
-					<text id="sumaCLpos04" x="025" y="135" class="valor" >N</text>
-					<text id="sumaCLpos05" x="054" y="106" class="valor" >N</text>
-					<text id="sumaCLpos06" x="106" y="135" class="valor" >N</text>
-					<text id="sumaCLpos07" x="135" y="106" class="valor" >N</text>
-					<!-- Valores de los vertices -->
-					<!-- dominant-baseline="middle" text-anchor="middle"  -->
-					<text id="CLver00" x="000" y="000" class="vert" > </text>
-					<text id="CLver01" x="080" y="000" class="vert" > </text>
-					<text id="CLver02" x="160" y="000" class="vert" > </text>
-					<text id="CLver03" x="000" y="080" class="vert" > </text>
-					<text id="CLver04" x="080" y="080" class="vert" > </text>
-					<text id="CLver05" x="160" y="080" class="vert" > </text>
-					<text id="CLver06" x="000" y="160" class="vert" > </text>
-					<text id="CLver07" x="080" y="160" class="vert" > </text>
-					<text id="CLver08" x="160" y="160" class="vert" > </text>
-				</g>
-			</g>
-		</svg>
 			
 	</div>
   <div class="col-4">
@@ -367,6 +145,11 @@
 		let posY = 60;
 		let radio = 16;
 		
+		trazaJuego( posX, posY, modGrilla );
+
+	function trazaJuego( posX, posY, modGrilla ) {
+		//	hace el trazado de un juego en la pagina
+
 		//	trazado lineas rectas comunes a todas las variantes
 		ctx.rect(posX,posY, paso*2, paso*2);
 		//	vertical
@@ -408,26 +191,34 @@
 			}
 		}
 	
-			//	necesito las posiciones donde colocar las sumas
-			var aPosSumas = [
-				[0.32*paso, 0.68*paso],
-				[0.68*paso, 0.32*paso],
-				[1.32*paso, 0.32*paso],
-				[1.68*paso, 0.68*paso],
-				[0.32*paso, 1.68*paso],
-				[0.68*paso, 1.32*paso],
-				[1.32*paso, 1.32*paso],
-				[1.68*paso, 1.68*paso]
-			];
+		//	necesito las posiciones donde colocar las sumas
+		var aPosSumas = [
+			[0.32*paso, 0.68*paso],
+			[0.68*paso, 0.32*paso],
+			[1.32*paso, 0.32*paso],
+			[1.68*paso, 0.68*paso],
+			[0.32*paso, 1.32*paso],
+			[0.68*paso, 1.68*paso],
+			[1.32*paso, 1.68*paso],
+			[1.68*paso, 1.32*paso]
+		];
 
-			var RAsuma = [15,17,16,10,13,14,11,6];
+		var RAsuma = [15,17,16,10,13,14,11,6];
+		var RAvert = [6,9,5,7,2,3,4,8,1];
+
+
 		//	colocar las sumas en poligonos
+		ctx.font = '1.4em Arial black';
+		ctx.fillStyle = '#111';
+		ctx.textAlign = "center";
 		for ( var i=0; i<8 ;i++ )
 		{
 			//	en aPosSumas colocar RAsuma
-			ctx.fillText(RAsuma[i], aPosSumas[i][0], aPosSumas[i][1] );
-		}		
-
+			ctx.fillText(RAsuma[i], posX+aPosSumas[i][0], 8+posY+aPosSumas[i][1] );
+		}
+		ctx.fillText(RAvert[0], posX, 8 + posY );
+	
+	}		// fin funcion trazaJuego()
 
 	</script>
 
