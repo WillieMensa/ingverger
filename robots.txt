@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 Disallow: *.pdf
 
-Sitemap: https://gifted-spence-636cb0.netlify.app//sitemap.xml
-Sitemap: https://gifted-spence-636cb0.netlify.app//sitemap.html
-Sitemap: https://gifted-spence-636cb0.netlify.app//urllist.txt
+Sitemap: sitemap.xml
+Sitemap: sitemap.html
+Sitemap: urllist.txt
 

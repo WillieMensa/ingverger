@@ -1,10 +1,9 @@
-# TAREAS EN SITIO
+# TAREAS EN SITIO WEB
 
 verificar situacion sitio en 
 https://search.google.com/search-console/security-issues?resource_id=https%3A%2F%2Fingverger.ar%2F
 
 * redireccionar permanente los archivos *.php
-
 
 ## AGREGAR PROGRAMAS DE REFERIDOS
 
@@ -184,6 +183,7 @@ Código a pegar en la cabecera de la pagina para anuncios automáticos.
 <script data-ad-client="ca-pub-4076082038101002" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
 <script data-ad-client="ca-pub-4076082038101002" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 
 # sitemap enviar a
 search engines including Google, Bing, Baidu, Yandex and more.
