@@ -22,9 +22,73 @@ let
 	nPagActual,				//	nro problema actual (el valor)
 	//	posX = undefined,
 	//	posY = undefined,
+	aSuma, aVert,
 	c = document.getElementById("canvas1"),
 	ctx = c.getContext("2d");
 
+	//	posiciones donde colocar las sumas
+	let aPosSumas = {
+		'RA':[
+			[0.32*paso, 0.68*paso],
+			[0.68*paso, 0.32*paso],
+			[1.32*paso, 0.32*paso],
+			[1.68*paso, 0.68*paso],
+			[0.32*paso, 1.32*paso],
+			[0.68*paso, 1.68*paso],
+			[1.32*paso, 1.68*paso],
+			[1.68*paso, 1.32*paso]
+		],
+		'CO':[
+			[0.32*paso, 0.32*paso],
+			[0.68*paso, 0.68*paso],
+			[1.32*paso, 0.68*paso],
+			[1.68*paso, 0.32*paso],
+			[0.32*paso, 1.68*paso],
+			[0.68*paso, 1.32*paso],
+			[1.32*paso, 1.32*paso],
+			[1.68*paso, 1.68*paso]
+		],
+		'DD':[
+			[0.32*paso, 0.68*paso],
+			[0.68*paso, 0.32*paso],
+			[1.32*paso, 0.68*paso],
+			[1.68*paso, 0.32*paso],
+			[0.32*paso, 1.68*paso],
+			[0.68*paso, 1.32*paso],
+			[1.32*paso, 1.68*paso],
+			[1.68*paso, 1.32*paso]
+		],
+		'DI':[
+			[0.32*paso, 0.32*paso],
+			[0.68*paso, 0.68*paso],
+			[1.32*paso, 0.32*paso],
+			[1.68*paso, 0.68*paso],
+			[0.32*paso, 1.32*paso],
+			[0.68*paso, 1.68*paso],
+			[1.32*paso, 1.32*paso],
+			[1.68*paso, 1.68*paso]
+		],
+		'CR':[
+			[0.32*paso, 0.68*paso],
+			[0.68*paso, 0.32*paso],
+			[1.32*paso, 0.68*paso],
+			[1.68*paso, 0.32*paso],
+			[0.32*paso, 1.32*paso],
+			[0.68*paso, 1.68*paso],
+			[1.32*paso, 1.32*paso],
+			[1.68*paso, 1.68*paso]
+		],
+		'CL':[
+			[0.32*paso, 0.32*paso],
+			[0.68*paso, 0.68*paso],
+			[1.32*paso, 0.32*paso],
+			[1.68*paso, 0.68*paso],
+			[0.32*paso, 1.68*paso],
+			[0.68*paso, 1.32*paso],
+			[1.32*paso, 1.68*paso],
+			[1.68*paso, 1.32*paso]
+		],
+	};
 
 
 function start() {
@@ -38,6 +102,10 @@ function start() {
 	function dibujaPag() {
 		leeJuegosPagina();
 
+		//<canvas id="canvas1" width="560" height="794" class="img-responsive" style="border:1px solid #000000;"></canvas>
+		ctx.fillStyle = '#f0d0b0ff';			//	#f2e8cfff;
+		ctx.fillRect(1, 1, 560, 794);
+
 		//	detectar si se pidio con solucion
 		var checkBox = document.getElementById("conSolucion");
 		lConSoluc = checkBox.checked;
@@ -46,21 +114,19 @@ function start() {
 		presentaGrilla("RA", 080, 060);
 		presentaGrilla("CO", 320, 060);
 
-		presentaGrilla("DD");
-		presentaGrilla("DI");
+		presentaGrilla("DD", 080, 300);
+		presentaGrilla("DI", 320, 300);
 
-		presentaGrilla("CR");
-		presentaGrilla("CL");
+		presentaGrilla("CR", 080, 540);
+		presentaGrilla("CL", 320, 540);
 		//DibujaGrillaA4();
 	}
 
 function presentaGrilla( modGrilla, posX, posY)			//
 {
-	let aSuma, aVert;
-	//	console.log('modGrilla: ', modGrilla);
-
+	
 	//	estilo de trazado
-	ctx.lineWidth = "2";
+	ctx.lineWidth = "4";
 	ctx.strokeStyle = "#222";  // Green path
 	ctx.beginPath();
 
@@ -88,6 +154,8 @@ function presentaGrilla( modGrilla, posX, posY)			//
 		case "RA":
 			aSuma = aRAsuma;
 			aVert = aRAvert;
+			console.log(aSuma);
+
 			//	trazado diagonales de la variante
 			ctx.moveTo( posX, posY );
 			ctx.lineTo( posX + 2*paso, posY + 2*paso );
@@ -95,7 +163,7 @@ function presentaGrilla( modGrilla, posX, posY)			//
 			ctx.lineTo( posX, posY + 2*paso );
 			ctx.stroke();
 			dibujaVertices(posX,posY);
-
+			poneSumas(posX,posY,aPosSumas.RA)
 			break;
 
 		case "CO":
@@ -109,26 +177,80 @@ function presentaGrilla( modGrilla, posX, posY)			//
 			ctx.lineTo( posX + paso,  posY );
 			ctx.stroke();
 			dibujaVertices(posX,posY);
+			poneSumas(posX,posY,aPosSumas.CO)
 			break;
 
 		case "DD":
 			aSuma = aDDsuma;
 			aVert = aDDvert;
+			//	trazado diagonales de la variante
+			ctx.moveTo( posX      ,	posY );
+			ctx.lineTo( posX+ paso,	posY + paso );			
+			ctx.moveTo( posX      ,	posY + paso);
+			ctx.lineTo( posX+ paso,	posY + 2*paso );
+			ctx.moveTo( posX+ paso,	posY );
+			ctx.lineTo( posX+2*paso,	posY + paso );			
+			ctx.moveTo( posX+ paso,	posY + paso);
+			ctx.lineTo( posX+ 2*paso,	posY + 2*paso );
+			ctx.stroke();
+			dibujaVertices(posX,posY);
+			poneSumas(posX,posY,aPosSumas.DD)
 			break;
+
 		case "DI":
 			aSuma = aDIsuma;
 			aVert = aDIvert;
+			//	trazado diagonales de la variante
+			ctx.moveTo( posX+ paso      ,	posY );
+			ctx.lineTo( posX,	posY + paso );			
+			ctx.moveTo( posX+2*paso, posY );
+			ctx.lineTo( posX+ paso,	posY + paso );
+			ctx.moveTo( posX + paso,	posY+paso );
+			ctx.lineTo( posX,	posY + 2*paso );
+			ctx.moveTo( posX+ 2*paso,	posY + paso);
+			ctx.lineTo( posX+ paso,	posY + 2*paso );
+			ctx.stroke();
+			dibujaVertices(posX,posY);
+			poneSumas(posX,posY,aPosSumas.DI)
 			break;
+
 		case "CR":
 			aSuma = aCRsuma;
 			aVert = aCRvert;
+			//	trazado diagonales de la variante
+			ctx.moveTo( posX      ,	posY );
+			ctx.lineTo( posX+ paso,	posY + paso );
+			ctx.moveTo( posX+paso      ,	posY);
+			ctx.lineTo( posX+ 2*paso,	posY + paso );
+			ctx.moveTo( posX+ paso,	posY +paso);
+			ctx.lineTo( posX,	posY + 2*paso );
+			ctx.moveTo( posX+ 2*paso,	posY + paso);
+			ctx.lineTo( posX+ paso,	posY + 2*paso );
+			ctx.stroke();
+			dibujaVertices(posX,posY);
+			poneSumas(posX,posY,aPosSumas.CR)
 			break;
+
 		case "CL":
 			aSuma = aCLsuma;
 			aVert = aCLvert;
+			//	trazado diagonales de la variante
+			ctx.moveTo( posX+ paso   ,	posY );
+			ctx.lineTo( posX,	posY + paso );			
+			ctx.moveTo( posX+2*paso, posY );
+			ctx.lineTo( posX+ paso,	posY + paso );
+			ctx.moveTo( posX,	posY + paso );
+			ctx.lineTo( posX + paso,	posY + 2*paso );			
+			ctx.moveTo( posX+ paso,	posY + paso);
+			ctx.lineTo( posX+ 2*paso,	posY + 2*paso );
+			ctx.stroke();
+			dibujaVertices(posX,posY);
+			poneSumas(posX,posY,aPosSumas.CL)
 			break;
 	}
+}
 
+//***********************************
 	//	funcion para el trazado de diagonales
 		//	\ 0011		\ 1021		/ 1001		/	2011
 		//	\	0112		\	1122		/	1102		/	2112
@@ -138,7 +260,6 @@ function presentaGrilla( modGrilla, posX, posY)			//
 		ctx.beginPath();
 		ctx.fillStyle = '#f1f2f3';
 		//	ctx.fill = 'rgb(200, 0, 0)';
-
 		for ( var x=0; x<=2; x++ )
 		{
 			for ( var y=0; y<=2; y++ )
@@ -151,46 +272,37 @@ function presentaGrilla( modGrilla, posX, posY)			//
 			}
 		}
 	}
-	
 
-		//	necesito las posiciones donde colocar las sumas
-		var aPosSumas = [
-			[0.32*paso, 0.68*paso],
-			[0.68*paso, 0.32*paso],
-			[1.32*paso, 0.32*paso],
-			[1.68*paso, 0.68*paso],
-			[0.32*paso, 1.32*paso],
-			[0.68*paso, 1.68*paso],
-			[1.32*paso, 1.68*paso],
-			[1.68*paso, 1.32*paso]
-		];
-
-		var RAsuma = [15,17,16,10,13,14,11,6];
-		var RAvert = [6,9,5,7,2,3,4,8,1];
-
-
+	function poneSumas(posX,posY,aPosis) {
 		//	colocar las sumas en poligonos
 		ctx.font = '1.4em Arial black';
 		ctx.fillStyle = '#111';
 		ctx.textAlign = "center";
 		for ( var i=0; i<8 ;i++ )
-		{
+		{		
 			//	en aPosSumas colocar RAsuma
-			ctx.fillText(RAsuma[i], posX+aPosSumas[i][0], 8+posY+aPosSumas[i][1] );
+			ctx.fillText(aSuma[i], posX+aPosis[i][0], 8+posY+aPosis[i][1] );
 		}
-		ctx.fillText(RAvert[0], posX, 8 + posY );
-
-			// fin funcion trazaJuego()
-
-
+		//	valores en los vértices
+		//	ctx.fillText(aVert[0], posX, 8 + posY );
+		for ( var x=0; x<=2; x++ )
+		{
+			for ( var y=0; y<=2; y++ )
+			{
+				var i = x + ( 3*y );
+				if (lConSoluc || i==0) {
+					ctx.fillText(aVert[i], posX+x*paso, 8 + posY + y * paso );
+				}
+			}
+		}
+	}
 
 
 	//	colocar sumas en poligonos RAsuma[i];
 	//	for ( var i=0;i<RAsuma.length ;i++ )
 	//	no puedo pasar el tipo de grila como parámetro pero todos los casos tienen 8 polígonos (triang)
 
-}
-
+//***********************************
 
 //	function original leeJuegoSerie() {		// recupera datos de un juego de serie
 //	tomado de presenta suma oculta
