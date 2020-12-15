@@ -3,6 +3,9 @@
 verificar situacion sitio en 
 https://search.google.com/search-console/security-issues?resource_id=https%3A%2F%2Fingverger.ar%2F
 
+## Investigar paginas excluidas
+
+
 * redireccionar permanente los archivos *.php
 
 ## MEJORAS Y CORRECCIONES

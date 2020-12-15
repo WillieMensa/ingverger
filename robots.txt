@@ -3,7 +3,4 @@ User-agent: *
 Allow: /
 Disallow: *.pdf
 
-Sitemap: sitemap.xml
-Sitemap: sitemap.html
-Sitemap: urllist.txt
 
