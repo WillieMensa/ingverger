@@ -1,5 +1,10 @@
 # TAREAS EN SITIO WEB
 
+## Comprobar alojamiento apuntado por www.ingverger.com.ar
+- Si existe dominio.txt esta en alsolnet (todavia)
+- Si no existe dominio.txt esta en netlify
+
+
 verificar situacion sitio en 
 https://search.google.com/search-console/security-issues?resource_id=https%3A%2F%2Fingverger.ar%2F
 
