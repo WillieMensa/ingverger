@@ -68,18 +68,21 @@
 </div>
 
 <div class="row clr_fondo">
-  <div class="col-8" id="imprimir" style="width:100%">
+  <div class="col-8" id="imprimir">
 	<!-- 
+  <div class="col-8" id="imprimir" style="width:100%">
 		centimeters = pixels * 2.54 / 96 
 		pixels = cm * 96 / 2.54
 		148 mm = 560 px
 		210 mm = 794 px
 	-->
 		<!-- <canvas id="canvas1" width="560" height="794" class="img-responsive" style="border:1px solid #000000;"></canvas> -->
-		<canvas id="canvas1" width="560" height="794" class="img-responsive"></canvas>
-			
+		<canvas id="canvas1" width="560" height="794" class="img-responsive"></canvas>			
 	</div>
   <div class="col-4">
+		<!-- vertical	160 x 600 -->
+		<iframe src="https://rcm-eu.amazon-adsystem.com/e/cm?o=30&p=14&l=ur1&category=kindlestore&banner=06J05SJ1J7SSAQQ0SQR2&f=ifr&linkID=384264ef561cee25fe2781f116648664&t=willieve-21&tracking_id=willieve-21" width="160" height="600" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0">
+		</iframe>
   </div>
 </div>
 
@@ -96,6 +99,20 @@
 	<!-- el proximo script contiene const problemas, array en formato json -->
 	<script src="problemas_sumado.json"></script>
 	<script src="sumado20-canvas.js"></script>
+
+	<script>
+
+		function printDiv() {
+			var objeto=document.getElementById('imprimir');
+			//obtenemos el objeto a imprimir
+			var ventana=window.open('','_blank');  //abrimos una ventana vacía nueva
+			ventana.document.write(objeto.innerHTML);  //imprimimos el HTML del objeto en la nueva ventana
+			ventana.document.close();  //cerramos el documento
+			ventana.print();  //imprimimos la ventana
+			ventana.close();  //cerramos la ventana
+		}
+
+	</script>
 
 </body>
 

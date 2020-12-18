@@ -5,7 +5,6 @@
 	xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
 	http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url><loc>https://gifted-spence-636cb0.netlify.app/</loc></url>
-<url><loc>https://gifted-spence-636cb0.netlify.app/index.html</loc></url>
 <url><loc>https://gifted-spence-636cb0.netlify.app/49rompecocos.html</loc></url>
 <url><loc>https://gifted-spence-636cb0.netlify.app/alias-acad.html</loc></url>
 <url><loc>https://gifted-spence-636cb0.netlify.app/aplicaciones.html</loc></url>
@@ -15,6 +14,8 @@
 <url><loc>https://gifted-spence-636cb0.netlify.app/curriculum-resumido.html</loc></url>
 <url><loc>https://gifted-spence-636cb0.netlify.app/galeria-personajes.html</loc></url>
 <url><loc>https://gifted-spence-636cb0.netlify.app/guias-de-clase.html</loc></url>
+<url><loc>https://gifted-spence-636cb0.netlify.app/index.html</loc></url>
+<url><loc>https://gifted-spence-636cb0.netlify.app/index</loc></url>
 <url><loc>https://gifted-spence-636cb0.netlify.app/ingenio.html</loc></url>
 <url><loc>https://gifted-spence-636cb0.netlify.app/ingenio/sumaoculta-resolucion.html</loc></url>
 <url><loc>https://gifted-spence-636cb0.netlify.app/lareglasecreta.html</loc></url>
@@ -23,7 +24,6 @@
 <url><loc>https://gifted-spence-636cb0.netlify.app/mtimer/index.html</loc></url>
 <url><loc>https://gifted-spence-636cb0.netlify.app/pentomania.html</loc></url>
 <url><loc>https://gifted-spence-636cb0.netlify.app/pentomania_frame.html</loc></url>
-<url><loc>https://gifted-spence-636cb0.netlify.app/sumado20.html</loc></url>
 <url><loc>https://gifted-spence-636cb0.netlify.app/problemas_ingenio_2020.html</loc></url>
 <url><loc>https://gifted-spence-636cb0.netlify.app/publicaciones-varias.html</loc></url>
 <url><loc>https://gifted-spence-636cb0.netlify.app/repgrafsincorbata.html</loc></url>
@@ -32,13 +32,15 @@
 <url><loc>https://gifted-spence-636cb0.netlify.app/rg-material-estudio.html</loc></url>
 <url><loc>https://gifted-spence-636cb0.netlify.app/rompecabezas.html</loc></url>
 <url><loc>https://gifted-spence-636cb0.netlify.app/rubik.html</loc></url>
+<url><loc>https://gifted-spence-636cb0.netlify.app/sitemap.html</loc></url>
 <url><loc>https://gifted-spence-636cb0.netlify.app/solucioncubosteinhaus.html</loc></url>
 <url><loc>https://gifted-spence-636cb0.netlify.app/sudoku.html</loc></url>
 <url><loc>https://gifted-spence-636cb0.netlify.app/sumado.html</loc></url>
 <url><loc>https://gifted-spence-636cb0.netlify.app/sumado/index.html</loc></url>
+<url><loc>https://gifted-spence-636cb0.netlify.app/sumado20.html</loc></url>
 <url><loc>https://gifted-spence-636cb0.netlify.app/sumaoculta.html</loc></url>
-<url><loc>https://ingverger.ar/49rompecocos.html</loc></url>
 <url><loc>https://ingverger.ar/</loc></url>
+<url><loc>https://ingverger.ar/49rompecocos.html</loc></url>
 <url><loc>https://ingverger.ar/alias-acad.html</loc></url>
 <url><loc>https://ingverger.ar/aplicaciones.html</loc></url>
 <url><loc>https://ingverger.ar/calendarios.html</loc></url>
@@ -64,6 +66,7 @@
 <url><loc>https://ingverger.ar/rg-material-estudio.html</loc></url>
 <url><loc>https://ingverger.ar/rompecabezas.html</loc></url>
 <url><loc>https://ingverger.ar/rubik.html</loc></url>
+<url><loc>https://ingverger.ar/sitemap.html</loc></url>
 <url><loc>https://ingverger.ar/solucioncubosteinhaus.html</loc></url>
 <url><loc>https://ingverger.ar/sudoku.html</loc></url>
 <url><loc>https://ingverger.ar/sumado.html</loc></url>
