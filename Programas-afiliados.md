@@ -6,8 +6,6 @@ Códigos en codigos-progr-afiliados.txt
 Código a pegar en la cabecera de la pagina para anuncios automáticos.
 <script data-ad-client="ca-pub-4076082038101002" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
-<script data-ad-client="ca-pub-4076082038101002" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
 Comprobar el comportamiento de 
 - 49rompecocos
 - aplicaciones

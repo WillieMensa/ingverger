@@ -1,8 +1,6 @@
 # TAREAS EN SITIO WEB
 
 ## cambiar direccion de mail en
-brainbashers.com	willieverger	mozambique	info@ingverger.com.ar
-DELL		mozam11bique	info@ingverger.com.ar
 dropbox		ape-7170	info@ingverger.com.ar
 scribd	williev	termopilas	info@ingverger.com.ar
 banco santander
@@ -11,10 +9,6 @@ yahoo
 
 ## ESTADISTICAS 
 https://analytics.google.com/analytics/web/?authuser=0#/p255815902/reports/defaulthome?params=_u..nav%3Ddefault
-
-## Comprobar alojamiento apuntado por www.ingverger.com.ar
-- Si existe dominio.txt esta en alsolnet (todavia)
-- Si no existe dominio.txt esta en netlify
 
 
 verificar situacion sitio en 

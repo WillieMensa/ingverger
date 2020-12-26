@@ -1,7 +1,21 @@
 # Sitio en ingverger.com.ar
 
+## ingverger.com.ar
+vibrant-stonebraker-97cacd
+
+Name servers
+Point your domain’s name servers to Netlify
+To use Netlify DNS, go to your domain registrar and change your domain’s name servers to the following custom hostnames assigned to your DNS zone.
+
+dns1.p06.nsone.net
+dns2.p06.nsone.net
+dns3.p06.nsone.net
+dns4.p06.nsone.net
+
+------------------
 Transformación de sitio a HTML
 
+## ingverger.ar
 Publicación en https://gifted-spence-636cb0.netlify.app/
 
 Direccion del sitemap: https://gifted-spence-636cb0.netlify.app/sitemap.xml

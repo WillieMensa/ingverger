@@ -13,8 +13,6 @@ function poneMenuPpal() {
 	document.getElementById('menuppal').innerHTML = 
 		'	<ul id="mainMenu">' +
 		'	<li><a href="./index.html">Inicio </a></li> ' +
-		'	<li><a href="./ingenio.html">Ingenio   </a></li>' +
-		'	<li><a href="./aplicaciones.html">Aplicaciones </a></li>' +
 		'	<li class="dropdown">' +
 		'		<a href="javascript:void(0)" class="dropbtn">Representac. Gráfica</a>' +
 		'		<div class="dropdown-content">' +
