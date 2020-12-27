@@ -29,7 +29,6 @@ function poneMenuPpal() {
 		'			<a href="matematica-recreativa.html">Matemática recreativa</a>' +
 		'			<a href="publicaciones-varias.html">Publicaciones varias</a>' +
 		'			<a href="calendarios.html">Impresion calendarios y otros</a>' +
-		'			<a href="galeria-personajes.html">Galería de personajes</a>' +
 		'		</div>' +
 		'	<li><a href="./sitemap.html">Mapa del sitio </a></li>' +
 		'	</li>' +
