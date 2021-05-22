@@ -12,15 +12,15 @@ function poneMenuPpal() {
 
 	document.getElementById('menuppal').innerHTML = 
 		'	<ul id="mainMenu">' +
-		'	<li><a href="./index.html">Inicio </a></li> ' +
+		'	<li><a href="index.html">Inicio </a></li> ' +
 		'	<li class="dropdown">' +
 		'		<a href="javascript:void(0)" class="dropbtn">Representac. Gráfica</a>' +
 		'		<div class="dropdown-content">' +
-		'			<a href="./guias-de-clase.html">Guías de Clase</a>' +
-		'			<a href="./rg-material-estudio.html">Material adicional</a>' +
-		'			<a href="./representacion-con-cad.html">Representación asistida con CAD</a>' +
-		'			<a href="./caligrafia-croquis.html">Caligrafía y croquis</a>' +
-		'			<a href="./repgrafsincorbata.html">Representación gráfica sin corbata</a>' +
+		'			<a href="guias-de-clase.html">Guías de Clase</a>' +
+		'			<a href="rg-material-estudio.html">Material adicional</a>' +
+		'			<a href="representacion-con-cad.html">Representación asistida con CAD</a>' +
+		'			<a href="caligrafia-croquis.html">Caligrafía y croquis</a>' +
+		'			<a href="repgrafsincorbata.html">Representación gráfica sin corbata</a>' +
 		'		</div>' +
 		'	</li>' +
 		'	<li class="dropdown">' +
@@ -33,7 +33,7 @@ function poneMenuPpal() {
 		'			<a href="galeria-ArtistasPeriodistas.html">Artistas y Periodistas</a>' +
 		'			<a href="galeria-publicos.html">Personajes Públicos</a>' +
 		'		</div>' +
-		'	<li><a href="./sitemap.html">Mapa del sitio </a></li>' +
+		'	<li><a href="sitemap.html">Mapa del sitio </a></li>' +
 		'	</li>' +
 		'</ul>' ;
 
