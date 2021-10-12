@@ -29,9 +29,7 @@ function poneMenuPpal() {
 		'			<a href="matematica-recreativa.html">Matemática recreativa</a>' +
 		'			<a href="publicaciones-varias.html">Publicaciones varias</a>' +
 		'			<a href="calendarios.html">Impresion calendarios y otros</a>' +
-		'			<a href="galeria-conocidos.html">Personajes conocidos</a>' +
-		'			<a href="galeria-ArtistasPeriodistas.html">Artistas y Periodistas</a>' +
-		'			<a href="galeria-publicos.html">Personajes Públicos</a>' +
+		'			<a href="galeria.html">Galería de personajes</a>' +
 		'		</div>' +
 		'	<li><a href="sitemap.html">Mapa del sitio </a></li>' +
 		'	</li>' +
