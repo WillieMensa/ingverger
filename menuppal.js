@@ -24,12 +24,21 @@ function poneMenuPpal() {
 		'		</div>' +
 		'	</li>' +
 		'	<li class="dropdown">' +
+		'		<a href="javascript:void(0)" class="dropbtn">Caricaturas</a>' +
+		'		<div class="dropdown-content">' +
+		'			<a href="galeria.html?clase=%22C%22">Conocidos</a>' +
+		'			<a href="galeria.html?clase=%22M%22">Mensanos</a>' +
+		'			<a href="galeria.html?clase=%22E%22">Periodistas</a>' +
+		'			<a href="galeria.html?clase=%22P%22">Políticos</a>' +
+		'			<a href="galeria.html?clase=%22AD%22">Artistas y Deportistas</a>' +
+		'		</div>' +
+		'	</li>' +
+		'	<li class="dropdown">' +
 		'		<a href="javascript:void(0)" class="dropbtn">Publicaciones</a>' +
 		'		<div class="dropdown-content">' +
 		'			<a href="matematica-recreativa.html">Matemática recreativa</a>' +
 		'			<a href="publicaciones-varias.html">Publicaciones varias</a>' +
 		'			<a href="calendarios.html">Impresion calendarios y otros</a>' +
-		'			<a href="galeria.html">Galería de personajes</a>' +
 		'		</div>' +
 		'	<li><a href="sitemap.html">Mapa del sitio </a></li>' +
 		'	</li>' +
