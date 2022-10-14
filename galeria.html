@@ -10,7 +10,7 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1">
 		<meta name="description" content="Caricaturas de politicos, deportistas, artistas, conocidos.">
-		<meta name="keywords" content="Caricaturas, Calendario anual, Calendario mensual, Calendario anual 2020, Calendario mensual 2020, L�gica,Rompecabezas">
+		<meta name="keywords" content="Caricaturas, caricatures, Calendario anual, Calendario mensual, Lógica,Rompecabezas">
 
 		<title>Galeria</title>
 
@@ -19,167 +19,39 @@
 
 		<script src="menuppal.js"></script>
 
-	<style>
-	/*
-		body {
-			font-family: Arial;
-			margin: 0;
-		}
-	*/
+  <!-- <link rel="stylesheet" href="css/lightbox.min.css"> -->
+	<link rel="stylesheet" href="css/lightbox.css" type="text/css" media="screen" />
 
-	* {
-		box-sizing: border-box;
-	}
+	<link href="css/lightbox.css" rel="stylesheet" />
 
-	img {
-		vertical-align: middle;
-	}
+</head>
+<body>
 
-	/* Position the image container (needed to position the left and right arrows) */
-	.container {
-		position: relative;
-		text-align: center;
+	<div id="menuppal"></div>
 
-	}
+	<div class="header">
+		<h3 id="titulo" style="text-align:center;"> Galería </h3>
+	</div>
 
-	/* Hide the images by default */
-	.mySlides {
-		display: none;
-	}
+  <section>
 
-	/* Add a pointer when hovering over the thumbnail images */
-	.cursor {
-		cursor: pointer;
-	}
+		<div id="galeria_ppal"></div>
 
-	/* Next & previous buttons */
-	.prev,
-	.next {
-		cursor: pointer;
-		position: absolute;
-		top: 95%;
-		width: auto;
-		padding: 16px;
-		margin-top: -50px;
-		color: .clr_contra;
-		font-weight: bold;
-		font-size: 20px;
-		border-radius: 0 3px 3px 0;
-		user-select: none;
-		-webkit-user-select: none;
-	}
+  </section>
 
-	/* Position the "prev button" to the left */
-	.prev {
-		left: 0;
-		border-radius: 3px 0 0 3px;
-	}
-	/* Position the "next button" to the right */
-	.next {
-		right: 0;
-		border-radius: 3px 0 0 3px;
-	}
+  <section>
+    <p>
+      <!-- For more information, visit <a href="http://lokeshdhakar.com/projects/lightbox2/">http://lokeshdhakar.com/projects/lightbox2/</a> -->
+    </p>
+  </section>
 
-	/* On hover, add a black background color with a little bit see-through */
-	.prev:hover,
-	.next:hover {
-		background-color: rgba(0, 0, 0, 0.8);
-	}
+	<script src="js/caricaturas22.json"></script>
 
-	/* Number text (1/3 etc) */
-	.numbertext {
-		color: #f2f2f2;
-		font-size: 12px;
-		padding: 8px 12px;
-		position: absolute;
-		top: 0;
-	}
+  <script src="js/lightbox-plus-jquery.min.js"></script>
 
-	/* Container for image text */
-	.caption-container {
-		text-align: center;
-		background-color: #222;
-		padding: 2px 16px;
-		color: white;
-	}
+	<script src="js/galeria_load.js"></script>
 
-	.row:after {
-		content: "";
-		display: table;
-		clear: both;
-	}
+	<!-- <script src="js/lightbox.js"></script> -->
 
-	/* Six columns side by side */
-	.column {
-		float: left;
-		width: 16.66%;
-	}
-
-	/* Add a transparency effect for thumnbail images */
-	.demo {
-		opacity: 0.6;
-	}
-
-	.active,
-	.demo:hover {
-		opacity: 1;
-	}
-	</style>
-
-
-	</head>
-
-	<body>
-
-		<div id="menuppal"></div>
-
-		<div class="header">
-			<h3 id="titulo" style="text-align:center;"> Galería </h3>
-		</div>
-
-		<!-- Contenido de la pagina -->
-		<div class="container">
-			<!-- esta version similar a original galeria.html -->
-			<div class="row" id='laImagen' style="text-align:center;">
-				<div class="col-12" style="text-align: center;">
-					<img src=".\galeria\ManoDibujando.webp" id='personaje' alt="el dibujante" style="width:50%" class="img-responsive">
-				</div>
-			</div>
-    
-			<div class="clr_medio">
-				<p id="caption" style="color:white; padding:0; font-weight:500"></p>
-			</div>
-
-	<!-- thumbnails -->
-  <div class="row">
-
-		<img class="demo cursor img-responsive" src="" id='thumb00' alt="imagen 00" style="width:12%" onclick="muestraImagen( 0 )">
-		<img class="demo cursor img-responsive" src="" id='thumb01' alt="imagen 01" style="width:12%" onclick="muestraImagen( 1 )">
-		<img class="demo cursor img-responsive" src="" id='thumb02' alt="imagen 02" style="width:12%" onclick="muestraImagen( 2 )">
-		<img class="demo cursor img-responsive" src="" id='thumb03' alt="imagen 03" style="width:12%" onclick="muestraImagen( 3 )">
-		<img class="demo cursor img-responsive" src="" id='thumb04' alt="imagen 04" style="width:12%" onclick="muestraImagen( 4 )">
-		<img class="demo cursor img-responsive" src="" id='thumb05' alt="imagen 05" style="width:12%" onclick="muestraImagen( 5 )">
-		<img class="demo cursor img-responsive" src="" id='thumb06' alt="imagen 06" style="width:12%" onclick="muestraImagen( 6 )">
-
-  <a class="prev" onclick="plusSlides(-1)">❮</a>
-  <a class="next" onclick="plusSlides(1)">❯</a>
-
-  </div>
-</div>
-
-    
-
-		<div class="row clr_fondo">
-			<div class="col-4" style="text-align: center;">
-			</div>
-			<div class="col-8">
-			</div>
-		</div>
-
-		<!-- carga array con datos de caricaturas -->
-		<script src="js/caricaturas.json"></script>
-		<script src="js/galeria-caricaturas.js"></script>
-
-	</body>
-
+</body>
 </html>

@@ -29,8 +29,9 @@ function poneMenuPpal() {
 		'			<a href="galeria.html?clase=%22C%22">Conocidos</a>' +
 		'			<a href="galeria.html?clase=%22M%22">Mensanos</a>' +
 		'			<a href="galeria.html?clase=%22E%22">Periodistas</a>' +
-		'			<a href="galeria.html?clase=%22P%22">Políticos</a>' +
+		'			<a href="galeria.html?clase=%22P%22">Públicos</a>' +
 		'			<a href="galeria.html?clase=%22AD%22">Artistas y Deportistas</a>' +
+		'			<a href="galeria.html?clase=%22V%22">Varios</a>' +
 		'		</div>' +
 		'	</li>' +
 		'	<li class="dropdown">' +
