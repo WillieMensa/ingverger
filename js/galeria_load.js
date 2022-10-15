@@ -71,9 +71,9 @@ function makeLoadString() {
 		{
 			//	console.log( x++);
 			//	caricaturas.push(lasCaricaturas[i]);
-			console.log( i, lasCaricaturas[i] );
-			console.log( lasCaricaturas[i].image);
-			console.log( lasCaricaturas[i].datatitle );
+			//	console.log( i, lasCaricaturas[i] );
+			//	console.log( lasCaricaturas[i].image);
+			//	console.log( lasCaricaturas[i].datatitle );
 
 			titulo = lasCaricaturas[i].datatitle;
 

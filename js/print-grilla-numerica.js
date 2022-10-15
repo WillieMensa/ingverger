@@ -109,9 +109,9 @@ function start() {
 
 		//	aCanvas.push( document.createElement('canvas'+nPagActual));
 		aCanvas.push( iCanvas);
-		console.log( iCanvas );
+		//	console.log( iCanvas );
 
-		console.log( aCanvas.length-1 );
+		//	console.log( aCanvas.length-1 );
 
 		//	ctx = aCanvas[aCanvas.length-1].getContext('2d');
 
