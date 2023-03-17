@@ -124,3 +124,4 @@ Código de verificacion estadísticas de la app
 
 # Averiguar
 - Que es y para que sirve el archivo ads.txt
+

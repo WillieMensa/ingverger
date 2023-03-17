@@ -50,3 +50,4 @@ lista de personales ordenada alfabeticmente
 <img src="images/personajes/_rlopezm.webp    " alt="22" style="width:019%" onclick="myFunction(this);" onmouseover="myFunction(this);">	
 <img src="images/personajes/_RubenD.webp     " alt="23" style="width:019%" onclick="myFunction(this);" onmouseover="myFunction(this);">	
 <img src="images/personajes/_WillieV.webp    " alt="21" style="width:019%" onclick="myFunction(this);" onmouseover="myFunction(this);">	
+
