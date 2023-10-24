@@ -38,7 +38,6 @@ function poneMenuPpal() {
 		'		<a href="javascript:void(0)" class="dropbtn">Publicaciones</a>' +
 		'		<div class="dropdown-content">' +
 		'			<a href="matematica-recreativa.html">Matemática recreativa</a>' +
-		'			<a href="publicaciones-varias.html">Publicaciones varias</a>' +
 		'			<a href="calendarios.html">Impresion calendarios y otros</a>' +
 		'		</div>' +
 		'	<li><a href="sitemap.html">Mapa del sitio </a></li>' +
