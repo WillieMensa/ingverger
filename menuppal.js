@@ -1,6 +1,6 @@
 /*
 	menuppal.js
-	2020.10.31 
+	2023.10.24 
 */
 
 window.onload = function(){
